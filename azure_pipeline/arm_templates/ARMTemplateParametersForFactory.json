@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adf-clevelandclinic-project"
+        },
+        "ls_blob_hospitaldata_connectionString": {
+            "value": ""
+        },
+        "ls_sql_hospitaldb_password": {
+            "value": ""
+        },
+        "ls_sql_hospitaldb_properties_typeProperties_server": {
+            "value": "sql-clevelandclinic-viswa.database.windows.net"
+        },
+        "ls_sql_hospitaldb_properties_typeProperties_database": {
+            "value": "free-sql-db-0906654"
+        },
+        "ls_sql_hospitaldb_properties_typeProperties_userName": {
+            "value": "sqladmin"
+        }
+    }
+}

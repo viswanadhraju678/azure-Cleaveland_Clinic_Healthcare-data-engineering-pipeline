@@ -1,0 +1,2604 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "type": "string",
+            "metadata": "Data Factory name",
+            "defaultValue": "adf-clevelandclinic-project"
+        },
+        "ls_blob_hospitaldata_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'ls_blob_hospitaldata'"
+        },
+        "ls_sql_hospitaldb_password": {
+            "type": "secureString",
+            "metadata": "Secure string for 'password' of 'ls_sql_hospitaldb'"
+        },
+        "ls_sql_hospitaldb_properties_typeProperties_server": {
+            "type": "string",
+            "defaultValue": "sql-clevelandclinic-viswa.database.windows.net"
+        },
+        "ls_sql_hospitaldb_properties_typeProperties_database": {
+            "type": "string",
+            "defaultValue": "free-sql-db-0906654"
+        },
+        "ls_sql_hospitaldb_properties_typeProperties_userName": {
+            "type": "string",
+            "defaultValue": "sqladmin"
+        }
+    },
+    "variables": {
+        "factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+    },
+    "resources": [
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_patients_csv_to_sql')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "Copy data1",
+                        "type": "Copy",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "source": {
+                                "type": "DelimitedTextSource",
+                                "storeSettings": {
+                                    "type": "AzureBlobStorageReadSettings",
+                                    "recursive": true,
+                                    "enablePartitionDiscovery": false
+                                },
+                                "formatSettings": {
+                                    "type": "DelimitedTextReadSettings"
+                                }
+                            },
+                            "sink": {
+                                "type": "AzureSqlSink",
+                                "writeBehavior": "insert",
+                                "sqlWriterUseTableLock": false,
+                                "tableOption": "autoCreate",
+                                "disableMetricsCollection": false
+                            },
+                            "enableStaging": false,
+                            "translator": {
+                                "type": "TabularTranslator",
+                                "mappings": [
+                                    {
+                                        "source": {
+                                            "name": "Sl. No",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Sl. No",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Patient ID",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Patient ID",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Date of Registration",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Date of Registration",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Date of First Consultation",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Date of First Consultation",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Date of Latest Consultation",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Date of Latest Consultation",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Overall Satisfaction Rating",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Overall Satisfaction Rating",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Admission",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Admission",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Surgery Underwent",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Surgery Underwent",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    },
+                                    {
+                                        "source": {
+                                            "name": "Total Number of Visits",
+                                            "type": "String",
+                                            "physicalType": "String"
+                                        },
+                                        "sink": {
+                                            "name": "Total Number of Visits",
+                                            "type": "String",
+                                            "physicalType": "nvarchar"
+                                        }
+                                    }
+                                ],
+                                "typeConversion": true,
+                                "typeConversionSettings": {
+                                    "allowDataTruncation": true,
+                                    "treatBooleanAsNumber": false
+                                }
+                            }
+                        },
+                        "inputs": [
+                            {
+                                "referenceName": "ds_patients_csv",
+                                "type": "DatasetReference",
+                                "parameters": {}
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "referenceName": "ds_patients_sql",
+                                "type": "DatasetReference",
+                                "parameters": {}
+                            }
+                        ]
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-12T16:21:54Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_patients_csv')]",
+                "[concat(variables('factoryId'), '/datasets/ds_patients_sql')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_load_csv_to_sql_reusable')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "Copy data1",
+                        "type": "Copy",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "source": {
+                                "type": "DelimitedTextSource",
+                                "storeSettings": {
+                                    "type": "AzureBlobStorageReadSettings",
+                                    "recursive": true,
+                                    "enablePartitionDiscovery": false
+                                },
+                                "formatSettings": {
+                                    "type": "DelimitedTextReadSettings"
+                                }
+                            },
+                            "sink": {
+                                "type": "AzureSqlSink",
+                                "writeBehavior": "insert",
+                                "sqlWriterUseTableLock": false,
+                                "tableOption": "autoCreate",
+                                "disableMetricsCollection": false
+                            },
+                            "enableStaging": false,
+                            "translator": {
+                                "type": "TabularTranslator",
+                                "typeConversion": true,
+                                "typeConversionSettings": {
+                                    "allowDataTruncation": true,
+                                    "treatBooleanAsNumber": false
+                                }
+                            }
+                        },
+                        "inputs": [
+                            {
+                                "referenceName": "ds_csv_parameterized",
+                                "type": "DatasetReference",
+                                "parameters": {
+                                    "filename": {
+                                        "value": "@pipeline().parameters.filename",
+                                        "type": "Expression"
+                                    }
+                                }
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "referenceName": "ds_sql_parameterized",
+                                "type": "DatasetReference",
+                                "parameters": {
+                                    "tablename": {
+                                        "value": "@pipeline().parameters.tablename",
+                                        "type": "Expression"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "parameters": {
+                    "filename": {
+                        "type": "string"
+                    },
+                    "tablename": {
+                        "type": "string"
+                    }
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-12T17:40:15Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_csv_parameterized')]",
+                "[concat(variables('factoryId'), '/datasets/ds_sql_parameterized')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_run_df_fact_appointments')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "Data flow1",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_fact_appointments",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcRawAppointments": {},
+                                    "sinkFactAppointments": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-16T18:58:07Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_fact_appointments')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_patients')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_clean_patients_activity",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_patients",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcPatients": {},
+                                    "sinkPatients": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_patients')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_appointments')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_clean_appointments_activity",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_appointments",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcAppointments": {},
+                                    "sinkAppointments": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_appointments')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_billing')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_clean_billing_activity",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_billing",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcbilling": {},
+                                    "sinkbilling": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_billing')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_branches')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_clean_branches_activity",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_branches",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcBranches": {},
+                                    "sinkBranches": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Coarse"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_branches')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_doctors')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_clean_doctors_activity",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_doctors",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcdoctors": {},
+                                    "sinkdoctors": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Coarse"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_doctors')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_lab_reports')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_clean_lab_reports_activity",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_lab_reports",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srclabreports": {},
+                                    "sinkLabReports": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_lab_reports')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_prescriptions')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_mapping_clean_prescriptions",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_prescriptions",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcprescriptions": {},
+                                    "sinkPrescriptions": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Coarse"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_prescriptions')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/pl_mapping_clean_surgeries')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "df_clean_surgeries_activity",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_surgeries",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcsurgeries": {},
+                                    "sinksurgeries": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Coarse"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Individual_loads"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_surgeries')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/PL_Master_Run_All_8_Dataflows')]",
+            "type": "Microsoft.DataFactory/factories/pipelines",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "activities": [
+                    {
+                        "name": "DF_Clean_Patients",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_patients",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcPatients": {},
+                                    "sinkPatients": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    },
+                    {
+                        "name": "DF_Clean_Doctors",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_doctors",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcdoctors": {},
+                                    "sinkdoctors": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    },
+                    {
+                        "name": "DF_Clean_Branches",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_branches",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcBranches": {},
+                                    "sinkBranches": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    },
+                    {
+                        "name": "DF_Clean_Appointments",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [
+                            {
+                                "activity": "DF_Clean_Patients",
+                                "dependencyConditions": [
+                                    "Completed"
+                                ]
+                            },
+                            {
+                                "activity": "DF_Clean_Doctors",
+                                "dependencyConditions": [
+                                    "Completed"
+                                ]
+                            },
+                            {
+                                "activity": "DF_Clean_Branches",
+                                "dependencyConditions": [
+                                    "Completed"
+                                ]
+                            }
+                        ],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_appointments",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcAppointments": {},
+                                    "sinkAppointments": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    },
+                    {
+                        "name": "DF_Clean_Billing",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [
+                            {
+                                "activity": "DF_Clean_Appointments",
+                                "dependencyConditions": [
+                                    "Completed"
+                                ]
+                            }
+                        ],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_billing",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcbilling": {},
+                                    "sinkbilling": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    },
+                    {
+                        "name": "DF_Clean_Lab_Reports",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [
+                            {
+                                "activity": "DF_Clean_Appointments",
+                                "dependencyConditions": [
+                                    "Completed"
+                                ]
+                            }
+                        ],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_lab_reports",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srclabreports": {},
+                                    "sinkLabReports": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    },
+                    {
+                        "name": "DF_Clean_Prescriptions",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [
+                            {
+                                "activity": "DF_Clean_Appointments",
+                                "dependencyConditions": [
+                                    "Completed"
+                                ]
+                            }
+                        ],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_prescriptions",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcprescriptions": {},
+                                    "sinkPrescriptions": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    },
+                    {
+                        "name": "DF_Clean_Surgeries",
+                        "type": "ExecuteDataFlow",
+                        "dependsOn": [
+                            {
+                                "activity": "DF_Clean_Appointments",
+                                "dependencyConditions": [
+                                    "Completed"
+                                ]
+                            }
+                        ],
+                        "policy": {
+                            "timeout": "0.12:00:00",
+                            "retry": 0,
+                            "retryIntervalInSeconds": 30,
+                            "secureOutput": false,
+                            "secureInput": false
+                        },
+                        "userProperties": [],
+                        "typeProperties": {
+                            "dataflow": {
+                                "referenceName": "df_mapping_clean_surgeries",
+                                "type": "DataFlowReference",
+                                "parameters": {},
+                                "datasetParameters": {
+                                    "srcsurgeries": {},
+                                    "sinksurgeries": {}
+                                }
+                            },
+                            "staging": {},
+                            "compute": {
+                                "coreCount": 8,
+                                "computeType": "General"
+                            },
+                            "traceLevel": "Fine"
+                        }
+                    }
+                ],
+                "policy": {
+                    "elapsedTimeMetric": {}
+                },
+                "folder": {
+                    "name": "PL_Master"
+                },
+                "annotations": [],
+                "lastPublishTime": "2026-05-27T16:37:17Z"
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_patients')]",
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_doctors')]",
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_branches')]",
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_appointments')]",
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_billing')]",
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_lab_reports')]",
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_prescriptions')]",
+                "[concat(variables('factoryId'), '/dataflows/df_mapping_clean_surgeries')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_patients_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "raw_patients"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_patients_csv')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_blob_hospitaldata",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "DelimitedText",
+                "typeProperties": {
+                    "location": {
+                        "type": "AzureBlobStorageLocation",
+                        "fileName": "patients.csv",
+                        "container": "hospital-raw-data"
+                    },
+                    "columnDelimiter": ",",
+                    "escapeChar": "\\",
+                    "firstRowAsHeader": true,
+                    "quoteChar": "\""
+                },
+                "schema": [
+                    {
+                        "name": "Sl. No",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Patient ID",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Date of Registration",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Date of First Consultation",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Date of Latest Consultation",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Overall Satisfaction Rating",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Admission",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Surgery Underwent",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Total Number of Visits",
+                        "type": "String"
+                    }
+                ]
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_blob_hospitaldata')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_sql_parameterized')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "parameters": {
+                    "tablename": {
+                        "type": "string"
+                    }
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [
+                    {
+                        "name": "Sl. No",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Patient ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Date of Registration",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Date of First Consultation",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Date of Latest Consultation",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Overall Satisfaction Rating",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Admission",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Surgery Underwent",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Total Number of Visits",
+                        "type": "nvarchar"
+                    }
+                ],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": {
+                        "value": "@dataset().tablename",
+                        "type": "Expression"
+                    }
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_csv_parameterized')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_blob_hospitaldata",
+                    "type": "LinkedServiceReference"
+                },
+                "parameters": {
+                    "filename": {
+                        "type": "string"
+                    }
+                },
+                "annotations": [],
+                "type": "DelimitedText",
+                "typeProperties": {
+                    "location": {
+                        "type": "AzureBlobStorageLocation",
+                        "fileName": {
+                            "value": "@dataset().filename",
+                            "type": "Expression"
+                        },
+                        "container": "hospital-raw-data"
+                    },
+                    "columnDelimiter": ",",
+                    "escapeChar": "\\",
+                    "firstRowAsHeader": true,
+                    "quoteChar": "\""
+                },
+                "schema": [
+                    {
+                        "name": "Sl. No",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Patient ID",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Date of Registration",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Date of First Consultation",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Date of Latest Consultation",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Overall Satisfaction Rating",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Admission",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Surgery Underwent",
+                        "type": "String"
+                    },
+                    {
+                        "name": "Total Number of Visits",
+                        "type": "String"
+                    }
+                ]
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_blob_hospitaldata')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_rawAppointments_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [
+                    {
+                        "name": "Serial No",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Case ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Patient ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Branch ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Date of Consultation",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Requested Doctor ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Consulted Doctor ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Reason for Visit",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Diagnosis",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Prescribed Medication",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Followup Required",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Nutritionist Recommended",
+                        "type": "nvarchar"
+                    }
+                ],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "raw_appointments"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_factAppointments_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "fact_appointments_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_patients_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [
+                    {
+                        "name": "Sl. No",
+                        "type": "int",
+                        "precision": 10
+                    },
+                    {
+                        "name": "Patient ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Date of Registration",
+                        "type": "date"
+                    },
+                    {
+                        "name": "Date of First Consultation",
+                        "type": "date"
+                    },
+                    {
+                        "name": "Date of Latest Consultation",
+                        "type": "date"
+                    },
+                    {
+                        "name": "Overall Satisfaction Rating",
+                        "type": "int",
+                        "precision": 10
+                    },
+                    {
+                        "name": "Admission",
+                        "type": "bit"
+                    },
+                    {
+                        "name": "Surgery Underwent",
+                        "type": "bit"
+                    },
+                    {
+                        "name": "Total Number of Visits",
+                        "type": "int",
+                        "precision": 10
+                    }
+                ],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_patients_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_appointments_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [
+                    {
+                        "name": "Serial No",
+                        "type": "int",
+                        "precision": 10
+                    },
+                    {
+                        "name": "Case ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Patient ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Branch ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Date of Consultation",
+                        "type": "date"
+                    },
+                    {
+                        "name": "Requested Doctor ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Consulted Doctor ID",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Reason for Visit",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Diagnosis",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Prescribed Medication",
+                        "type": "nvarchar"
+                    },
+                    {
+                        "name": "Followup Required",
+                        "type": "int",
+                        "precision": 10
+                    },
+                    {
+                        "name": "Nutritionist Recommended",
+                        "type": "int",
+                        "precision": 10
+                    }
+                ],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_appointments_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_billing_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_billing_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_rawBilling_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "raw_billing"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_rawBranches_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "raw_branches"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_branches_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_branches_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_doctors_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_doctors_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_rawDoctors_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "raw_doctors"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_lab_reports_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_lab_reports_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_rawLabReports_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "clean_lab_reports"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_rawPrescriptions_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "raw_prescriptions"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_prescriptions_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_prescriptions_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_rawsurgeries_sql')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "raw_surgeries"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ds_mapping_clean_surgeries_adf')]",
+            "type": "Microsoft.DataFactory/factories/datasets",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "linkedServiceName": {
+                    "referenceName": "ls_sql_hospitaldb",
+                    "type": "LinkedServiceReference"
+                },
+                "annotations": [],
+                "type": "AzureSqlTable",
+                "schema": [],
+                "typeProperties": {
+                    "schema": "dbo",
+                    "table": "Mapping_clean_surgeries_adf"
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/linkedServices/ls_sql_hospitaldb')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ls_blob_hospitaldata')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureBlobStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('ls_blob_hospitaldata_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/ls_sql_hospitaldb')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureSqlDatabase",
+                "typeProperties": {
+                    "server": "[parameters('ls_sql_hospitaldb_properties_typeProperties_server')]",
+                    "database": "[parameters('ls_sql_hospitaldb_properties_typeProperties_database')]",
+                    "encrypt": "mandatory",
+                    "trustServerCertificate": false,
+                    "authenticationType": "SQL",
+                    "userName": "[parameters('ls_sql_hospitaldb_properties_typeProperties_userName')]",
+                    "password": {
+                        "type": "SecureString",
+                        "value": "[parameters('ls_sql_hospitaldb_password')]"
+                    }
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_fact_appointments')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawAppointments_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcRawAppointments"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_factAppointments_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkFactAppointments"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "transformAppointments"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Serial No} as string,",
+                        "          {Case ID} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Branch ID} as string,",
+                        "          {Date of Consultation} as string,",
+                        "          {Requested Doctor ID} as string,",
+                        "          {Consulted Doctor ID} as string,",
+                        "          {Reason for Visit} as string,",
+                        "          Diagnosis as string,",
+                        "          {Prescribed Medication} as string,",
+                        "          {Followup Required} as string,",
+                        "          {Nutritionist Recommended} as string",
+                        "     ),",
+                        "     allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     format: 'table') ~> srcRawAppointments",
+                        "srcRawAppointments derive(followup_required_int = iif(toString(byName('Followup Required')) == 'Yes',1,0),",
+                        "          nutritionist_recommended_int = iif(toString(byName('Nutritionist Recommended')) == 'Yes',1,0)) ~> transformAppointments",
+                        "transformAppointments sink(allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError') ~> sinkFactAppointments"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawAppointments_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_factAppointments_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_patients')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_patients_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcPatients"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_patients_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkPatients"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "derivePatients"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Sl. No} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Date of Registration} as string,",
+                        "          {Date of First Consultation} as string,",
+                        "          {Date of Latest Consultation} as string,",
+                        "          {Overall Satisfaction Rating} as string,",
+                        "          Admission as string,",
+                        "          {Surgery Underwent} as string,",
+                        "          {Total Number of Visits} as string",
+                        "     ),",
+                        "     allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Sl. No],\\n    [Patient ID],\\n    [Date of Registration],\\n    [Date of First Consultation],\\n    [Date of Latest Consultation],\\n    [Overall Satisfaction Rating],\\n    [Admission],\\n    [Surgery Underwent],\\n    [Total Number of Visits]\\nFROM dbo.raw_patients',",
+                        "     format: 'query') ~> srcPatients",
+                        "srcPatients derive({Sl. No} = toInteger(byName('Sl. No')),",
+                        "          {Date of Registration} = toDate(byName('Date of Registration'),'M/d/yyyy'),",
+                        "          {Date of First Consultation} = toDate(byName('Date of First Consultation'),'M/d/yyyy'),",
+                        "          {Date of Latest Consultation} = toDate(byName('Date of Latest Consultation'),'M/d/yyyy'),",
+                        "          {Overall Satisfaction Rating} = toInteger(byName('Overall Satisfaction Rating')),",
+                        "          {Total Number of Visits} = toInteger(byName('Total Number of Visits')),",
+                        "          Admission = iif(upper(trim(byName('Admission'))) == 'YES', 1, 0),",
+                        "          {Surgery Underwent} = iif(upper(trim(byName('Surgery Underwent'))) == 'YES', 1, 0)) ~> derivePatients",
+                        "derivePatients sink(allowSchemaDrift: false,",
+                        "     validateSchema: false,",
+                        "     input(",
+                        "          {Sl. No} as integer,",
+                        "          {Patient ID} as string,",
+                        "          {Date of Registration} as date,",
+                        "          {Date of First Consultation} as date,",
+                        "          {Date of Latest Consultation} as date,",
+                        "          {Overall Satisfaction Rating} as integer,",
+                        "          Admission as boolean,",
+                        "          {Surgery Underwent} as boolean,",
+                        "          {Total Number of Visits} as integer",
+                        "     ),",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Sl. No},",
+                        "          {Patient ID},",
+                        "          {Date of Registration},",
+                        "          {Date of First Consultation},",
+                        "          {Date of Latest Consultation},",
+                        "          {Overall Satisfaction Rating},",
+                        "          Admission,",
+                        "          {Surgery Underwent},",
+                        "          {Total Number of Visits}",
+                        "     )) ~> sinkPatients"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_patients_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_patients_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_appointments')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawAppointments_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcAppointments"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_appointments_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkAppointments"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "deriveAppointments"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Serial No} as string,",
+                        "          {Case ID} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Branch ID} as string,",
+                        "          {Date of Consultation} as string,",
+                        "          {Requested Doctor ID} as string,",
+                        "          {Consulted Doctor ID} as string,",
+                        "          {Reason for Visit} as string,",
+                        "          Diagnosis as string,",
+                        "          {Prescribed Medication} as string,",
+                        "          {Followup Required} as string,",
+                        "          {Nutritionist Recommended} as string",
+                        "     ),",
+                        "     allowSchemaDrift: false,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Serial No],\\n    [Case ID],\\n    [Patient ID],\\n    [Branch ID],\\n    [Date of Consultation],\\n    [Requested Doctor ID],\\n    [Consulted Doctor ID],\\n    [Reason for Visit],\\n    [Diagnosis],\\n    [Prescribed Medication],\\n    [Followup Required],\\n    [Nutritionist Recommended]\\nFROM dbo.raw_appointments',",
+                        "     format: 'query') ~> srcAppointments",
+                        "srcAppointments derive({Serial No} = toInteger(trim(byName('Serial No'))),",
+                        "          {Case ID} = trim(byName('Case ID')),",
+                        "          {Patient ID} = trim(byName('Patient ID')),",
+                        "          {Branch ID} = trim(byName('Branch ID')),",
+                        "          {Date of Consultation} = toDate(trim(byName('Date of Consultation')), 'M/d/yyyy'),",
+                        "          {Requested Doctor ID} = trim(byName('Requested Doctor ID')),",
+                        "          {Consulted Doctor ID} = trim(byName('Consulted Doctor ID')),",
+                        "          {Reason for Visit} = trim(byName('Reason for Visit')),",
+                        "          Diagnosis = trim(byName('Diagnosis')),",
+                        "          {Prescribed Medication} = trim(byName('Prescribed Medication')),",
+                        "          {Followup Required} = iif(upper(trim(byName('Followup Required'))) == 'YES', 1, 0),",
+                        "          {Nutritionist Recommended} = iif(upper(trim(byName('Nutritionist Recommended'))) == 'YES', 1, 0)) ~> deriveAppointments",
+                        "deriveAppointments sink(allowSchemaDrift: false,",
+                        "     validateSchema: false,",
+                        "     input(",
+                        "          {Serial No} as integer,",
+                        "          {Case ID} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Branch ID} as string,",
+                        "          {Date of Consultation} as date,",
+                        "          {Requested Doctor ID} as string,",
+                        "          {Consulted Doctor ID} as string,",
+                        "          {Reason for Visit} as string,",
+                        "          Diagnosis as string,",
+                        "          {Prescribed Medication} as string,",
+                        "          {Followup Required} as integer,",
+                        "          {Nutritionist Recommended} as integer",
+                        "     ),",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Serial No},",
+                        "          {Case ID},",
+                        "          {Patient ID},",
+                        "          {Branch ID},",
+                        "          {Date of Consultation},",
+                        "          {Requested Doctor ID},",
+                        "          {Consulted Doctor ID},",
+                        "          {Reason for Visit},",
+                        "          Diagnosis,",
+                        "          {Prescribed Medication},",
+                        "          {Followup Required},",
+                        "          {Nutritionist Recommended}",
+                        "     )) ~> sinkAppointments"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawAppointments_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_appointments_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_billing')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawBilling_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcbilling"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_billing_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkbilling"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "deriveBilling"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Serial No} as string,",
+                        "          {Claim ID} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Case ID} as string,",
+                        "          {Branch ID} as string,",
+                        "          {Total Bill} as string,",
+                        "          {Insurance Provider} as string,",
+                        "          {Amount Covered} as string,",
+                        "          {Out-of-Pocket Expenses} as string,",
+                        "          {Claim Status} as string",
+                        "     ),",
+                        "     allowSchemaDrift: false,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Serial No],\\n    [Claim ID],\\n    [Patient ID],\\n    [Case ID],\\n    [Branch ID],\\n    [Total Bill],\\n    [Insurance Provider],\\n    [Amount Covered],\\n    [Out-of-Pocket Expenses],\\n    [Claim Status]\\nFROM dbo.raw_billing',",
+                        "     format: 'query') ~> srcbilling",
+                        "srcbilling derive({Serial No} = toInteger(trim(byName('Serial No'))),",
+                        "          {Claim ID} = trim(byName('Claim ID')),",
+                        "          {Patient ID} = trim(byName('Patient ID')),",
+                        "          {Case ID} = trim(byName('Case ID')),",
+                        "          {Branch ID} = trim(byName('Branch ID')),",
+                        "          {Total Bill} = toDecimal(trim(byName('Total Bill')), 10, 2),",
+                        "          {Insurance Provider} = trim(byName('Insurance Provider')),",
+                        "          {Amount Covered} = toDecimal(trim(byName('Amount Covered')), 10, 2),",
+                        "          {Out-of-Pocket Expenses} = toDecimal(trim(byName('Out-of-Pocket Expenses')), 10, 2),",
+                        "          {Claim Status} = trim(byName('Claim Status'))) ~> deriveBilling",
+                        "deriveBilling sink(allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Serial No},",
+                        "          {Claim ID},",
+                        "          {Patient ID},",
+                        "          {Case ID},",
+                        "          {Branch ID},",
+                        "          {Total Bill},",
+                        "          {Insurance Provider},",
+                        "          {Amount Covered},",
+                        "          {Out-of-Pocket Expenses},",
+                        "          {Claim Status}",
+                        "     )) ~> sinkbilling"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawBilling_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_billing_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_branches')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawBranches_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcBranches"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_branches_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkBranches"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "derivebranches"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Sl. No} as string,",
+                        "          {Branch ID} as string,",
+                        "          Location as string,",
+                        "          OT_Available as string,",
+                        "          {Inhouse Anesthetician} as string,",
+                        "          {No. of OTs} as string,",
+                        "          {Inhouse Pharmacy} as string,",
+                        "          {Inhouse Nutritionist} as string,",
+                        "          {Inpatient Rooms} as string,",
+                        "          {Luxury Suite Rooms} as string,",
+                        "          {Prayer Room} as string,",
+                        "          {Kids Play Area} as string",
+                        "     ),",
+                        "     allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Sl. No],\\n    [Branch ID],\\n    [Location],\\n    [OT_Available],\\n    [Inhouse Anesthetician],\\n    [No. of OTs], \\n    [Inhouse Pharmacy],\\n    [Inhouse Nutritionist],\\n    [Inpatient Rooms],\\n    [Luxury Suite Rooms],\\n    [Prayer Room],\\n    [Kids Play Area]\\nFROM dbo.raw_branches',",
+                        "     format: 'query') ~> srcBranches",
+                        "srcBranches derive({Sl. No} = toInteger(trim(byName('Sl. No'))),",
+                        "          {Branch ID} = trim(byName('Branch ID')),",
+                        "          Location = trim(byName('Location')),",
+                        "          OT_Available = iif(upper(trim(byName('OT_Available'))) == 'YES', 1, 0),",
+                        "          {Inhouse Anesthetician} = iif(upper(trim(byName('Inhouse Anesthetician'))) == 'YES', 1, 0),",
+                        "          {No. of OTs} = toInteger(trim(byName('No. of OTs'))),",
+                        "          {Inhouse Pharmacy} = iif(upper(trim(byName('Inhouse Pharmacy'))) == 'YES', 1, 0),",
+                        "          {Inhouse Nutritionist} = iif(upper(trim(byName('Inhouse Nutritionist'))) == 'YES', 1, 0),",
+                        "          {Inpatient Rooms} = toInteger(trim(byName('Inpatient Rooms'))),",
+                        "          {Luxury Suite Rooms} = iif(upper(trim(byName('Luxury Suite Rooms'))) == 'YES', 1, 0),",
+                        "          {Prayer Room} = iif(upper(trim(byName('Prayer Room'))) == 'YES', 1, 0),",
+                        "          {Kids Play Area} = iif(upper(trim(byName('Kids Play Area'))) == 'YES', 1, 0)) ~> derivebranches",
+                        "derivebranches sink(allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Sl. No},",
+                        "          {Branch ID},",
+                        "          Location,",
+                        "          OT_Available,",
+                        "          {Inhouse Anesthetician},",
+                        "          {No. of OTs},",
+                        "          {Inhouse Pharmacy},",
+                        "          {Inhouse Nutritionist},",
+                        "          {Inpatient Rooms},",
+                        "          {Luxury Suite Rooms},",
+                        "          {Prayer Room},",
+                        "          {Kids Play Area}",
+                        "     )) ~> sinkBranches"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawBranches_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_branches_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_doctors')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawDoctors_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcdoctors"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_doctors_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkdoctors"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "derivedoctors"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Sl. No} as string,",
+                        "          {Doctor Name} as string,",
+                        "          {Doctor ID} as string,",
+                        "          Specialization as string,",
+                        "          Qualification as string,",
+                        "          {Surgery Experience} as string,",
+                        "          {Practicing Branch} as string,",
+                        "          {Other Branches Visited} as string",
+                        "     ),",
+                        "     allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Sl. No],\\n    [Doctor Name],\\n    [Doctor ID],\\n    [Specialization],\\n    [Qualification],\\n    [Surgery Experience],\\n    [Practicing Branch],\\n    [Other Branches Visited]\\nFROM dbo.raw_doctors',",
+                        "     format: 'query') ~> srcdoctors",
+                        "srcdoctors derive({Sl. No} = toInteger(trim(byName('Sl. No'))),",
+                        "          {Doctor Name} = trim(byName('Doctor Name')),",
+                        "          {Doctor ID} = trim(byName('Doctor ID')),",
+                        "          Specialization = trim(byName('Specialization')),",
+                        "          Qualification = trim(byName('Qualification')),",
+                        "          {Surgery Experience} = toInteger(trim(byName('Surgery Experience'))),",
+                        "          {Practicing Branch} = trim(byName('Practicing Branch')),",
+                        "          {Other Branches Visited} = trim(byName('Other Branches Visited'))) ~> derivedoctors",
+                        "derivedoctors sink(allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Sl. No},",
+                        "          {Doctor Name},",
+                        "          {Doctor ID},",
+                        "          Specialization,",
+                        "          Qualification,",
+                        "          {Surgery Experience},",
+                        "          {Practicing Branch},",
+                        "          {Other Branches Visited}",
+                        "     )) ~> sinkdoctors"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawDoctors_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_doctors_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_lab_reports')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawLabReports_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srclabreports"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_lab_reports_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkLabReports"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "derivelabreports"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Serial No} as string,",
+                        "          {Report ID} as string,",
+                        "          {Case ID} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Branch ID} as string,",
+                        "          {Test Name} as string,",
+                        "          {Test Date} as string,",
+                        "          Result as string",
+                        "     ),",
+                        "     allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Serial No],\\n    [Report ID],\\n    [Case ID],\\n    [Patient ID],\\n    [Branch ID],\\n    [Test Name],\\n    [Test Date],\\n    [Result]\\nFROM dbo.raw_lab_reports',",
+                        "     format: 'query') ~> srclabreports",
+                        "srclabreports derive({Serial No} = toInteger(trim(byName('Serial No'))),",
+                        "          {Report ID} = trim(byName('Report ID')),",
+                        "          {Case ID} = trim(byName('Case ID')),",
+                        "          {Patient ID} = trim(byName('Patient ID')),",
+                        "          {Branch ID} = trim(byName('Branch ID')),",
+                        "          {Test Name} = trim(byName('Test Name')),",
+                        "          {Test Date} = toDate(trim(byName('Test Date')), 'M/d/yyyy'),",
+                        "          Result = trim(byName('Result'))) ~> derivelabreports",
+                        "derivelabreports sink(allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Serial No},",
+                        "          {Report ID},",
+                        "          {Case ID},",
+                        "          {Patient ID},",
+                        "          {Branch ID},",
+                        "          {Test Name},",
+                        "          {Test Date},",
+                        "          Result",
+                        "     )) ~> sinkLabReports"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawLabReports_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_lab_reports_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_prescriptions')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawPrescriptions_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcprescriptions"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_prescriptions_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinkPrescriptions"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "deriveprescriptions"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Serial No} as string,",
+                        "          {Bill ID} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Doctor ID} as string,",
+                        "          {Medication Name} as string,",
+                        "          Dosage as string,",
+                        "          Quantity as string,",
+                        "          {Pharmacy Availability} as string,",
+                        "          {Issued Date} as string",
+                        "     ),",
+                        "     allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Serial No],\\n    [Bill ID],\\n    [Patient ID],\\n    [Doctor ID],\\n    [Medication Name],\\n    [Dosage],\\n    [Quantity],\\n    [Pharmacy Availability],\\n    [Issued Date]\\nFROM dbo.raw_prescriptions',",
+                        "     format: 'query') ~> srcprescriptions",
+                        "srcprescriptions derive({Serial No} = toInteger(trim(byName('Serial No'))),",
+                        "          {Bill ID} = trim(byName('Bill ID')),",
+                        "          {Patient ID} = trim(byName('Patient ID')),",
+                        "          {Doctor ID} = trim(byName('Doctor ID')),",
+                        "          {Medication Name} = trim(byName('Medication Name')),",
+                        "          Dosage = trim(byName('Dosage')),",
+                        "          Quantity = toInteger(trim(byName('Quantity'))),",
+                        "          {Pharmacy Availability} = iif(trim(byName('Pharmacy Availability')) == 'Yes', 1, 0),",
+                        "          {Issued Date} = toDate(trim(byName('Issued Date')), 'M/d/yyyy')) ~> deriveprescriptions",
+                        "deriveprescriptions sink(allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Serial No},",
+                        "          {Bill ID},",
+                        "          {Patient ID},",
+                        "          {Doctor ID},",
+                        "          {Medication Name},",
+                        "          Dosage,",
+                        "          Quantity,",
+                        "          {Pharmacy Availability},",
+                        "          {Issued Date}",
+                        "     )) ~> sinkPrescriptions"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawPrescriptions_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_prescriptions_adf')]"
+            ]
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/df_mapping_clean_surgeries')]",
+            "type": "Microsoft.DataFactory/factories/dataflows",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "type": "MappingDataFlow",
+                "typeProperties": {
+                    "sources": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_rawsurgeries_sql",
+                                "type": "DatasetReference"
+                            },
+                            "name": "srcsurgeries"
+                        }
+                    ],
+                    "sinks": [
+                        {
+                            "dataset": {
+                                "referenceName": "ds_mapping_clean_surgeries_adf",
+                                "type": "DatasetReference"
+                            },
+                            "name": "sinksurgeries"
+                        }
+                    ],
+                    "transformations": [
+                        {
+                            "name": "derivesurgeries"
+                        }
+                    ],
+                    "scriptLines": [
+                        "source(output(",
+                        "          {Serial No} as string,",
+                        "          {Case ID} as string,",
+                        "          {Patient ID} as string,",
+                        "          {Doctor ID} as string,",
+                        "          {Branch ID} as string,",
+                        "          {Surgery Type} as string,",
+                        "          {Surgery Date} as string,",
+                        "          {Anesthesia Type} as string,",
+                        "          {Surgery Outcome} as string,",
+                        "          {Surgery Duration (hours)} as string,",
+                        "          {Recovery Period (days)} as string",
+                        "     ),",
+                        "     allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     isolationLevel: 'READ_UNCOMMITTED',",
+                        "     query: 'SELECT\\n    [Serial No],\\n    [Case ID],\\n    [Patient ID],\\n    [Doctor ID],\\n    [Branch ID],\\n    [Surgery Type],\\n    [Surgery Date],\\n    [Anesthesia Type],\\n    [Surgery Outcome],\\n    [Surgery Duration (hours)],\\n    [Recovery Period (days)]\\nFROM dbo.raw_surgeries',",
+                        "     format: 'query') ~> srcsurgeries",
+                        "srcsurgeries derive({Serial No} = toInteger(trim(byName('Serial No'))),",
+                        "          {Case ID} = trim(byName('Case ID')),",
+                        "          {Patient ID} = trim(byName('Patient ID')),",
+                        "          {Doctor ID} = trim(byName('Doctor ID')),",
+                        "          {Branch ID} = trim(byName('Branch ID')),",
+                        "          {Surgery Type} = trim(byName('Surgery Type')),",
+                        "          {Surgery Date} = toDate(trim(byName('Surgery Date')), 'M/d/yyyy'),",
+                        "          {Anesthesia Type} = trim(byName('Anesthesia Type')),",
+                        "          {Surgery Outcome} = trim(byName('Surgery Outcome')),",
+                        "          {Surgery Duration (hours)} = toInteger(trim(byName('Surgery Duration (hours)'))),",
+                        "          {Recovery Period (days)} = toInteger(trim(byName('Recovery Period (days)')))) ~> derivesurgeries",
+                        "derivesurgeries sink(allowSchemaDrift: true,",
+                        "     validateSchema: false,",
+                        "     deletable:false,",
+                        "     insertable:true,",
+                        "     updateable:false,",
+                        "     upsertable:false,",
+                        "     format: 'table',",
+                        "     skipDuplicateMapInputs: true,",
+                        "     skipDuplicateMapOutputs: true,",
+                        "     errorHandlingOption: 'stopOnFirstError',",
+                        "     mapColumn(",
+                        "          {Serial No},",
+                        "          {Case ID},",
+                        "          {Patient ID},",
+                        "          {Doctor ID},",
+                        "          {Branch ID},",
+                        "          {Surgery Type},",
+                        "          {Surgery Date},",
+                        "          {Anesthesia Type},",
+                        "          {Surgery Outcome},",
+                        "          {Surgery Duration (hours)},",
+                        "          {Recovery Period (days)}",
+                        "     )) ~> sinksurgeries"
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat(variables('factoryId'), '/datasets/ds_rawsurgeries_sql')]",
+                "[concat(variables('factoryId'), '/datasets/ds_mapping_clean_surgeries_adf')]"
+            ]
+        }
+    ]
+}
