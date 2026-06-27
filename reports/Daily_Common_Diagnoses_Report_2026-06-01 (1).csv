@@ -1,0 +1,7941 @@
+report_date,Diagnosis,diagnosis_count
+2020-01-01,Sciatica,3
+2020-01-01,Angina,2
+2020-01-01,Asthma,2
+2020-01-01,Arthritis,1
+2020-01-01,Viral Infection,1
+2020-01-01,Migraine,1
+2020-01-01,Gastritis,1
+2020-01-01,Vertigo,1
+2020-01-02,Arthritis,2
+2020-01-02,Viral Infection,2
+2020-01-02,Angina,1
+2020-01-02,Dermatitis,1
+2020-01-02,Gastritis,1
+2020-01-02,Migraine,1
+2020-01-03,Angina,2
+2020-01-03,Viral Infection,1
+2020-01-03,Bronchitis,1
+2020-01-03,Migraine,1
+2020-01-04,Angina,2
+2020-01-04,Viral Infection,2
+2020-01-04,Bronchitis,2
+2020-01-04,Arthritis,1
+2020-01-04,Dermatitis,1
+2020-01-04,Migraine,1
+2020-01-04,Vertigo,1
+2020-01-04,Asthma,1
+2020-01-04,Sciatica,1
+2020-01-05,Gastritis,3
+2020-01-05,Arthritis,2
+2020-01-05,Dermatitis,2
+2020-01-05,Vertigo,2
+2020-01-05,Asthma,2
+2020-01-05,Angina,1
+2020-01-05,Sciatica,1
+2020-01-06,Dermatitis,2
+2020-01-06,Gastritis,2
+2020-01-06,Vertigo,2
+2020-01-06,Bronchitis,1
+2020-01-06,Angina,1
+2020-01-07,Vertigo,4
+2020-01-07,Asthma,1
+2020-01-07,Angina,1
+2020-01-07,Dermatitis,1
+2020-01-07,Migraine,1
+2020-01-07,Arthritis,1
+2020-01-08,Sciatica,2
+2020-01-08,Viral Infection,2
+2020-01-08,Gastritis,1
+2020-01-08,Bronchitis,1
+2020-01-08,Migraine,1
+2020-01-09,Arthritis,3
+2020-01-09,Sciatica,2
+2020-01-09,Bronchitis,1
+2020-01-09,Asthma,1
+2020-01-09,Viral Infection,1
+2020-01-09,Migraine,1
+2020-01-10,Bronchitis,1
+2020-01-10,Viral Infection,1
+2020-01-10,Migraine,1
+2020-01-10,Sciatica,1
+2020-01-11,Arthritis,3
+2020-01-11,Gastritis,2
+2020-01-11,Bronchitis,1
+2020-01-11,Angina,1
+2020-01-11,Migraine,1
+2020-01-12,Sciatica,2
+2020-01-12,Dermatitis,2
+2020-01-12,Angina,2
+2020-01-12,Arthritis,1
+2020-01-12,Gastritis,1
+2020-01-12,Vertigo,1
+2020-01-12,Bronchitis,1
+2020-01-12,Asthma,1
+2020-01-13,Bronchitis,3
+2020-01-13,Vertigo,3
+2020-01-13,Angina,2
+2020-01-13,Asthma,2
+2020-01-13,Viral Infection,1
+2020-01-13,Arthritis,1
+2020-01-13,Dermatitis,1
+2020-01-14,Migraine,1
+2020-01-14,Asthma,1
+2020-01-14,Angina,1
+2020-01-14,Vertigo,1
+2020-01-15,Migraine,2
+2020-01-15,Angina,2
+2020-01-15,Viral Infection,1
+2020-01-15,Sciatica,1
+2020-01-15,Gastritis,1
+2020-01-15,Vertigo,1
+2020-01-16,Viral Infection,3
+2020-01-16,Migraine,2
+2020-01-16,Asthma,1
+2020-01-16,Sciatica,1
+2020-01-16,Vertigo,1
+2020-01-17,Angina,4
+2020-01-17,Vertigo,2
+2020-01-17,Arthritis,2
+2020-01-17,Migraine,1
+2020-01-17,Asthma,1
+2020-01-17,Dermatitis,1
+2020-01-17,Bronchitis,1
+2020-01-17,Gastritis,1
+2020-01-18,Migraine,2
+2020-01-18,Vertigo,1
+2020-01-18,Viral Infection,1
+2020-01-18,Dermatitis,1
+2020-01-18,Sciatica,1
+2020-01-19,Vertigo,3
+2020-01-19,Dermatitis,2
+2020-01-19,Gastritis,2
+2020-01-19,Arthritis,1
+2020-01-19,Angina,1
+2020-01-20,Arthritis,2
+2020-01-20,Angina,2
+2020-01-20,Sciatica,2
+2020-01-20,Gastritis,2
+2020-01-20,Asthma,2
+2020-01-20,Vertigo,1
+2020-01-20,Viral Infection,1
+2020-01-21,Vertigo,2
+2020-01-21,Sciatica,2
+2020-01-21,Bronchitis,1
+2020-01-21,Gastritis,1
+2020-01-21,Asthma,1
+2020-01-21,Migraine,1
+2020-01-22,Angina,3
+2020-01-22,Vertigo,2
+2020-01-22,Viral Infection,2
+2020-01-22,Arthritis,2
+2020-01-22,Gastritis,1
+2020-01-22,Dermatitis,1
+2020-01-23,Bronchitis,2
+2020-01-23,Gastritis,2
+2020-01-23,Vertigo,2
+2020-01-23,Angina,2
+2020-01-23,Migraine,2
+2020-01-23,Viral Infection,1
+2020-01-23,Sciatica,1
+2020-01-23,Dermatitis,1
+2020-01-23,Arthritis,1
+2020-01-24,Bronchitis,2
+2020-01-24,Sciatica,2
+2020-01-24,Vertigo,1
+2020-01-24,Viral Infection,1
+2020-01-24,Dermatitis,1
+2020-01-24,Migraine,1
+2020-01-25,Viral Infection,4
+2020-01-25,Migraine,2
+2020-01-25,Arthritis,2
+2020-01-25,Sciatica,2
+2020-01-25,Angina,2
+2020-01-25,Gastritis,2
+2020-01-25,Dermatitis,1
+2020-01-25,Vertigo,1
+2020-01-25,Bronchitis,1
+2020-01-26,Dermatitis,2
+2020-01-26,Bronchitis,2
+2020-01-26,Asthma,2
+2020-01-26,Sciatica,1
+2020-01-26,Vertigo,1
+2020-01-26,Viral Infection,1
+2020-01-26,Gastritis,1
+2020-01-27,Arthritis,3
+2020-01-27,Sciatica,2
+2020-01-27,Viral Infection,1
+2020-01-27,Migraine,1
+2020-01-27,Dermatitis,1
+2020-01-27,Angina,1
+2020-01-28,Angina,3
+2020-01-28,Asthma,3
+2020-01-28,Vertigo,1
+2020-01-28,Viral Infection,1
+2020-01-28,Sciatica,1
+2020-01-28,Bronchitis,1
+2020-02-01,Angina,3
+2020-02-01,Migraine,2
+2020-02-01,Viral Infection,2
+2020-02-01,Bronchitis,1
+2020-02-01,Arthritis,1
+2020-02-02,Angina,2
+2020-02-02,Dermatitis,1
+2020-02-02,Asthma,1
+2020-02-02,Bronchitis,1
+2020-02-02,Arthritis,1
+2020-02-03,Bronchitis,2
+2020-02-03,Gastritis,2
+2020-02-03,Migraine,1
+2020-02-03,Angina,1
+2020-02-03,Arthritis,1
+2020-02-03,Viral Infection,1
+2020-02-04,Dermatitis,2
+2020-02-04,Angina,2
+2020-02-04,Migraine,1
+2020-02-04,Asthma,1
+2020-02-04,Bronchitis,1
+2020-02-04,Viral Infection,1
+2020-02-04,Vertigo,1
+2020-02-05,Asthma,2
+2020-02-05,Arthritis,2
+2020-02-05,Gastritis,2
+2020-02-05,Dermatitis,1
+2020-02-05,Migraine,1
+2020-02-05,Angina,1
+2020-02-05,Bronchitis,1
+2020-02-05,Vertigo,1
+2020-02-06,Vertigo,3
+2020-02-06,Viral Infection,1
+2020-02-06,Gastritis,1
+2020-02-06,Angina,1
+2020-02-06,Sciatica,1
+2020-02-06,Asthma,1
+2020-02-06,Dermatitis,1
+2020-02-07,Angina,2
+2020-02-07,Arthritis,1
+2020-02-07,Gastritis,1
+2020-02-07,Viral Infection,1
+2020-02-07,Bronchitis,1
+2020-02-07,Sciatica,1
+2020-02-07,Asthma,1
+2020-02-08,Arthritis,4
+2020-02-08,Migraine,2
+2020-02-08,Viral Infection,1
+2020-02-08,Gastritis,1
+2020-02-08,Bronchitis,1
+2020-02-09,Gastritis,2
+2020-02-09,Sciatica,2
+2020-02-09,Angina,1
+2020-02-09,Migraine,1
+2020-02-10,Angina,2
+2020-02-10,Viral Infection,1
+2020-02-10,Dermatitis,1
+2020-02-10,Asthma,1
+2020-02-10,Sciatica,1
+2020-02-10,Gastritis,1
+2020-02-11,Gastritis,3
+2020-02-11,Dermatitis,2
+2020-02-11,Asthma,2
+2020-02-11,Sciatica,2
+2020-02-11,Arthritis,2
+2020-02-11,Migraine,1
+2020-02-11,Bronchitis,1
+2020-02-12,Dermatitis,2
+2020-02-12,Angina,2
+2020-02-12,Viral Infection,1
+2020-02-12,Arthritis,1
+2020-02-12,Asthma,1
+2020-02-12,Migraine,1
+2020-02-13,Asthma,2
+2020-02-13,Sciatica,2
+2020-02-13,Bronchitis,2
+2020-02-13,Arthritis,1
+2020-02-13,Viral Infection,1
+2020-02-13,Vertigo,1
+2020-02-13,Angina,1
+2020-02-13,Migraine,1
+2020-02-14,Angina,3
+2020-02-14,Dermatitis,2
+2020-02-14,Viral Infection,1
+2020-02-14,Bronchitis,1
+2020-02-14,Vertigo,1
+2020-02-14,Gastritis,1
+2020-02-15,Dermatitis,3
+2020-02-15,Sciatica,2
+2020-02-15,Arthritis,2
+2020-02-15,Asthma,1
+2020-02-15,Viral Infection,1
+2020-02-15,Vertigo,1
+2020-02-15,Angina,1
+2020-02-15,Gastritis,1
+2020-02-16,Migraine,3
+2020-02-16,Dermatitis,2
+2020-02-16,Arthritis,2
+2020-02-16,Sciatica,2
+2020-02-16,Vertigo,2
+2020-02-16,Angina,1
+2020-02-16,Asthma,1
+2020-02-17,Angina,3
+2020-02-17,Migraine,2
+2020-02-17,Sciatica,2
+2020-02-17,Gastritis,1
+2020-02-17,Arthritis,1
+2020-02-17,Asthma,1
+2020-02-18,Bronchitis,3
+2020-02-18,Viral Infection,1
+2020-02-18,Asthma,1
+2020-02-18,Gastritis,1
+2020-02-18,Migraine,1
+2020-02-18,Sciatica,1
+2020-02-19,Viral Infection,4
+2020-02-19,Sciatica,2
+2020-02-19,Vertigo,1
+2020-02-19,Bronchitis,1
+2020-02-20,Viral Infection,3
+2020-02-20,Gastritis,3
+2020-02-20,Vertigo,2
+2020-02-20,Angina,1
+2020-02-20,Bronchitis,1
+2020-02-20,Sciatica,1
+2020-02-21,Dermatitis,2
+2020-02-21,Angina,2
+2020-02-21,Vertigo,2
+2020-02-21,Bronchitis,2
+2020-02-21,Viral Infection,1
+2020-02-21,Migraine,1
+2020-02-21,Gastritis,1
+2020-02-21,Arthritis,1
+2020-02-22,Asthma,1
+2020-02-22,Migraine,1
+2020-02-22,Vertigo,1
+2020-02-22,Arthritis,1
+2020-02-22,Sciatica,1
+2020-02-23,Vertigo,3
+2020-02-23,Angina,2
+2020-02-23,Migraine,1
+2020-02-23,Arthritis,1
+2020-02-23,Bronchitis,1
+2020-02-24,Migraine,2
+2020-02-24,Angina,1
+2020-02-24,Dermatitis,1
+2020-02-24,Vertigo,1
+2020-02-25,Sciatica,2
+2020-02-25,Migraine,2
+2020-02-25,Vertigo,2
+2020-02-25,Gastritis,1
+2020-02-26,Viral Infection,3
+2020-02-26,Dermatitis,2
+2020-02-26,Angina,2
+2020-02-26,Arthritis,2
+2020-02-26,Sciatica,1
+2020-02-27,Viral Infection,3
+2020-02-27,Sciatica,3
+2020-02-27,Arthritis,2
+2020-02-27,Vertigo,2
+2020-02-27,Dermatitis,1
+2020-02-27,Angina,1
+2020-02-27,Gastritis,1
+2020-02-28,Sciatica,4
+2020-02-28,Vertigo,2
+2020-02-28,Migraine,1
+2020-02-28,Bronchitis,1
+2020-03-01,Dermatitis,2
+2020-03-01,Arthritis,1
+2020-03-01,Migraine,1
+2020-03-01,Angina,1
+2020-03-01,Vertigo,1
+2020-03-01,Bronchitis,1
+2020-03-01,Asthma,1
+2020-03-02,Sciatica,3
+2020-03-02,Arthritis,2
+2020-03-02,Gastritis,2
+2020-03-02,Migraine,2
+2020-03-02,Bronchitis,1
+2020-03-03,Bronchitis,4
+2020-03-03,Arthritis,1
+2020-03-03,Migraine,1
+2020-03-03,Gastritis,1
+2020-03-03,Sciatica,1
+2020-03-03,Dermatitis,1
+2020-03-03,Viral Infection,1
+2020-03-04,Viral Infection,3
+2020-03-04,Arthritis,3
+2020-03-04,Sciatica,1
+2020-03-04,Dermatitis,1
+2020-03-04,Asthma,1
+2020-03-04,Angina,1
+2020-03-05,Arthritis,5
+2020-03-05,Bronchitis,1
+2020-03-06,Migraine,3
+2020-03-06,Viral Infection,1
+2020-03-06,Bronchitis,1
+2020-03-07,Asthma,3
+2020-03-07,Gastritis,1
+2020-03-07,Dermatitis,1
+2020-03-07,Vertigo,1
+2020-03-07,Arthritis,1
+2020-03-07,Bronchitis,1
+2020-03-08,Viral Infection,1
+2020-03-08,Migraine,1
+2020-03-08,Dermatitis,1
+2020-03-08,Bronchitis,1
+2020-03-08,Arthritis,1
+2020-03-09,Viral Infection,3
+2020-03-09,Migraine,2
+2020-03-09,Bronchitis,2
+2020-03-09,Arthritis,2
+2020-03-09,Sciatica,1
+2020-03-09,Dermatitis,1
+2020-03-09,Angina,1
+2020-03-10,Sciatica,1
+2020-03-10,Migraine,1
+2020-03-10,Vertigo,1
+2020-03-10,Arthritis,1
+2020-03-11,Asthma,3
+2020-03-11,Sciatica,2
+2020-03-11,Migraine,2
+2020-03-11,Angina,1
+2020-03-11,Dermatitis,1
+2020-03-11,Vertigo,1
+2020-03-11,Viral Infection,1
+2020-03-12,Bronchitis,1
+2020-03-12,Gastritis,1
+2020-03-12,Angina,1
+2020-03-12,Dermatitis,1
+2020-03-12,Sciatica,1
+2020-03-12,Arthritis,1
+2020-03-12,Migraine,1
+2020-03-13,Sciatica,2
+2020-03-13,Gastritis,2
+2020-03-13,Viral Infection,2
+2020-03-13,Vertigo,1
+2020-03-13,Dermatitis,1
+2020-03-13,Bronchitis,1
+2020-03-13,Asthma,1
+2020-03-14,Viral Infection,3
+2020-03-14,Dermatitis,2
+2020-03-14,Bronchitis,2
+2020-03-14,Asthma,2
+2020-03-14,Vertigo,1
+2020-03-14,Arthritis,1
+2020-03-14,Sciatica,1
+2020-03-14,Migraine,1
+2020-03-15,Bronchitis,3
+2020-03-15,Arthritis,2
+2020-03-15,Dermatitis,1
+2020-03-15,Vertigo,1
+2020-03-15,Viral Infection,1
+2020-03-16,Asthma,2
+2020-03-16,Dermatitis,1
+2020-03-16,Vertigo,1
+2020-03-16,Viral Infection,1
+2020-03-16,Sciatica,1
+2020-03-16,Gastritis,1
+2020-03-16,Migraine,1
+2020-03-17,Angina,4
+2020-03-17,Vertigo,2
+2020-03-17,Arthritis,2
+2020-03-17,Migraine,1
+2020-03-17,Sciatica,1
+2020-03-17,Viral Infection,1
+2020-03-17,Dermatitis,1
+2020-03-18,Sciatica,3
+2020-03-18,Migraine,1
+2020-03-18,Angina,1
+2020-03-18,Viral Infection,1
+2020-03-19,Gastritis,2
+2020-03-19,Bronchitis,2
+2020-03-19,Arthritis,2
+2020-03-19,Asthma,1
+2020-03-19,Vertigo,1
+2020-03-19,Viral Infection,1
+2020-03-19,Angina,1
+2020-03-20,Asthma,2
+2020-03-20,Sciatica,2
+2020-03-20,Migraine,1
+2020-03-20,Bronchitis,1
+2020-03-20,Vertigo,1
+2020-03-20,Viral Infection,1
+2020-03-20,Angina,1
+2020-03-21,Arthritis,2
+2020-03-21,Sciatica,2
+2020-03-21,Viral Infection,1
+2020-03-21,Angina,1
+2020-03-21,Dermatitis,1
+2020-03-22,Viral Infection,2
+2020-03-22,Gastritis,2
+2020-03-22,Sciatica,1
+2020-03-22,Migraine,1
+2020-03-22,Asthma,1
+2020-03-23,Migraine,1
+2020-03-23,Sciatica,1
+2020-03-23,Viral Infection,1
+2020-03-23,Vertigo,1
+2020-03-23,Arthritis,1
+2020-03-23,Bronchitis,1
+2020-03-24,Gastritis,2
+2020-03-24,Migraine,1
+2020-03-24,Viral Infection,1
+2020-03-24,Vertigo,1
+2020-03-25,Vertigo,2
+2020-03-25,Arthritis,2
+2020-03-25,Gastritis,2
+2020-03-25,Migraine,1
+2020-03-25,Angina,1
+2020-03-25,Bronchitis,1
+2020-03-25,Asthma,1
+2020-03-25,Dermatitis,1
+2020-03-26,Asthma,3
+2020-03-26,Dermatitis,3
+2020-03-26,Arthritis,2
+2020-03-26,Vertigo,1
+2020-03-26,Angina,1
+2020-03-26,Viral Infection,1
+2020-03-26,Migraine,1
+2020-03-27,Dermatitis,3
+2020-03-27,Bronchitis,2
+2020-03-27,Migraine,2
+2020-03-27,Gastritis,1
+2020-03-27,Vertigo,1
+2020-03-27,Viral Infection,1
+2020-03-28,Migraine,3
+2020-03-28,Sciatica,2
+2020-03-28,Viral Infection,1
+2020-03-28,Bronchitis,1
+2020-03-28,Dermatitis,1
+2020-04-01,Gastritis,1
+2020-04-01,Vertigo,1
+2020-04-01,Sciatica,1
+2020-04-01,Arthritis,1
+2020-04-01,Asthma,1
+2020-04-02,Asthma,3
+2020-04-02,Bronchitis,2
+2020-04-02,Dermatitis,2
+2020-04-02,Migraine,1
+2020-04-02,Viral Infection,1
+2020-04-02,Sciatica,1
+2020-04-02,Arthritis,1
+2020-04-02,Gastritis,1
+2020-04-03,Viral Infection,2
+2020-04-03,Sciatica,2
+2020-04-03,Gastritis,2
+2020-04-03,Asthma,1
+2020-04-03,Dermatitis,1
+2020-04-03,Vertigo,1
+2020-04-04,Viral Infection,3
+2020-04-04,Angina,2
+2020-04-04,Gastritis,2
+2020-04-04,Dermatitis,2
+2020-04-04,Arthritis,1
+2020-04-04,Bronchitis,1
+2020-04-05,Angina,2
+2020-04-05,Bronchitis,2
+2020-04-05,Viral Infection,1
+2020-04-05,Sciatica,1
+2020-04-05,Arthritis,1
+2020-04-05,Gastritis,1
+2020-04-05,Asthma,1
+2020-04-05,Vertigo,1
+2020-04-06,Sciatica,3
+2020-04-06,Gastritis,3
+2020-04-06,Migraine,2
+2020-04-06,Arthritis,2
+2020-04-06,Bronchitis,2
+2020-04-06,Asthma,2
+2020-04-06,Angina,1
+2020-04-06,Dermatitis,1
+2020-04-07,Asthma,3
+2020-04-07,Arthritis,2
+2020-04-07,Bronchitis,2
+2020-04-07,Migraine,1
+2020-04-07,Sciatica,1
+2020-04-07,Angina,1
+2020-04-07,Dermatitis,1
+2020-04-08,Arthritis,2
+2020-04-08,Viral Infection,2
+2020-04-08,Migraine,2
+2020-04-08,Dermatitis,1
+2020-04-08,Gastritis,1
+2020-04-09,Viral Infection,3
+2020-04-09,Asthma,1
+2020-04-09,Vertigo,1
+2020-04-09,Arthritis,1
+2020-04-09,Dermatitis,1
+2020-04-09,Bronchitis,1
+2020-04-10,Arthritis,2
+2020-04-10,Gastritis,1
+2020-04-10,Dermatitis,1
+2020-04-10,Sciatica,1
+2020-04-11,Dermatitis,2
+2020-04-11,Bronchitis,2
+2020-04-11,Vertigo,1
+2020-04-11,Gastritis,1
+2020-04-12,Viral Infection,4
+2020-04-12,Vertigo,2
+2020-04-12,Bronchitis,2
+2020-04-12,Arthritis,1
+2020-04-12,Asthma,1
+2020-04-12,Angina,1
+2020-04-12,Gastritis,1
+2020-04-13,Angina,3
+2020-04-13,Dermatitis,3
+2020-04-13,Sciatica,1
+2020-04-13,Bronchitis,1
+2020-04-14,Sciatica,2
+2020-04-14,Arthritis,2
+2020-04-14,Bronchitis,1
+2020-04-14,Viral Infection,1
+2020-04-14,Migraine,1
+2020-04-14,Dermatitis,1
+2020-04-15,Dermatitis,2
+2020-04-15,Sciatica,1
+2020-04-15,Migraine,1
+2020-04-15,Bronchitis,1
+2020-04-16,Sciatica,4
+2020-04-16,Dermatitis,3
+2020-04-16,Migraine,1
+2020-04-16,Bronchitis,1
+2020-04-16,Angina,1
+2020-04-17,Gastritis,1
+2020-04-17,Vertigo,1
+2020-04-17,Asthma,1
+2020-04-17,Migraine,1
+2020-04-17,Arthritis,1
+2020-04-17,Angina,1
+2020-04-18,Viral Infection,3
+2020-04-18,Bronchitis,2
+2020-04-18,Arthritis,2
+2020-04-18,Dermatitis,1
+2020-04-19,Viral Infection,4
+2020-04-19,Arthritis,3
+2020-04-19,Sciatica,2
+2020-04-19,Dermatitis,2
+2020-04-19,Gastritis,1
+2020-04-19,Bronchitis,1
+2020-04-20,Gastritis,3
+2020-04-20,Angina,1
+2020-04-21,Dermatitis,2
+2020-04-21,Arthritis,2
+2020-04-21,Viral Infection,1
+2020-04-21,Bronchitis,1
+2020-04-21,Vertigo,1
+2020-04-21,Asthma,1
+2020-04-22,Vertigo,3
+2020-04-22,Gastritis,1
+2020-04-22,Sciatica,1
+2020-04-22,Angina,1
+2020-04-22,Arthritis,1
+2020-04-22,Bronchitis,1
+2020-04-22,Asthma,1
+2020-04-22,Migraine,1
+2020-04-22,Dermatitis,1
+2020-04-23,Angina,3
+2020-04-23,Dermatitis,1
+2020-04-23,Migraine,1
+2020-04-23,Gastritis,1
+2020-04-23,Viral Infection,1
+2020-04-23,Sciatica,1
+2020-04-24,Sciatica,2
+2020-04-24,Migraine,1
+2020-04-24,Dermatitis,1
+2020-04-24,Gastritis,1
+2020-04-24,Viral Infection,1
+2020-04-25,Angina,3
+2020-04-25,Bronchitis,3
+2020-04-25,Viral Infection,2
+2020-04-25,Arthritis,1
+2020-04-25,Dermatitis,1
+2020-04-25,Gastritis,1
+2020-04-25,Sciatica,1
+2020-04-26,Asthma,2
+2020-04-26,Gastritis,1
+2020-04-26,Sciatica,1
+2020-04-26,Vertigo,1
+2020-04-26,Bronchitis,1
+2020-04-27,Migraine,2
+2020-04-27,Vertigo,2
+2020-04-27,Gastritis,1
+2020-04-27,Angina,1
+2020-04-27,Viral Infection,1
+2020-04-27,Bronchitis,1
+2020-04-27,Asthma,1
+2020-04-27,Sciatica,1
+2020-04-27,Dermatitis,1
+2020-04-27,Arthritis,1
+2020-04-28,Asthma,1
+2020-04-28,Vertigo,1
+2020-04-28,Viral Infection,1
+2020-04-28,Sciatica,1
+2020-05-01,Angina,1
+2020-05-01,Vertigo,1
+2020-05-01,Asthma,1
+2020-05-01,Viral Infection,1
+2020-05-01,Arthritis,1
+2020-05-01,Migraine,1
+2020-05-01,Bronchitis,1
+2020-05-01,Gastritis,1
+2020-05-02,Viral Infection,2
+2020-05-02,Arthritis,2
+2020-05-02,Gastritis,1
+2020-05-03,Arthritis,2
+2020-05-03,Angina,2
+2020-05-03,Gastritis,1
+2020-05-03,Dermatitis,1
+2020-05-03,Bronchitis,1
+2020-05-03,Asthma,1
+2020-05-04,Gastritis,2
+2020-05-04,Dermatitis,2
+2020-05-04,Sciatica,2
+2020-05-04,Viral Infection,2
+2020-05-04,Vertigo,1
+2020-05-04,Bronchitis,1
+2020-05-04,Asthma,1
+2020-05-05,Asthma,3
+2020-05-05,Migraine,1
+2020-05-05,Viral Infection,1
+2020-05-05,Arthritis,1
+2020-05-05,Gastritis,1
+2020-05-06,Vertigo,2
+2020-05-06,Arthritis,1
+2020-05-06,Asthma,1
+2020-05-06,Sciatica,1
+2020-05-07,Asthma,2
+2020-05-07,Bronchitis,1
+2020-05-07,Dermatitis,1
+2020-05-07,Viral Infection,1
+2020-05-07,Gastritis,1
+2020-05-07,Angina,1
+2020-05-07,Sciatica,1
+2020-05-07,Vertigo,1
+2020-05-08,Arthritis,2
+2020-05-08,Bronchitis,2
+2020-05-08,Dermatitis,1
+2020-05-08,Viral Infection,1
+2020-05-08,Gastritis,1
+2020-05-08,Asthma,1
+2020-05-09,Dermatitis,2
+2020-05-09,Migraine,2
+2020-05-09,Asthma,1
+2020-05-10,Gastritis,2
+2020-05-10,Asthma,2
+2020-05-10,Migraine,1
+2020-05-10,Dermatitis,1
+2020-05-10,Arthritis,1
+2020-05-10,Bronchitis,1
+2020-05-11,Migraine,1
+2020-05-11,Gastritis,1
+2020-05-12,Viral Infection,2
+2020-05-12,Sciatica,1
+2020-05-12,Asthma,1
+2020-05-12,Dermatitis,1
+2020-05-12,Arthritis,1
+2020-05-13,Migraine,2
+2020-05-13,Dermatitis,2
+2020-05-13,Arthritis,2
+2020-05-13,Viral Infection,1
+2020-05-14,Sciatica,2
+2020-05-14,Vertigo,1
+2020-05-14,Angina,1
+2020-05-14,Viral Infection,1
+2020-05-14,Bronchitis,1
+2020-05-15,Asthma,2
+2020-05-15,Sciatica,2
+2020-05-15,Arthritis,2
+2020-05-15,Vertigo,1
+2020-05-15,Viral Infection,1
+2020-05-16,Viral Infection,2
+2020-05-16,Dermatitis,2
+2020-05-16,Vertigo,1
+2020-05-16,Sciatica,1
+2020-05-16,Migraine,1
+2020-05-16,Angina,1
+2020-05-17,Arthritis,3
+2020-05-17,Bronchitis,2
+2020-05-17,Sciatica,2
+2020-05-17,Dermatitis,1
+2020-05-17,Migraine,1
+2020-05-17,Angina,1
+2020-05-17,Gastritis,1
+2020-05-17,Asthma,1
+2020-05-18,Angina,2
+2020-05-18,Arthritis,1
+2020-05-18,Bronchitis,1
+2020-05-18,Sciatica,1
+2020-05-18,Vertigo,1
+2020-05-18,Asthma,1
+2020-05-19,Arthritis,3
+2020-05-19,Gastritis,3
+2020-05-19,Angina,2
+2020-05-19,Vertigo,2
+2020-05-19,Dermatitis,1
+2020-05-19,Migraine,1
+2020-05-20,Viral Infection,3
+2020-05-20,Dermatitis,2
+2020-05-20,Bronchitis,2
+2020-05-20,Asthma,1
+2020-05-20,Sciatica,1
+2020-05-20,Migraine,1
+2020-05-20,Angina,1
+2020-05-20,Arthritis,1
+2020-05-21,Asthma,1
+2020-05-21,Dermatitis,1
+2020-05-21,Sciatica,1
+2020-05-21,Viral Infection,1
+2020-05-21,Migraine,1
+2020-05-21,Angina,1
+2020-05-21,Gastritis,1
+2020-05-21,Bronchitis,1
+2020-05-22,Gastritis,3
+2020-05-22,Dermatitis,1
+2020-05-22,Angina,1
+2020-05-22,Viral Infection,1
+2020-05-23,Vertigo,2
+2020-05-23,Bronchitis,2
+2020-05-23,Asthma,1
+2020-05-23,Angina,1
+2020-05-23,Arthritis,1
+2020-05-23,Dermatitis,1
+2020-05-23,Viral Infection,1
+2020-05-23,Gastritis,1
+2020-05-24,Angina,3
+2020-05-24,Migraine,2
+2020-05-24,Sciatica,2
+2020-05-24,Asthma,1
+2020-05-24,Dermatitis,1
+2020-05-24,Viral Infection,1
+2020-05-25,Asthma,4
+2020-05-25,Bronchitis,3
+2020-05-25,Vertigo,2
+2020-05-25,Arthritis,1
+2020-05-25,Migraine,1
+2020-05-25,Viral Infection,1
+2020-05-26,Dermatitis,4
+2020-05-26,Asthma,3
+2020-05-26,Angina,2
+2020-05-26,Gastritis,1
+2020-05-26,Bronchitis,1
+2020-05-26,Arthritis,1
+2020-05-27,Sciatica,1
+2020-05-27,Migraine,1
+2020-05-27,Vertigo,1
+2020-05-27,Bronchitis,1
+2020-05-27,Dermatitis,1
+2020-05-27,Arthritis,1
+2020-05-28,Bronchitis,2
+2020-05-28,Gastritis,2
+2020-05-28,Sciatica,1
+2020-05-28,Migraine,1
+2020-05-28,Dermatitis,1
+2020-05-28,Arthritis,1
+2020-06-01,Arthritis,3
+2020-06-01,Asthma,2
+2020-06-01,Migraine,2
+2020-06-01,Bronchitis,2
+2020-06-01,Angina,1
+2020-06-01,Vertigo,1
+2020-06-01,Dermatitis,1
+2020-06-02,Asthma,1
+2020-06-02,Vertigo,1
+2020-06-02,Gastritis,1
+2020-06-02,Migraine,1
+2020-06-02,Bronchitis,1
+2020-06-02,Sciatica,1
+2020-06-03,Viral Infection,3
+2020-06-03,Asthma,1
+2020-06-03,Arthritis,1
+2020-06-03,Sciatica,1
+2020-06-04,Bronchitis,3
+2020-06-04,Sciatica,2
+2020-06-04,Gastritis,2
+2020-06-04,Migraine,2
+2020-06-04,Viral Infection,2
+2020-06-04,Angina,1
+2020-06-04,Asthma,1
+2020-06-04,Arthritis,1
+2020-06-05,Angina,2
+2020-06-05,Vertigo,2
+2020-06-05,Viral Infection,2
+2020-06-05,Asthma,1
+2020-06-05,Bronchitis,1
+2020-06-06,Sciatica,3
+2020-06-06,Viral Infection,2
+2020-06-06,Gastritis,2
+2020-06-06,Bronchitis,1
+2020-06-06,Migraine,1
+2020-06-06,Vertigo,1
+2020-06-06,Angina,1
+2020-06-06,Asthma,1
+2020-06-07,Bronchitis,3
+2020-06-07,Gastritis,3
+2020-06-07,Viral Infection,1
+2020-06-07,Angina,1
+2020-06-07,Arthritis,1
+2020-06-07,Migraine,1
+2020-06-07,Asthma,1
+2020-06-07,Sciatica,1
+2020-06-08,Dermatitis,2
+2020-06-08,Gastritis,2
+2020-06-08,Vertigo,2
+2020-06-08,Asthma,1
+2020-06-08,Bronchitis,1
+2020-06-08,Migraine,1
+2020-06-08,Sciatica,1
+2020-06-09,Angina,3
+2020-06-09,Sciatica,2
+2020-06-09,Bronchitis,2
+2020-06-09,Asthma,1
+2020-06-09,Viral Infection,1
+2020-06-09,Gastritis,1
+2020-06-09,Migraine,1
+2020-06-10,Asthma,2
+2020-06-10,Viral Infection,2
+2020-06-10,Gastritis,2
+2020-06-10,Vertigo,2
+2020-06-10,Bronchitis,2
+2020-06-10,Angina,1
+2020-06-10,Sciatica,1
+2020-06-11,Bronchitis,4
+2020-06-11,Gastritis,3
+2020-06-11,Vertigo,2
+2020-06-11,Sciatica,2
+2020-06-11,Migraine,2
+2020-06-11,Angina,1
+2020-06-12,Sciatica,3
+2020-06-12,Viral Infection,2
+2020-06-12,Dermatitis,2
+2020-06-12,Bronchitis,1
+2020-06-12,Gastritis,1
+2020-06-12,Asthma,1
+2020-06-13,Asthma,2
+2020-06-13,Bronchitis,1
+2020-06-13,Arthritis,1
+2020-06-13,Viral Infection,1
+2020-06-13,Dermatitis,1
+2020-06-13,Angina,1
+2020-06-13,Sciatica,1
+2020-06-13,Migraine,1
+2020-06-14,Viral Infection,2
+2020-06-14,Sciatica,2
+2020-06-14,Bronchitis,1
+2020-06-14,Arthritis,1
+2020-06-14,Gastritis,1
+2020-06-14,Dermatitis,1
+2020-06-14,Angina,1
+2020-06-14,Migraine,1
+2020-06-15,Dermatitis,2
+2020-06-15,Viral Infection,1
+2020-06-15,Arthritis,1
+2020-06-16,Viral Infection,3
+2020-06-16,Arthritis,3
+2020-06-16,Sciatica,3
+2020-06-16,Angina,2
+2020-06-16,Bronchitis,1
+2020-06-17,Vertigo,1
+2020-06-17,Viral Infection,1
+2020-06-17,Dermatitis,1
+2020-06-17,Angina,1
+2020-06-17,Arthritis,1
+2020-06-18,Gastritis,3
+2020-06-18,Vertigo,1
+2020-06-18,Bronchitis,1
+2020-06-18,Migraine,1
+2020-06-18,Angina,1
+2020-06-18,Asthma,1
+2020-06-18,Sciatica,1
+2020-06-18,Viral Infection,1
+2020-06-19,Asthma,2
+2020-06-19,Viral Infection,2
+2020-06-19,Gastritis,2
+2020-06-19,Migraine,1
+2020-06-19,Bronchitis,1
+2020-06-19,Arthritis,1
+2020-06-19,Dermatitis,1
+2020-06-19,Vertigo,1
+2020-06-20,Sciatica,2
+2020-06-20,Angina,1
+2020-06-20,Bronchitis,1
+2020-06-20,Asthma,1
+2020-06-20,Arthritis,1
+2020-06-20,Vertigo,1
+2020-06-21,Migraine,3
+2020-06-21,Angina,1
+2020-06-21,Bronchitis,1
+2020-06-21,Dermatitis,1
+2020-06-22,Viral Infection,2
+2020-06-22,Vertigo,2
+2020-06-22,Bronchitis,1
+2020-06-22,Gastritis,1
+2020-06-22,Sciatica,1
+2020-06-22,Angina,1
+2020-06-22,Migraine,1
+2020-06-23,Viral Infection,3
+2020-06-23,Asthma,2
+2020-06-23,Bronchitis,1
+2020-06-23,Sciatica,1
+2020-06-23,Migraine,1
+2020-06-23,Arthritis,1
+2020-06-24,Vertigo,2
+2020-06-24,Gastritis,1
+2020-06-24,Migraine,1
+2020-06-25,Gastritis,1
+2020-06-25,Vertigo,1
+2020-06-25,Angina,1
+2020-06-26,Vertigo,3
+2020-06-26,Arthritis,2
+2020-06-26,Viral Infection,2
+2020-06-26,Gastritis,1
+2020-06-26,Migraine,1
+2020-06-26,Sciatica,1
+2020-06-27,Arthritis,4
+2020-06-27,Gastritis,1
+2020-06-27,Migraine,1
+2020-06-27,Dermatitis,1
+2020-06-27,Asthma,1
+2020-06-28,Vertigo,3
+2020-06-28,Migraine,2
+2020-06-28,Arthritis,1
+2020-06-28,Dermatitis,1
+2020-07-01,Arthritis,2
+2020-07-01,Migraine,2
+2020-07-01,Bronchitis,2
+2020-07-01,Asthma,2
+2020-07-01,Angina,2
+2020-07-01,Gastritis,1
+2020-07-01,Dermatitis,1
+2020-07-01,Sciatica,1
+2020-07-02,Angina,4
+2020-07-02,Arthritis,1
+2020-07-02,Vertigo,1
+2020-07-02,Bronchitis,1
+2020-07-02,Viral Infection,1
+2020-07-02,Asthma,1
+2020-07-02,Gastritis,1
+2020-07-03,Sciatica,3
+2020-07-03,Migraine,2
+2020-07-03,Asthma,2
+2020-07-03,Viral Infection,2
+2020-07-03,Arthritis,2
+2020-07-03,Vertigo,1
+2020-07-04,Viral Infection,3
+2020-07-04,Angina,2
+2020-07-04,Sciatica,2
+2020-07-04,Migraine,2
+2020-07-05,Gastritis,3
+2020-07-05,Dermatitis,2
+2020-07-05,Asthma,2
+2020-07-05,Sciatica,1
+2020-07-05,Bronchitis,1
+2020-07-05,Arthritis,1
+2020-07-06,Migraine,4
+2020-07-06,Arthritis,3
+2020-07-06,Gastritis,2
+2020-07-06,Asthma,1
+2020-07-06,Viral Infection,1
+2020-07-06,Vertigo,1
+2020-07-07,Gastritis,2
+2020-07-07,Asthma,2
+2020-07-07,Angina,1
+2020-07-07,Sciatica,1
+2020-07-07,Dermatitis,1
+2020-07-07,Viral Infection,1
+2020-07-08,Dermatitis,2
+2020-07-08,Arthritis,2
+2020-07-08,Vertigo,2
+2020-07-08,Asthma,1
+2020-07-08,Migraine,1
+2020-07-08,Viral Infection,1
+2020-07-08,Gastritis,1
+2020-07-08,Bronchitis,1
+2020-07-09,Arthritis,2
+2020-07-09,Bronchitis,2
+2020-07-09,Gastritis,2
+2020-07-09,Angina,1
+2020-07-09,Asthma,1
+2020-07-09,Vertigo,1
+2020-07-09,Dermatitis,1
+2020-07-10,Viral Infection,2
+2020-07-10,Dermatitis,2
+2020-07-10,Angina,1
+2020-07-10,Migraine,1
+2020-07-10,Vertigo,1
+2020-07-10,Asthma,1
+2020-07-11,Sciatica,2
+2020-07-11,Arthritis,1
+2020-07-11,Dermatitis,1
+2020-07-11,Bronchitis,1
+2020-07-12,Gastritis,2
+2020-07-12,Migraine,2
+2020-07-12,Vertigo,1
+2020-07-12,Sciatica,1
+2020-07-12,Viral Infection,1
+2020-07-12,Bronchitis,1
+2020-07-13,Asthma,3
+2020-07-13,Dermatitis,3
+2020-07-13,Vertigo,2
+2020-07-13,Viral Infection,2
+2020-07-13,Arthritis,2
+2020-07-13,Gastritis,1
+2020-07-13,Migraine,1
+2020-07-13,Angina,1
+2020-07-14,Viral Infection,3
+2020-07-14,Bronchitis,3
+2020-07-14,Gastritis,1
+2020-07-14,Dermatitis,1
+2020-07-14,Vertigo,1
+2020-07-14,Migraine,1
+2020-07-15,Vertigo,4
+2020-07-15,Asthma,2
+2020-07-15,Dermatitis,2
+2020-07-15,Migraine,2
+2020-07-15,Arthritis,1
+2020-07-15,Sciatica,1
+2020-07-16,Arthritis,2
+2020-07-16,Gastritis,2
+2020-07-16,Viral Infection,1
+2020-07-16,Sciatica,1
+2020-07-16,Dermatitis,1
+2020-07-17,Arthritis,2
+2020-07-17,Vertigo,2
+2020-07-17,Gastritis,2
+2020-07-17,Migraine,1
+2020-07-17,Bronchitis,1
+2020-07-17,Sciatica,1
+2020-07-17,Viral Infection,1
+2020-07-17,Dermatitis,1
+2020-07-17,Asthma,1
+2020-07-18,Sciatica,2
+2020-07-18,Dermatitis,2
+2020-07-18,Migraine,1
+2020-07-18,Arthritis,1
+2020-07-18,Bronchitis,1
+2020-07-18,Viral Infection,1
+2020-07-18,Vertigo,1
+2020-07-19,Vertigo,2
+2020-07-19,Migraine,1
+2020-07-19,Arthritis,1
+2020-07-19,Viral Infection,1
+2020-07-19,Gastritis,1
+2020-07-20,Bronchitis,1
+2020-07-20,Arthritis,1
+2020-07-20,Sciatica,1
+2020-07-20,Dermatitis,1
+2020-07-20,Gastritis,1
+2020-07-21,Migraine,3
+2020-07-21,Angina,2
+2020-07-21,Asthma,1
+2020-07-21,Dermatitis,1
+2020-07-21,Sciatica,1
+2020-07-21,Bronchitis,1
+2020-07-22,Angina,2
+2020-07-22,Gastritis,1
+2020-07-22,Viral Infection,1
+2020-07-22,Arthritis,1
+2020-07-22,Bronchitis,1
+2020-07-23,Angina,3
+2020-07-23,Asthma,2
+2020-07-23,Viral Infection,2
+2020-07-23,Arthritis,2
+2020-07-23,Gastritis,1
+2020-07-23,Vertigo,1
+2020-07-23,Bronchitis,1
+2020-07-23,Migraine,1
+2020-07-24,Sciatica,2
+2020-07-24,Dermatitis,2
+2020-07-24,Gastritis,1
+2020-07-24,Angina,1
+2020-07-25,Gastritis,2
+2020-07-25,Vertigo,2
+2020-07-25,Angina,2
+2020-07-25,Asthma,1
+2020-07-25,Sciatica,1
+2020-07-25,Viral Infection,1
+2020-07-25,Arthritis,1
+2020-07-25,Bronchitis,1
+2020-07-26,Sciatica,2
+2020-07-26,Arthritis,2
+2020-07-26,Asthma,1
+2020-07-26,Gastritis,1
+2020-07-26,Dermatitis,1
+2020-07-26,Bronchitis,1
+2020-07-27,Asthma,3
+2020-07-27,Vertigo,2
+2020-07-27,Dermatitis,2
+2020-07-27,Bronchitis,1
+2020-07-27,Migraine,1
+2020-07-27,Sciatica,1
+2020-07-27,Gastritis,1
+2020-07-27,Arthritis,1
+2020-07-28,Viral Infection,2
+2020-07-28,Bronchitis,1
+2020-07-28,Vertigo,1
+2020-07-28,Asthma,1
+2020-08-01,Migraine,2
+2020-08-01,Bronchitis,1
+2020-08-01,Sciatica,1
+2020-08-01,Viral Infection,1
+2020-08-01,Dermatitis,1
+2020-08-02,Bronchitis,2
+2020-08-02,Viral Infection,1
+2020-08-03,Sciatica,2
+2020-08-03,Asthma,2
+2020-08-03,Vertigo,2
+2020-08-03,Arthritis,1
+2020-08-03,Dermatitis,1
+2020-08-03,Angina,1
+2020-08-03,Bronchitis,1
+2020-08-04,Gastritis,2
+2020-08-04,Arthritis,2
+2020-08-04,Angina,2
+2020-08-04,Sciatica,1
+2020-08-04,Migraine,1
+2020-08-04,Vertigo,1
+2020-08-05,Gastritis,3
+2020-08-05,Dermatitis,2
+2020-08-05,Sciatica,1
+2020-08-05,Arthritis,1
+2020-08-05,Migraine,1
+2020-08-05,Asthma,1
+2020-08-05,Bronchitis,1
+2020-08-06,Arthritis,2
+2020-08-06,Angina,2
+2020-08-06,Dermatitis,1
+2020-08-06,Gastritis,1
+2020-08-06,Viral Infection,1
+2020-08-07,Dermatitis,2
+2020-08-07,Sciatica,2
+2020-08-07,Arthritis,2
+2020-08-07,Angina,1
+2020-08-07,Gastritis,1
+2020-08-07,Bronchitis,1
+2020-08-08,Migraine,2
+2020-08-08,Vertigo,1
+2020-08-08,Viral Infection,1
+2020-08-08,Gastritis,1
+2020-08-08,Arthritis,1
+2020-08-08,Bronchitis,1
+2020-08-09,Dermatitis,2
+2020-08-09,Angina,1
+2020-08-09,Migraine,1
+2020-08-09,Arthritis,1
+2020-08-09,Sciatica,1
+2020-08-09,Vertigo,1
+2020-08-09,Gastritis,1
+2020-08-10,Gastritis,2
+2020-08-10,Angina,1
+2020-08-10,Vertigo,1
+2020-08-10,Migraine,1
+2020-08-10,Arthritis,1
+2020-08-10,Dermatitis,1
+2020-08-11,Sciatica,2
+2020-08-11,Arthritis,2
+2020-08-11,Vertigo,1
+2020-08-11,Asthma,1
+2020-08-11,Viral Infection,1
+2020-08-11,Bronchitis,1
+2020-08-12,Asthma,2
+2020-08-12,Viral Infection,2
+2020-08-12,Sciatica,1
+2020-08-12,Angina,1
+2020-08-12,Vertigo,1
+2020-08-12,Migraine,1
+2020-08-12,Arthritis,1
+2020-08-12,Bronchitis,1
+2020-08-13,Bronchitis,3
+2020-08-13,Asthma,2
+2020-08-13,Viral Infection,2
+2020-08-13,Vertigo,2
+2020-08-13,Gastritis,2
+2020-08-13,Arthritis,1
+2020-08-13,Dermatitis,1
+2020-08-14,Migraine,3
+2020-08-14,Arthritis,2
+2020-08-14,Bronchitis,1
+2020-08-15,Sciatica,2
+2020-08-15,Migraine,1
+2020-08-15,Angina,1
+2020-08-15,Arthritis,1
+2020-08-16,Bronchitis,2
+2020-08-16,Gastritis,2
+2020-08-16,Arthritis,1
+2020-08-16,Asthma,1
+2020-08-16,Dermatitis,1
+2020-08-17,Arthritis,3
+2020-08-17,Dermatitis,3
+2020-08-17,Asthma,2
+2020-08-17,Migraine,1
+2020-08-17,Viral Infection,1
+2020-08-17,Vertigo,1
+2020-08-17,Bronchitis,1
+2020-08-17,Gastritis,1
+2020-08-18,Migraine,2
+2020-08-18,Angina,2
+2020-08-18,Arthritis,1
+2020-08-18,Sciatica,1
+2020-08-18,Asthma,1
+2020-08-18,Gastritis,1
+2020-08-19,Angina,2
+2020-08-19,Viral Infection,2
+2020-08-19,Arthritis,1
+2020-08-19,Migraine,1
+2020-08-19,Sciatica,1
+2020-08-19,Vertigo,1
+2020-08-19,Dermatitis,1
+2020-08-19,Bronchitis,1
+2020-08-20,Viral Infection,3
+2020-08-20,Arthritis,1
+2020-08-20,Asthma,1
+2020-08-20,Vertigo,1
+2020-08-20,Dermatitis,1
+2020-08-20,Gastritis,1
+2020-08-20,Bronchitis,1
+2020-08-20,Angina,1
+2020-08-20,Migraine,1
+2020-08-21,Angina,2
+2020-08-21,Dermatitis,1
+2020-08-21,Bronchitis,1
+2020-08-21,Arthritis,1
+2020-08-22,Asthma,2
+2020-08-22,Migraine,2
+2020-08-22,Vertigo,2
+2020-08-22,Bronchitis,1
+2020-08-22,Sciatica,1
+2020-08-22,Viral Infection,1
+2020-08-22,Angina,1
+2020-08-23,Dermatitis,2
+2020-08-23,Sciatica,2
+2020-08-23,Vertigo,2
+2020-08-23,Asthma,1
+2020-08-23,Viral Infection,1
+2020-08-23,Angina,1
+2020-08-23,Arthritis,1
+2020-08-23,Gastritis,1
+2020-08-24,Asthma,2
+2020-08-24,Viral Infection,1
+2020-08-24,Bronchitis,1
+2020-08-24,Gastritis,1
+2020-08-24,Sciatica,1
+2020-08-24,Migraine,1
+2020-08-25,Gastritis,3
+2020-08-25,Vertigo,2
+2020-08-26,Dermatitis,2
+2020-08-26,Bronchitis,1
+2020-08-26,Asthma,1
+2020-08-26,Sciatica,1
+2020-08-27,Bronchitis,2
+2020-08-27,Arthritis,2
+2020-08-27,Dermatitis,1
+2020-08-27,Vertigo,1
+2020-08-27,Gastritis,1
+2020-08-27,Viral Infection,1
+2020-08-27,Angina,1
+2020-08-28,Dermatitis,5
+2020-08-28,Bronchitis,3
+2020-08-28,Viral Infection,3
+2020-08-28,Gastritis,3
+2020-08-28,Vertigo,2
+2020-08-28,Migraine,1
+2020-08-28,Asthma,1
+2020-08-28,Sciatica,1
+2020-08-28,Angina,1
+2020-09-01,Vertigo,2
+2020-09-01,Bronchitis,1
+2020-09-01,Sciatica,1
+2020-09-01,Asthma,1
+2020-09-01,Migraine,1
+2020-09-01,Arthritis,1
+2020-09-02,Dermatitis,3
+2020-09-02,Asthma,3
+2020-09-02,Arthritis,3
+2020-09-02,Angina,1
+2020-09-02,Gastritis,1
+2020-09-02,Vertigo,1
+2020-09-03,Angina,3
+2020-09-03,Sciatica,2
+2020-09-03,Gastritis,2
+2020-09-03,Asthma,1
+2020-09-04,Asthma,2
+2020-09-04,Angina,2
+2020-09-04,Vertigo,2
+2020-09-04,Dermatitis,1
+2020-09-04,Gastritis,1
+2020-09-04,Migraine,1
+2020-09-04,Arthritis,1
+2020-09-05,Gastritis,1
+2020-09-05,Dermatitis,1
+2020-09-05,Bronchitis,1
+2020-09-05,Vertigo,1
+2020-09-06,Gastritis,3
+2020-09-06,Viral Infection,2
+2020-09-06,Bronchitis,2
+2020-09-06,Sciatica,2
+2020-09-06,Angina,1
+2020-09-06,Migraine,1
+2020-09-06,Vertigo,1
+2020-09-07,Gastritis,2
+2020-09-07,Bronchitis,2
+2020-09-07,Asthma,1
+2020-09-07,Angina,1
+2020-09-07,Arthritis,1
+2020-09-07,Vertigo,1
+2020-09-08,Viral Infection,2
+2020-09-08,Dermatitis,1
+2020-09-08,Bronchitis,1
+2020-09-08,Angina,1
+2020-09-08,Gastritis,1
+2020-09-08,Sciatica,1
+2020-09-08,Vertigo,1
+2020-09-09,Angina,2
+2020-09-09,Dermatitis,1
+2020-09-09,Vertigo,1
+2020-09-10,Asthma,2
+2020-09-10,Gastritis,2
+2020-09-10,Viral Infection,1
+2020-09-10,Angina,1
+2020-09-10,Sciatica,1
+2020-09-10,Arthritis,1
+2020-09-11,Gastritis,2
+2020-09-11,Migraine,2
+2020-09-11,Asthma,2
+2020-09-11,Sciatica,1
+2020-09-11,Bronchitis,1
+2020-09-11,Dermatitis,1
+2020-09-12,Gastritis,2
+2020-09-12,Migraine,2
+2020-09-12,Bronchitis,1
+2020-09-12,Asthma,1
+2020-09-12,Arthritis,1
+2020-09-13,Bronchitis,3
+2020-09-13,Arthritis,3
+2020-09-13,Angina,2
+2020-09-13,Asthma,2
+2020-09-13,Vertigo,1
+2020-09-13,Migraine,1
+2020-09-14,Bronchitis,2
+2020-09-14,Dermatitis,1
+2020-09-14,Arthritis,1
+2020-09-14,Viral Infection,1
+2020-09-14,Angina,1
+2020-09-14,Vertigo,1
+2020-09-14,Migraine,1
+2020-09-14,Asthma,1
+2020-09-15,Angina,2
+2020-09-15,Migraine,2
+2020-09-15,Arthritis,1
+2020-09-15,Bronchitis,1
+2020-09-15,Dermatitis,1
+2020-09-15,Vertigo,1
+2020-09-15,Gastritis,1
+2020-09-15,Asthma,1
+2020-09-16,Angina,2
+2020-09-16,Dermatitis,2
+2020-09-16,Vertigo,2
+2020-09-16,Asthma,2
+2020-09-16,Migraine,2
+2020-09-17,Dermatitis,2
+2020-09-17,Migraine,2
+2020-09-17,Angina,1
+2020-09-17,Viral Infection,1
+2020-09-17,Sciatica,1
+2020-09-17,Gastritis,1
+2020-09-18,Viral Infection,2
+2020-09-18,Bronchitis,1
+2020-09-18,Sciatica,1
+2020-09-18,Dermatitis,1
+2020-09-19,Dermatitis,3
+2020-09-19,Angina,2
+2020-09-19,Bronchitis,2
+2020-09-19,Viral Infection,2
+2020-09-19,Arthritis,1
+2020-09-19,Vertigo,1
+2020-09-19,Gastritis,1
+2020-09-20,Sciatica,2
+2020-09-20,Angina,2
+2020-09-20,Gastritis,1
+2020-09-20,Dermatitis,1
+2020-09-20,Asthma,1
+2020-09-21,Vertigo,2
+2020-09-21,Arthritis,2
+2020-09-21,Migraine,1
+2020-09-22,Viral Infection,1
+2020-09-22,Bronchitis,1
+2020-09-22,Sciatica,1
+2020-09-22,Vertigo,1
+2020-09-23,Dermatitis,2
+2020-09-23,Migraine,1
+2020-09-23,Viral Infection,1
+2020-09-23,Bronchitis,1
+2020-09-23,Gastritis,1
+2020-09-23,Vertigo,1
+2020-09-23,Angina,1
+2020-09-24,Bronchitis,2
+2020-09-24,Vertigo,2
+2020-09-24,Asthma,1
+2020-09-24,Viral Infection,1
+2020-09-24,Sciatica,1
+2020-09-24,Arthritis,1
+2020-09-24,Angina,1
+2020-09-25,Bronchitis,3
+2020-09-25,Asthma,1
+2020-09-25,Dermatitis,1
+2020-09-25,Migraine,1
+2020-09-25,Sciatica,1
+2020-09-25,Gastritis,1
+2020-09-25,Arthritis,1
+2020-09-25,Angina,1
+2020-09-26,Gastritis,3
+2020-09-26,Asthma,1
+2020-09-26,Bronchitis,1
+2020-09-26,Vertigo,1
+2020-09-26,Arthritis,1
+2020-09-26,Angina,1
+2020-09-27,Asthma,4
+2020-09-27,Arthritis,2
+2020-09-27,Vertigo,2
+2020-09-27,Bronchitis,1
+2020-09-27,Dermatitis,1
+2020-09-27,Angina,1
+2020-09-28,Sciatica,2
+2020-09-28,Asthma,1
+2020-09-28,Bronchitis,1
+2020-09-28,Migraine,1
+2020-09-28,Arthritis,1
+2020-10-01,Bronchitis,2
+2020-10-01,Asthma,2
+2020-10-01,Arthritis,1
+2020-10-01,Gastritis,1
+2020-10-01,Viral Infection,1
+2020-10-01,Dermatitis,1
+2020-10-02,Asthma,2
+2020-10-02,Angina,1
+2020-10-02,Migraine,1
+2020-10-02,Sciatica,1
+2020-10-02,Gastritis,1
+2020-10-02,Viral Infection,1
+2020-10-02,Dermatitis,1
+2020-10-03,Migraine,2
+2020-10-03,Vertigo,2
+2020-10-03,Sciatica,2
+2020-10-03,Arthritis,1
+2020-10-03,Bronchitis,1
+2020-10-03,Viral Infection,1
+2020-10-03,Asthma,1
+2020-10-04,Vertigo,3
+2020-10-04,Angina,2
+2020-10-04,Migraine,2
+2020-10-04,Arthritis,2
+2020-10-04,Bronchitis,1
+2020-10-04,Gastritis,1
+2020-10-05,Sciatica,2
+2020-10-05,Arthritis,2
+2020-10-05,Viral Infection,2
+2020-10-05,Gastritis,2
+2020-10-05,Angina,1
+2020-10-05,Vertigo,1
+2020-10-06,Viral Infection,3
+2020-10-06,Asthma,3
+2020-10-06,Migraine,1
+2020-10-06,Arthritis,1
+2020-10-06,Dermatitis,1
+2020-10-07,Migraine,3
+2020-10-07,Arthritis,2
+2020-10-07,Sciatica,2
+2020-10-07,Dermatitis,1
+2020-10-07,Vertigo,1
+2020-10-07,Gastritis,1
+2020-10-08,Angina,2
+2020-10-08,Viral Infection,2
+2020-10-08,Asthma,1
+2020-10-08,Vertigo,1
+2020-10-08,Arthritis,1
+2020-10-08,Sciatica,1
+2020-10-09,Vertigo,3
+2020-10-09,Angina,2
+2020-10-09,Asthma,1
+2020-10-09,Sciatica,1
+2020-10-09,Bronchitis,1
+2020-10-10,Vertigo,2
+2020-10-10,Viral Infection,2
+2020-10-10,Asthma,1
+2020-10-10,Dermatitis,1
+2020-10-10,Arthritis,1
+2020-10-10,Gastritis,1
+2020-10-10,Bronchitis,1
+2020-10-11,Angina,2
+2020-10-11,Gastritis,2
+2020-10-11,Bronchitis,2
+2020-10-11,Sciatica,1
+2020-10-11,Asthma,1
+2020-10-12,Viral Infection,2
+2020-10-12,Vertigo,1
+2020-10-13,Bronchitis,2
+2020-10-13,Viral Infection,2
+2020-10-13,Vertigo,1
+2020-10-13,Sciatica,1
+2020-10-14,Migraine,3
+2020-10-14,Gastritis,2
+2020-10-14,Arthritis,2
+2020-10-14,Bronchitis,1
+2020-10-14,Asthma,1
+2020-10-14,Sciatica,1
+2020-10-15,Arthritis,2
+2020-10-15,Dermatitis,2
+2020-10-15,Sciatica,2
+2020-10-15,Migraine,2
+2020-10-15,Viral Infection,1
+2020-10-15,Bronchitis,1
+2020-10-16,Bronchitis,2
+2020-10-16,Dermatitis,2
+2020-10-16,Sciatica,2
+2020-10-16,Viral Infection,1
+2020-10-16,Gastritis,1
+2020-10-16,Angina,1
+2020-10-16,Migraine,1
+2020-10-17,Asthma,3
+2020-10-17,Angina,2
+2020-10-17,Viral Infection,1
+2020-10-17,Sciatica,1
+2020-10-17,Migraine,1
+2020-10-18,Sciatica,2
+2020-10-18,Vertigo,2
+2020-10-18,Migraine,2
+2020-10-18,Asthma,1
+2020-10-19,Gastritis,4
+2020-10-19,Viral Infection,2
+2020-10-19,Sciatica,2
+2020-10-19,Dermatitis,1
+2020-10-19,Bronchitis,1
+2020-10-19,Angina,1
+2020-10-19,Migraine,1
+2020-10-20,Arthritis,3
+2020-10-20,Viral Infection,2
+2020-10-20,Sciatica,2
+2020-10-20,Migraine,2
+2020-10-20,Bronchitis,1
+2020-10-20,Angina,1
+2020-10-20,Vertigo,1
+2020-10-21,Arthritis,3
+2020-10-21,Viral Infection,2
+2020-10-21,Bronchitis,2
+2020-10-21,Angina,2
+2020-10-21,Migraine,2
+2020-10-21,Gastritis,1
+2020-10-21,Vertigo,1
+2020-10-22,Migraine,3
+2020-10-22,Viral Infection,2
+2020-10-22,Arthritis,2
+2020-10-22,Vertigo,1
+2020-10-22,Gastritis,1
+2020-10-22,Angina,1
+2020-10-23,Gastritis,3
+2020-10-23,Vertigo,1
+2020-10-23,Sciatica,1
+2020-10-23,Dermatitis,1
+2020-10-24,Migraine,3
+2020-10-24,Dermatitis,2
+2020-10-24,Angina,2
+2020-10-24,Gastritis,1
+2020-10-24,Bronchitis,1
+2020-10-25,Sciatica,4
+2020-10-25,Vertigo,3
+2020-10-25,Arthritis,3
+2020-10-25,Migraine,2
+2020-10-25,Viral Infection,2
+2020-10-25,Gastritis,1
+2020-10-25,Dermatitis,1
+2020-10-25,Asthma,1
+2020-10-26,Arthritis,2
+2020-10-26,Angina,2
+2020-10-26,Viral Infection,1
+2020-10-26,Sciatica,1
+2020-10-26,Gastritis,1
+2020-10-27,Asthma,2
+2020-10-27,Gastritis,2
+2020-10-27,Arthritis,1
+2020-10-27,Sciatica,1
+2020-10-28,Vertigo,3
+2020-10-28,Asthma,1
+2020-10-28,Gastritis,1
+2020-10-28,Bronchitis,1
+2020-10-28,Viral Infection,1
+2020-10-28,Sciatica,1
+2020-11-01,Migraine,3
+2020-11-01,Vertigo,2
+2020-11-01,Angina,1
+2020-11-01,Viral Infection,1
+2020-11-02,Migraine,3
+2020-11-02,Asthma,2
+2020-11-02,Sciatica,2
+2020-11-02,Angina,1
+2020-11-02,Arthritis,1
+2020-11-02,Vertigo,1
+2020-11-03,Bronchitis,3
+2020-11-03,Gastritis,2
+2020-11-03,Angina,2
+2020-11-03,Viral Infection,2
+2020-11-03,Arthritis,1
+2020-11-03,Vertigo,1
+2020-11-04,Bronchitis,2
+2020-11-04,Viral Infection,2
+2020-11-04,Angina,1
+2020-11-05,Asthma,4
+2020-11-05,Migraine,3
+2020-11-05,Angina,2
+2020-11-05,Bronchitis,2
+2020-11-05,Arthritis,1
+2020-11-06,Gastritis,2
+2020-11-06,Migraine,2
+2020-11-06,Arthritis,2
+2020-11-06,Asthma,1
+2020-11-06,Bronchitis,1
+2020-11-06,Sciatica,1
+2020-11-06,Vertigo,1
+2020-11-06,Viral Infection,1
+2020-11-07,Bronchitis,5
+2020-11-07,Sciatica,2
+2020-11-07,Angina,1
+2020-11-07,Dermatitis,1
+2020-11-08,Vertigo,2
+2020-11-08,Bronchitis,1
+2020-11-08,Asthma,1
+2020-11-08,Gastritis,1
+2020-11-08,Dermatitis,1
+2020-11-08,Viral Infection,1
+2020-11-09,Arthritis,2
+2020-11-09,Dermatitis,2
+2020-11-09,Vertigo,1
+2020-11-09,Angina,1
+2020-11-09,Migraine,1
+2020-11-09,Asthma,1
+2020-11-09,Gastritis,1
+2020-11-09,Viral Infection,1
+2020-11-10,Migraine,3
+2020-11-10,Bronchitis,1
+2020-11-10,Gastritis,1
+2020-11-11,Sciatica,4
+2020-11-11,Bronchitis,3
+2020-11-11,Arthritis,2
+2020-11-11,Migraine,1
+2020-11-11,Gastritis,1
+2020-11-11,Viral Infection,1
+2020-11-12,Gastritis,4
+2020-11-12,Migraine,3
+2020-11-12,Dermatitis,2
+2020-11-12,Arthritis,1
+2020-11-12,Asthma,1
+2020-11-12,Viral Infection,1
+2020-11-13,Migraine,2
+2020-11-13,Bronchitis,2
+2020-11-13,Asthma,2
+2020-11-13,Angina,1
+2020-11-13,Gastritis,1
+2020-11-13,Viral Infection,1
+2020-11-14,Dermatitis,4
+2020-11-14,Migraine,1
+2020-11-14,Vertigo,1
+2020-11-14,Gastritis,1
+2020-11-14,Viral Infection,1
+2020-11-14,Arthritis,1
+2020-11-15,Angina,2
+2020-11-15,Sciatica,1
+2020-11-15,Viral Infection,1
+2020-11-16,Sciatica,2
+2020-11-16,Viral Infection,2
+2020-11-16,Arthritis,2
+2020-11-16,Dermatitis,1
+2020-11-16,Angina,1
+2020-11-16,Gastritis,1
+2020-11-17,Dermatitis,2
+2020-11-17,Viral Infection,2
+2020-11-17,Gastritis,2
+2020-11-17,Bronchitis,2
+2020-11-17,Arthritis,2
+2020-11-17,Migraine,2
+2020-11-17,Vertigo,1
+2020-11-18,Sciatica,2
+2020-11-18,Viral Infection,1
+2020-11-18,Bronchitis,1
+2020-11-18,Vertigo,1
+2020-11-18,Gastritis,1
+2020-11-18,Asthma,1
+2020-11-19,Viral Infection,4
+2020-11-19,Angina,2
+2020-11-19,Dermatitis,2
+2020-11-19,Vertigo,1
+2020-11-19,Migraine,1
+2020-11-19,Arthritis,1
+2020-11-19,Gastritis,1
+2020-11-20,Sciatica,2
+2020-11-20,Gastritis,2
+2020-11-20,Arthritis,1
+2020-11-20,Migraine,1
+2020-11-20,Vertigo,1
+2020-11-20,Angina,1
+2020-11-21,Asthma,2
+2020-11-21,Sciatica,2
+2020-11-21,Arthritis,1
+2020-11-21,Dermatitis,1
+2020-11-21,Gastritis,1
+2020-11-22,Asthma,3
+2020-11-22,Sciatica,2
+2020-11-22,Bronchitis,2
+2020-11-22,Dermatitis,2
+2020-11-22,Arthritis,1
+2020-11-22,Gastritis,1
+2020-11-23,Dermatitis,4
+2020-11-23,Asthma,3
+2020-11-23,Migraine,3
+2020-11-23,Bronchitis,1
+2020-11-23,Gastritis,1
+2020-11-23,Arthritis,1
+2020-11-24,Gastritis,1
+2020-11-24,Angina,1
+2020-11-24,Asthma,1
+2020-11-24,Sciatica,1
+2020-11-24,Migraine,1
+2020-11-24,Dermatitis,1
+2020-11-24,Bronchitis,1
+2020-11-25,Sciatica,2
+2020-11-25,Arthritis,2
+2020-11-25,Viral Infection,1
+2020-11-25,Vertigo,1
+2020-11-25,Dermatitis,1
+2020-11-25,Migraine,1
+2020-11-26,Angina,3
+2020-11-26,Gastritis,2
+2020-11-26,Arthritis,2
+2020-11-26,Viral Infection,1
+2020-11-26,Bronchitis,1
+2020-11-27,Angina,3
+2020-11-27,Vertigo,3
+2020-11-27,Bronchitis,1
+2020-11-27,Migraine,1
+2020-11-27,Asthma,1
+2020-11-27,Viral Infection,1
+2020-11-28,Arthritis,1
+2020-11-28,Migraine,1
+2020-11-28,Asthma,1
+2020-11-28,Vertigo,1
+2020-12-01,Bronchitis,2
+2020-12-01,Migraine,1
+2020-12-01,Gastritis,1
+2020-12-02,Sciatica,3
+2020-12-02,Angina,2
+2020-12-02,Dermatitis,2
+2020-12-02,Migraine,2
+2020-12-02,Vertigo,1
+2020-12-02,Viral Infection,1
+2020-12-03,Dermatitis,2
+2020-12-03,Sciatica,2
+2020-12-03,Angina,1
+2020-12-03,Migraine,1
+2020-12-03,Gastritis,1
+2020-12-04,Angina,3
+2020-12-04,Dermatitis,2
+2020-12-04,Gastritis,2
+2020-12-04,Arthritis,1
+2020-12-04,Vertigo,1
+2020-12-04,Viral Infection,1
+2020-12-05,Bronchitis,2
+2020-12-05,Gastritis,2
+2020-12-05,Angina,1
+2020-12-05,Migraine,1
+2020-12-05,Asthma,1
+2020-12-05,Sciatica,1
+2020-12-06,Migraine,1
+2020-12-06,Viral Infection,1
+2020-12-06,Arthritis,1
+2020-12-06,Bronchitis,1
+2020-12-07,Sciatica,2
+2020-12-07,Angina,2
+2020-12-07,Bronchitis,2
+2020-12-07,Gastritis,1
+2020-12-07,Vertigo,1
+2020-12-07,Arthritis,1
+2020-12-07,Viral Infection,1
+2020-12-08,Vertigo,1
+2020-12-08,Dermatitis,1
+2020-12-08,Sciatica,1
+2020-12-09,Migraine,3
+2020-12-09,Vertigo,2
+2020-12-09,Dermatitis,2
+2020-12-09,Arthritis,1
+2020-12-09,Gastritis,1
+2020-12-10,Dermatitis,2
+2020-12-10,Angina,1
+2020-12-10,Viral Infection,1
+2020-12-10,Sciatica,1
+2020-12-10,Bronchitis,1
+2020-12-10,Vertigo,1
+2020-12-11,Angina,1
+2020-12-11,Viral Infection,1
+2020-12-11,Migraine,1
+2020-12-11,Sciatica,1
+2020-12-11,Arthritis,1
+2020-12-11,Bronchitis,1
+2020-12-11,Dermatitis,1
+2020-12-11,Vertigo,1
+2020-12-12,Bronchitis,4
+2020-12-12,Sciatica,3
+2020-12-12,Migraine,2
+2020-12-12,Arthritis,2
+2020-12-12,Gastritis,1
+2020-12-13,Angina,2
+2020-12-13,Migraine,2
+2020-12-13,Arthritis,2
+2020-12-13,Asthma,2
+2020-12-13,Viral Infection,1
+2020-12-13,Bronchitis,1
+2020-12-13,Dermatitis,1
+2020-12-13,Gastritis,1
+2020-12-14,Gastritis,3
+2020-12-14,Angina,3
+2020-12-14,Bronchitis,2
+2020-12-14,Vertigo,2
+2020-12-14,Sciatica,1
+2020-12-14,Asthma,1
+2020-12-14,Arthritis,1
+2020-12-14,Viral Infection,1
+2020-12-14,Migraine,1
+2020-12-15,Asthma,2
+2020-12-15,Angina,1
+2020-12-15,Viral Infection,1
+2020-12-15,Migraine,1
+2020-12-15,Vertigo,1
+2020-12-15,Dermatitis,1
+2020-12-16,Gastritis,2
+2020-12-16,Asthma,1
+2020-12-16,Sciatica,1
+2020-12-17,Vertigo,3
+2020-12-17,Bronchitis,2
+2020-12-17,Arthritis,2
+2020-12-17,Dermatitis,2
+2020-12-17,Gastritis,2
+2020-12-17,Viral Infection,1
+2020-12-17,Asthma,1
+2020-12-18,Viral Infection,3
+2020-12-18,Vertigo,2
+2020-12-18,Bronchitis,2
+2020-12-18,Arthritis,1
+2020-12-18,Migraine,1
+2020-12-18,Asthma,1
+2020-12-18,Gastritis,1
+2020-12-19,Migraine,2
+2020-12-19,Bronchitis,2
+2020-12-19,Angina,2
+2020-12-19,Dermatitis,2
+2020-12-19,Arthritis,1
+2020-12-20,Viral Infection,3
+2020-12-20,Asthma,2
+2020-12-20,Arthritis,1
+2020-12-20,Migraine,1
+2020-12-20,Sciatica,1
+2020-12-20,Vertigo,1
+2020-12-21,Dermatitis,3
+2020-12-21,Bronchitis,3
+2020-12-21,Angina,2
+2020-12-21,Gastritis,1
+2020-12-21,Arthritis,1
+2020-12-22,Gastritis,1
+2020-12-22,Dermatitis,1
+2020-12-22,Sciatica,1
+2020-12-22,Vertigo,1
+2020-12-22,Migraine,1
+2020-12-22,Viral Infection,1
+2020-12-23,Viral Infection,3
+2020-12-23,Gastritis,1
+2020-12-23,Asthma,1
+2020-12-24,Asthma,3
+2020-12-24,Dermatitis,1
+2020-12-24,Angina,1
+2020-12-24,Vertigo,1
+2020-12-24,Viral Infection,1
+2020-12-24,Arthritis,1
+2020-12-25,Angina,3
+2020-12-25,Migraine,2
+2020-12-25,Dermatitis,1
+2020-12-25,Sciatica,1
+2020-12-25,Arthritis,1
+2020-12-25,Viral Infection,1
+2020-12-25,Gastritis,1
+2020-12-25,Bronchitis,1
+2020-12-26,Viral Infection,3
+2020-12-26,Sciatica,2
+2020-12-26,Gastritis,2
+2020-12-26,Asthma,2
+2020-12-26,Dermatitis,1
+2020-12-27,Asthma,2
+2020-12-27,Bronchitis,2
+2020-12-27,Viral Infection,1
+2020-12-27,Sciatica,1
+2020-12-27,Migraine,1
+2020-12-28,Sciatica,1
+2020-12-28,Angina,1
+2020-12-28,Gastritis,1
+2020-12-28,Dermatitis,1
+2020-12-28,Bronchitis,1
+2020-12-28,Migraine,1
+2020-12-28,Asthma,1
+2021-01-01,Dermatitis,3
+2021-01-01,Angina,2
+2021-01-01,Bronchitis,1
+2021-01-01,Asthma,1
+2021-01-02,Gastritis,1
+2021-01-02,Migraine,1
+2021-01-02,Vertigo,1
+2021-01-02,Arthritis,1
+2021-01-03,Asthma,2
+2021-01-03,Gastritis,2
+2021-01-03,Arthritis,2
+2021-01-03,Migraine,1
+2021-01-03,Viral Infection,1
+2021-01-04,Asthma,2
+2021-01-04,Gastritis,2
+2021-01-04,Bronchitis,1
+2021-01-05,Sciatica,3
+2021-01-05,Bronchitis,2
+2021-01-05,Dermatitis,2
+2021-01-05,Asthma,2
+2021-01-05,Vertigo,2
+2021-01-05,Gastritis,1
+2021-01-05,Angina,1
+2021-01-05,Viral Infection,1
+2021-01-06,Gastritis,4
+2021-01-06,Bronchitis,2
+2021-01-06,Migraine,1
+2021-01-06,Vertigo,1
+2021-01-06,Viral Infection,1
+2021-01-06,Arthritis,1
+2021-01-06,Asthma,1
+2021-01-06,Angina,1
+2021-01-07,Asthma,4
+2021-01-07,Bronchitis,2
+2021-01-07,Vertigo,2
+2021-01-07,Angina,2
+2021-01-07,Gastritis,1
+2021-01-07,Arthritis,1
+2021-01-07,Viral Infection,1
+2021-01-07,Sciatica,1
+2021-01-08,Migraine,3
+2021-01-08,Gastritis,1
+2021-01-08,Dermatitis,1
+2021-01-08,Arthritis,1
+2021-01-08,Asthma,1
+2021-01-08,Sciatica,1
+2021-01-08,Bronchitis,1
+2021-01-08,Vertigo,1
+2021-01-08,Angina,1
+2021-01-09,Arthritis,2
+2021-01-09,Viral Infection,2
+2021-01-09,Angina,1
+2021-01-10,Viral Infection,3
+2021-01-10,Bronchitis,2
+2021-01-10,Asthma,1
+2021-01-11,Arthritis,2
+2021-01-11,Sciatica,2
+2021-01-11,Angina,2
+2021-01-11,Gastritis,1
+2021-01-11,Migraine,1
+2021-01-11,Vertigo,1
+2021-01-11,Bronchitis,1
+2021-01-12,Migraine,2
+2021-01-12,Dermatitis,1
+2021-01-12,Asthma,1
+2021-01-13,Sciatica,3
+2021-01-13,Dermatitis,2
+2021-01-13,Bronchitis,2
+2021-01-13,Viral Infection,2
+2021-01-13,Angina,1
+2021-01-13,Asthma,1
+2021-01-13,Vertigo,1
+2021-01-14,Viral Infection,3
+2021-01-14,Asthma,2
+2021-01-14,Vertigo,2
+2021-01-14,Gastritis,1
+2021-01-14,Bronchitis,1
+2021-01-14,Angina,1
+2021-01-14,Dermatitis,1
+2021-01-14,Migraine,1
+2021-01-15,Migraine,3
+2021-01-15,Bronchitis,1
+2021-01-15,Angina,1
+2021-01-15,Dermatitis,1
+2021-01-15,Sciatica,1
+2021-01-15,Asthma,1
+2021-01-16,Viral Infection,2
+2021-01-16,Vertigo,2
+2021-01-16,Migraine,2
+2021-01-16,Gastritis,1
+2021-01-16,Sciatica,1
+2021-01-17,Sciatica,1
+2021-01-17,Gastritis,1
+2021-01-17,Arthritis,1
+2021-01-17,Dermatitis,1
+2021-01-17,Bronchitis,1
+2021-01-18,Arthritis,2
+2021-01-18,Migraine,1
+2021-01-18,Viral Infection,1
+2021-01-18,Sciatica,1
+2021-01-18,Dermatitis,1
+2021-01-19,Bronchitis,2
+2021-01-19,Migraine,1
+2021-01-19,Vertigo,1
+2021-01-19,Viral Infection,1
+2021-01-19,Dermatitis,1
+2021-01-19,Sciatica,1
+2021-01-20,Gastritis,3
+2021-01-20,Asthma,2
+2021-01-20,Dermatitis,2
+2021-01-20,Vertigo,1
+2021-01-20,Viral Infection,1
+2021-01-20,Angina,1
+2021-01-20,Bronchitis,1
+2021-01-21,Migraine,2
+2021-01-21,Asthma,1
+2021-01-21,Gastritis,1
+2021-01-21,Sciatica,1
+2021-01-22,Vertigo,4
+2021-01-22,Gastritis,2
+2021-01-22,Bronchitis,1
+2021-01-22,Arthritis,1
+2021-01-22,Angina,1
+2021-01-22,Migraine,1
+2021-01-22,Viral Infection,1
+2021-01-22,Sciatica,1
+2021-01-23,Bronchitis,2
+2021-01-23,Arthritis,2
+2021-01-23,Sciatica,2
+2021-01-23,Viral Infection,1
+2021-01-24,Arthritis,2
+2021-01-24,Migraine,2
+2021-01-24,Vertigo,2
+2021-01-24,Asthma,1
+2021-01-24,Bronchitis,1
+2021-01-24,Sciatica,1
+2021-01-25,Angina,3
+2021-01-25,Sciatica,2
+2021-01-25,Viral Infection,2
+2021-01-25,Vertigo,1
+2021-01-25,Arthritis,1
+2021-01-25,Asthma,1
+2021-01-25,Dermatitis,1
+2021-01-26,Gastritis,2
+2021-01-26,Dermatitis,2
+2021-01-26,Arthritis,2
+2021-01-26,Bronchitis,1
+2021-01-26,Viral Infection,1
+2021-01-26,Asthma,1
+2021-01-27,Viral Infection,2
+2021-01-27,Sciatica,1
+2021-01-27,Gastritis,1
+2021-01-27,Dermatitis,1
+2021-01-27,Angina,1
+2021-01-27,Arthritis,1
+2021-01-27,Migraine,1
+2021-01-28,Gastritis,4
+2021-01-28,Bronchitis,3
+2021-01-28,Angina,1
+2021-02-01,Vertigo,2
+2021-02-01,Arthritis,2
+2021-02-01,Gastritis,1
+2021-02-01,Asthma,1
+2021-02-01,Migraine,1
+2021-02-01,Sciatica,1
+2021-02-01,Dermatitis,1
+2021-02-02,Gastritis,2
+2021-02-02,Arthritis,2
+2021-02-02,Angina,1
+2021-02-02,Sciatica,1
+2021-02-02,Dermatitis,1
+2021-02-02,Vertigo,1
+2021-02-02,Viral Infection,1
+2021-02-03,Migraine,1
+2021-02-03,Asthma,1
+2021-02-03,Gastritis,1
+2021-02-03,Dermatitis,1
+2021-02-03,Vertigo,1
+2021-02-04,Gastritis,3
+2021-02-04,Migraine,2
+2021-02-04,Sciatica,2
+2021-02-04,Bronchitis,1
+2021-02-04,Angina,1
+2021-02-04,Dermatitis,1
+2021-02-04,Vertigo,1
+2021-02-04,Viral Infection,1
+2021-02-05,Viral Infection,3
+2021-02-05,Asthma,2
+2021-02-05,Vertigo,1
+2021-02-05,Dermatitis,1
+2021-02-05,Bronchitis,1
+2021-02-06,Sciatica,4
+2021-02-06,Arthritis,2
+2021-02-06,Viral Infection,1
+2021-02-06,Migraine,1
+2021-02-07,Dermatitis,2
+2021-02-07,Vertigo,1
+2021-02-07,Sciatica,1
+2021-02-07,Migraine,1
+2021-02-07,Gastritis,1
+2021-02-07,Viral Infection,1
+2021-02-08,Asthma,2
+2021-02-08,Migraine,1
+2021-02-08,Angina,1
+2021-02-08,Arthritis,1
+2021-02-08,Viral Infection,1
+2021-02-08,Vertigo,1
+2021-02-09,Gastritis,3
+2021-02-09,Vertigo,3
+2021-02-09,Sciatica,2
+2021-02-09,Migraine,1
+2021-02-09,Asthma,1
+2021-02-09,Dermatitis,1
+2021-02-10,Sciatica,3
+2021-02-10,Gastritis,2
+2021-02-10,Bronchitis,2
+2021-02-11,Dermatitis,3
+2021-02-11,Angina,2
+2021-02-11,Viral Infection,2
+2021-02-11,Gastritis,1
+2021-02-11,Migraine,1
+2021-02-11,Arthritis,1
+2021-02-12,Vertigo,5
+2021-02-12,Gastritis,1
+2021-02-12,Migraine,1
+2021-02-12,Sciatica,1
+2021-02-12,Angina,1
+2021-02-12,Bronchitis,1
+2021-02-12,Dermatitis,1
+2021-02-12,Viral Infection,1
+2021-02-12,Arthritis,1
+2021-02-13,Asthma,4
+2021-02-13,Gastritis,3
+2021-02-13,Viral Infection,3
+2021-02-13,Migraine,2
+2021-02-13,Bronchitis,2
+2021-02-13,Vertigo,1
+2021-02-13,Angina,1
+2021-02-14,Viral Infection,3
+2021-02-14,Arthritis,3
+2021-02-14,Vertigo,2
+2021-02-14,Gastritis,2
+2021-02-14,Sciatica,2
+2021-02-14,Bronchitis,2
+2021-02-14,Asthma,1
+2021-02-14,Dermatitis,1
+2021-02-15,Gastritis,2
+2021-02-15,Dermatitis,2
+2021-02-15,Bronchitis,2
+2021-02-15,Viral Infection,1
+2021-02-15,Migraine,1
+2021-02-15,Sciatica,1
+2021-02-16,Sciatica,2
+2021-02-16,Vertigo,1
+2021-02-16,Asthma,1
+2021-02-16,Viral Infection,1
+2021-02-16,Arthritis,1
+2021-02-16,Migraine,1
+2021-02-16,Bronchitis,1
+2021-02-17,Viral Infection,2
+2021-02-17,Angina,2
+2021-02-17,Dermatitis,2
+2021-02-17,Vertigo,1
+2021-02-17,Arthritis,1
+2021-02-17,Gastritis,1
+2021-02-17,Sciatica,1
+2021-02-18,Arthritis,2
+2021-02-18,Sciatica,2
+2021-02-18,Vertigo,1
+2021-02-18,Migraine,1
+2021-02-18,Angina,1
+2021-02-19,Gastritis,1
+2021-02-19,Vertigo,1
+2021-02-19,Arthritis,1
+2021-02-20,Migraine,2
+2021-02-20,Sciatica,2
+2021-02-20,Asthma,1
+2021-02-20,Vertigo,1
+2021-02-20,Bronchitis,1
+2021-02-20,Angina,1
+2021-02-20,Viral Infection,1
+2021-02-21,Asthma,1
+2021-02-21,Bronchitis,1
+2021-02-21,Dermatitis,1
+2021-02-21,Viral Infection,1
+2021-02-21,Gastritis,1
+2021-02-21,Sciatica,1
+2021-02-22,Bronchitis,3
+2021-02-22,Asthma,2
+2021-02-22,Arthritis,2
+2021-02-22,Migraine,2
+2021-02-22,Sciatica,2
+2021-02-22,Vertigo,1
+2021-02-22,Dermatitis,1
+2021-02-22,Angina,1
+2021-02-22,Gastritis,1
+2021-02-23,Asthma,3
+2021-02-23,Viral Infection,3
+2021-02-23,Migraine,2
+2021-02-23,Bronchitis,2
+2021-02-23,Arthritis,1
+2021-02-23,Dermatitis,1
+2021-02-24,Gastritis,2
+2021-02-24,Arthritis,2
+2021-02-24,Dermatitis,2
+2021-02-24,Sciatica,1
+2021-02-24,Migraine,1
+2021-02-24,Angina,1
+2021-02-24,Bronchitis,1
+2021-02-24,Asthma,1
+2021-02-25,Gastritis,2
+2021-02-25,Angina,2
+2021-02-25,Migraine,1
+2021-02-25,Viral Infection,1
+2021-02-25,Bronchitis,1
+2021-02-25,Dermatitis,1
+2021-02-26,Gastritis,2
+2021-02-26,Asthma,2
+2021-02-26,Angina,1
+2021-02-26,Sciatica,1
+2021-02-26,Vertigo,1
+2021-02-26,Dermatitis,1
+2021-02-27,Bronchitis,3
+2021-02-27,Migraine,1
+2021-02-27,Arthritis,1
+2021-02-27,Sciatica,1
+2021-02-27,Asthma,1
+2021-02-27,Viral Infection,1
+2021-02-28,Gastritis,2
+2021-02-28,Sciatica,2
+2021-02-28,Vertigo,2
+2021-02-28,Migraine,2
+2021-02-28,Viral Infection,2
+2021-02-28,Bronchitis,1
+2021-03-01,Migraine,3
+2021-03-01,Arthritis,2
+2021-03-01,Viral Infection,2
+2021-03-01,Vertigo,1
+2021-03-01,Angina,1
+2021-03-02,Gastritis,2
+2021-03-02,Viral Infection,2
+2021-03-02,Bronchitis,1
+2021-03-02,Vertigo,1
+2021-03-02,Angina,1
+2021-03-03,Arthritis,3
+2021-03-03,Gastritis,2
+2021-03-03,Sciatica,2
+2021-03-03,Angina,1
+2021-03-03,Migraine,1
+2021-03-03,Dermatitis,1
+2021-03-04,Vertigo,2
+2021-03-04,Dermatitis,1
+2021-03-04,Bronchitis,1
+2021-03-04,Sciatica,1
+2021-03-05,Sciatica,3
+2021-03-05,Migraine,2
+2021-03-05,Vertigo,1
+2021-03-05,Arthritis,1
+2021-03-05,Gastritis,1
+2021-03-05,Dermatitis,1
+2021-03-06,Viral Infection,2
+2021-03-06,Vertigo,1
+2021-03-06,Arthritis,1
+2021-03-06,Sciatica,1
+2021-03-06,Angina,1
+2021-03-06,Asthma,1
+2021-03-06,Migraine,1
+2021-03-07,Asthma,2
+2021-03-07,Dermatitis,2
+2021-03-07,Vertigo,2
+2021-03-07,Arthritis,2
+2021-03-07,Viral Infection,1
+2021-03-07,Gastritis,1
+2021-03-08,Asthma,1
+2021-03-08,Bronchitis,1
+2021-03-08,Arthritis,1
+2021-03-08,Sciatica,1
+2021-03-09,Angina,3
+2021-03-09,Viral Infection,2
+2021-03-09,Dermatitis,2
+2021-03-09,Migraine,2
+2021-03-09,Gastritis,2
+2021-03-09,Bronchitis,1
+2021-03-09,Vertigo,1
+2021-03-09,Sciatica,1
+2021-03-10,Viral Infection,2
+2021-03-10,Migraine,2
+2021-03-10,Angina,1
+2021-03-10,Gastritis,1
+2021-03-11,Viral Infection,2
+2021-03-11,Gastritis,2
+2021-03-11,Bronchitis,1
+2021-03-11,Asthma,1
+2021-03-12,Gastritis,3
+2021-03-12,Dermatitis,2
+2021-03-12,Asthma,2
+2021-03-12,Bronchitis,1
+2021-03-12,Migraine,1
+2021-03-12,Vertigo,1
+2021-03-13,Vertigo,2
+2021-03-13,Dermatitis,2
+2021-03-13,Asthma,1
+2021-03-13,Arthritis,1
+2021-03-13,Gastritis,1
+2021-03-13,Angina,1
+2021-03-13,Viral Infection,1
+2021-03-14,Bronchitis,3
+2021-03-14,Asthma,3
+2021-03-14,Migraine,1
+2021-03-14,Sciatica,1
+2021-03-14,Dermatitis,1
+2021-03-15,Asthma,3
+2021-03-15,Vertigo,2
+2021-03-15,Migraine,1
+2021-03-15,Gastritis,1
+2021-03-16,Asthma,2
+2021-03-16,Vertigo,1
+2021-03-16,Viral Infection,1
+2021-03-16,Bronchitis,1
+2021-03-17,Angina,2
+2021-03-17,Migraine,1
+2021-03-17,Viral Infection,1
+2021-03-18,Vertigo,1
+2021-03-18,Migraine,1
+2021-03-18,Angina,1
+2021-03-19,Vertigo,3
+2021-03-19,Asthma,2
+2021-03-19,Gastritis,1
+2021-03-19,Dermatitis,1
+2021-03-19,Sciatica,1
+2021-03-19,Viral Infection,1
+2021-03-20,Dermatitis,2
+2021-03-20,Arthritis,2
+2021-03-20,Bronchitis,2
+2021-03-20,Migraine,1
+2021-03-20,Vertigo,1
+2021-03-20,Angina,1
+2021-03-20,Gastritis,1
+2021-03-20,Asthma,1
+2021-03-20,Sciatica,1
+2021-03-20,Viral Infection,1
+2021-03-21,Sciatica,4
+2021-03-21,Dermatitis,2
+2021-03-21,Angina,2
+2021-03-21,Gastritis,2
+2021-03-21,Viral Infection,1
+2021-03-21,Bronchitis,1
+2021-03-21,Migraine,1
+2021-03-21,Arthritis,1
+2021-03-22,Gastritis,3
+2021-03-22,Dermatitis,2
+2021-03-22,Viral Infection,2
+2021-03-22,Angina,2
+2021-03-22,Asthma,2
+2021-03-22,Migraine,1
+2021-03-22,Vertigo,1
+2021-03-22,Arthritis,1
+2021-03-23,Asthma,2
+2021-03-23,Vertigo,1
+2021-03-23,Arthritis,1
+2021-03-23,Angina,1
+2021-03-23,Sciatica,1
+2021-03-24,Asthma,1
+2021-03-24,Angina,1
+2021-03-24,Gastritis,1
+2021-03-24,Arthritis,1
+2021-03-24,Migraine,1
+2021-03-25,Migraine,4
+2021-03-25,Bronchitis,3
+2021-03-25,Viral Infection,2
+2021-03-25,Dermatitis,1
+2021-03-25,Gastritis,1
+2021-03-26,Asthma,1
+2021-03-26,Sciatica,1
+2021-03-26,Viral Infection,1
+2021-03-26,Arthritis,1
+2021-03-26,Bronchitis,1
+2021-03-26,Migraine,1
+2021-03-26,Vertigo,1
+2021-03-27,Angina,4
+2021-03-27,Asthma,3
+2021-03-27,Sciatica,2
+2021-03-27,Arthritis,2
+2021-03-27,Vertigo,2
+2021-03-27,Migraine,1
+2021-03-27,Dermatitis,1
+2021-03-27,Gastritis,1
+2021-03-28,Bronchitis,2
+2021-03-28,Migraine,1
+2021-03-28,Vertigo,1
+2021-03-28,Arthritis,1
+2021-03-28,Dermatitis,1
+2021-04-01,Dermatitis,2
+2021-04-01,Vertigo,1
+2021-04-01,Viral Infection,1
+2021-04-01,Gastritis,1
+2021-04-01,Asthma,1
+2021-04-01,Bronchitis,1
+2021-04-01,Arthritis,1
+2021-04-01,Angina,1
+2021-04-02,Gastritis,2
+2021-04-02,Viral Infection,1
+2021-04-02,Sciatica,1
+2021-04-02,Dermatitis,1
+2021-04-02,Arthritis,1
+2021-04-02,Angina,1
+2021-04-03,Bronchitis,2
+2021-04-03,Arthritis,1
+2021-04-03,Migraine,1
+2021-04-03,Vertigo,1
+2021-04-04,Viral Infection,3
+2021-04-04,Arthritis,2
+2021-04-04,Asthma,2
+2021-04-04,Dermatitis,1
+2021-04-04,Angina,1
+2021-04-04,Bronchitis,1
+2021-04-04,Migraine,1
+2021-04-04,Gastritis,1
+2021-04-05,Bronchitis,3
+2021-04-05,Asthma,3
+2021-04-05,Sciatica,2
+2021-04-05,Angina,2
+2021-04-05,Viral Infection,2
+2021-04-05,Dermatitis,1
+2021-04-05,Arthritis,1
+2021-04-05,Migraine,1
+2021-04-05,Gastritis,1
+2021-04-05,Vertigo,1
+2021-04-06,Dermatitis,2
+2021-04-06,Gastritis,2
+2021-04-06,Bronchitis,1
+2021-04-06,Asthma,1
+2021-04-06,Angina,1
+2021-04-06,Viral Infection,1
+2021-04-07,Bronchitis,2
+2021-04-07,Angina,1
+2021-04-07,Dermatitis,1
+2021-04-07,Sciatica,1
+2021-04-07,Gastritis,1
+2021-04-07,Arthritis,1
+2021-04-07,Migraine,1
+2021-04-08,Vertigo,2
+2021-04-08,Sciatica,2
+2021-04-08,Asthma,2
+2021-04-08,Arthritis,2
+2021-04-08,Viral Infection,1
+2021-04-09,Vertigo,1
+2021-04-09,Sciatica,1
+2021-04-09,Gastritis,1
+2021-04-09,Migraine,1
+2021-04-10,Gastritis,3
+2021-04-10,Dermatitis,2
+2021-04-10,Viral Infection,2
+2021-04-10,Bronchitis,1
+2021-04-10,Angina,1
+2021-04-11,Vertigo,3
+2021-04-11,Dermatitis,2
+2021-04-11,Bronchitis,1
+2021-04-11,Arthritis,1
+2021-04-11,Migraine,1
+2021-04-12,Dermatitis,4
+2021-04-12,Vertigo,3
+2021-04-12,Gastritis,2
+2021-04-12,Angina,2
+2021-04-12,Bronchitis,1
+2021-04-12,Arthritis,1
+2021-04-13,Vertigo,1
+2021-04-13,Angina,1
+2021-04-14,Bronchitis,3
+2021-04-14,Dermatitis,1
+2021-04-14,Asthma,1
+2021-04-14,Arthritis,1
+2021-04-15,Angina,2
+2021-04-15,Bronchitis,2
+2021-04-15,Vertigo,2
+2021-04-15,Viral Infection,1
+2021-04-15,Asthma,1
+2021-04-15,Gastritis,1
+2021-04-15,Sciatica,1
+2021-04-15,Migraine,1
+2021-04-16,Migraine,3
+2021-04-16,Viral Infection,1
+2021-04-16,Angina,1
+2021-04-16,Arthritis,1
+2021-04-16,Asthma,1
+2021-04-16,Gastritis,1
+2021-04-17,Gastritis,3
+2021-04-17,Viral Infection,2
+2021-04-17,Arthritis,1
+2021-04-18,Arthritis,2
+2021-04-18,Dermatitis,1
+2021-04-18,Asthma,1
+2021-04-18,Gastritis,1
+2021-04-18,Bronchitis,1
+2021-04-18,Sciatica,1
+2021-04-19,Asthma,3
+2021-04-19,Migraine,2
+2021-04-19,Viral Infection,1
+2021-04-19,Dermatitis,1
+2021-04-19,Bronchitis,1
+2021-04-19,Sciatica,1
+2021-04-19,Gastritis,1
+2021-04-19,Arthritis,1
+2021-04-19,Angina,1
+2021-04-20,Viral Infection,3
+2021-04-20,Arthritis,2
+2021-04-20,Bronchitis,2
+2021-04-20,Dermatitis,1
+2021-04-20,Asthma,1
+2021-04-20,Angina,1
+2021-04-21,Arthritis,2
+2021-04-21,Gastritis,1
+2021-04-21,Migraine,1
+2021-04-21,Sciatica,1
+2021-04-21,Angina,1
+2021-04-21,Asthma,1
+2021-04-22,Sciatica,3
+2021-04-22,Viral Infection,3
+2021-04-22,Dermatitis,2
+2021-04-22,Arthritis,1
+2021-04-22,Vertigo,1
+2021-04-23,Gastritis,2
+2021-04-23,Vertigo,2
+2021-04-23,Migraine,1
+2021-04-23,Arthritis,1
+2021-04-23,Viral Infection,1
+2021-04-24,Vertigo,3
+2021-04-24,Viral Infection,3
+2021-04-24,Migraine,2
+2021-04-24,Dermatitis,1
+2021-04-25,Migraine,1
+2021-04-25,Bronchitis,1
+2021-04-25,Viral Infection,1
+2021-04-25,Sciatica,1
+2021-04-26,Bronchitis,3
+2021-04-26,Asthma,2
+2021-04-26,Dermatitis,2
+2021-04-26,Gastritis,2
+2021-04-26,Sciatica,1
+2021-04-26,Vertigo,1
+2021-04-26,Arthritis,1
+2021-04-27,Asthma,2
+2021-04-27,Viral Infection,2
+2021-04-27,Vertigo,2
+2021-04-27,Gastritis,1
+2021-04-27,Arthritis,1
+2021-04-28,Angina,5
+2021-04-28,Viral Infection,3
+2021-04-28,Dermatitis,3
+2021-04-28,Migraine,1
+2021-04-28,Bronchitis,1
+2021-04-28,Sciatica,1
+2021-04-28,Gastritis,1
+2021-05-01,Migraine,2
+2021-05-01,Asthma,2
+2021-05-01,Viral Infection,1
+2021-05-01,Bronchitis,1
+2021-05-01,Angina,1
+2021-05-01,Gastritis,1
+2021-05-01,Arthritis,1
+2021-05-02,Arthritis,3
+2021-05-02,Vertigo,2
+2021-05-02,Dermatitis,2
+2021-05-02,Angina,2
+2021-05-02,Asthma,1
+2021-05-02,Viral Infection,1
+2021-05-03,Gastritis,3
+2021-05-03,Migraine,2
+2021-05-03,Vertigo,1
+2021-05-03,Viral Infection,1
+2021-05-03,Dermatitis,1
+2021-05-04,Sciatica,2
+2021-05-04,Vertigo,1
+2021-05-04,Bronchitis,1
+2021-05-04,Migraine,1
+2021-05-04,Viral Infection,1
+2021-05-04,Gastritis,1
+2021-05-05,Viral Infection,2
+2021-05-05,Dermatitis,2
+2021-05-05,Vertigo,1
+2021-05-05,Arthritis,1
+2021-05-05,Angina,1
+2021-05-06,Asthma,3
+2021-05-06,Dermatitis,2
+2021-05-06,Sciatica,2
+2021-05-06,Migraine,1
+2021-05-06,Viral Infection,1
+2021-05-06,Angina,1
+2021-05-06,Gastritis,1
+2021-05-07,Migraine,5
+2021-05-07,Sciatica,3
+2021-05-07,Vertigo,2
+2021-05-07,Gastritis,2
+2021-05-07,Bronchitis,1
+2021-05-07,Dermatitis,1
+2021-05-07,Asthma,1
+2021-05-08,Sciatica,3
+2021-05-08,Migraine,2
+2021-05-08,Viral Infection,2
+2021-05-08,Angina,2
+2021-05-08,Bronchitis,1
+2021-05-09,Bronchitis,3
+2021-05-09,Vertigo,2
+2021-05-09,Migraine,1
+2021-05-09,Viral Infection,1
+2021-05-09,Sciatica,1
+2021-05-09,Asthma,1
+2021-05-09,Dermatitis,1
+2021-05-10,Gastritis,1
+2021-05-10,Asthma,1
+2021-05-10,Bronchitis,1
+2021-05-10,Vertigo,1
+2021-05-10,Migraine,1
+2021-05-10,Angina,1
+2021-05-10,Dermatitis,1
+2021-05-11,Bronchitis,3
+2021-05-11,Migraine,2
+2021-05-11,Viral Infection,2
+2021-05-11,Sciatica,1
+2021-05-12,Vertigo,3
+2021-05-12,Gastritis,1
+2021-05-12,Asthma,1
+2021-05-12,Bronchitis,1
+2021-05-12,Sciatica,1
+2021-05-12,Migraine,1
+2021-05-12,Viral Infection,1
+2021-05-13,Angina,2
+2021-05-13,Asthma,1
+2021-05-13,Arthritis,1
+2021-05-13,Bronchitis,1
+2021-05-13,Dermatitis,1
+2021-05-14,Angina,2
+2021-05-14,Arthritis,1
+2021-05-14,Dermatitis,1
+2021-05-14,Bronchitis,1
+2021-05-14,Gastritis,1
+2021-05-14,Asthma,1
+2021-05-14,Viral Infection,1
+2021-05-15,Gastritis,3
+2021-05-15,Angina,2
+2021-05-15,Viral Infection,1
+2021-05-15,Asthma,1
+2021-05-15,Dermatitis,1
+2021-05-15,Migraine,1
+2021-05-15,Arthritis,1
+2021-05-15,Sciatica,1
+2021-05-16,Arthritis,2
+2021-05-16,Gastritis,1
+2021-05-16,Bronchitis,1
+2021-05-16,Dermatitis,1
+2021-05-16,Angina,1
+2021-05-16,Sciatica,1
+2021-05-16,Vertigo,1
+2021-05-17,Asthma,3
+2021-05-17,Angina,3
+2021-05-17,Arthritis,3
+2021-05-17,Gastritis,1
+2021-05-17,Dermatitis,1
+2021-05-17,Sciatica,1
+2021-05-17,Bronchitis,1
+2021-05-18,Dermatitis,3
+2021-05-18,Asthma,3
+2021-05-18,Viral Infection,1
+2021-05-18,Bronchitis,1
+2021-05-18,Arthritis,1
+2021-05-18,Migraine,1
+2021-05-18,Vertigo,1
+2021-05-19,Asthma,2
+2021-05-19,Sciatica,2
+2021-05-19,Angina,2
+2021-05-19,Bronchitis,1
+2021-05-19,Migraine,1
+2021-05-19,Vertigo,1
+2021-05-20,Viral Infection,3
+2021-05-20,Bronchitis,2
+2021-05-20,Migraine,2
+2021-05-20,Sciatica,2
+2021-05-20,Vertigo,1
+2021-05-20,Arthritis,1
+2021-05-20,Dermatitis,1
+2021-05-20,Asthma,1
+2021-05-21,Migraine,3
+2021-05-21,Dermatitis,2
+2021-05-21,Vertigo,1
+2021-05-21,Sciatica,1
+2021-05-21,Asthma,1
+2021-05-21,Gastritis,1
+2021-05-21,Arthritis,1
+2021-05-22,Bronchitis,2
+2021-05-22,Dermatitis,2
+2021-05-22,Migraine,1
+2021-05-22,Gastritis,1
+2021-05-23,Asthma,2
+2021-05-23,Sciatica,1
+2021-05-23,Arthritis,1
+2021-05-23,Bronchitis,1
+2021-05-23,Dermatitis,1
+2021-05-23,Vertigo,1
+2021-05-24,Asthma,3
+2021-05-24,Migraine,2
+2021-05-24,Arthritis,1
+2021-05-25,Vertigo,3
+2021-05-25,Sciatica,2
+2021-05-25,Bronchitis,1
+2021-05-25,Viral Infection,1
+2021-05-25,Gastritis,1
+2021-05-25,Asthma,1
+2021-05-25,Migraine,1
+2021-05-26,Asthma,4
+2021-05-26,Gastritis,2
+2021-05-26,Viral Infection,1
+2021-05-26,Arthritis,1
+2021-05-26,Sciatica,1
+2021-05-27,Dermatitis,3
+2021-05-27,Viral Infection,2
+2021-05-27,Sciatica,2
+2021-05-27,Gastritis,1
+2021-05-27,Bronchitis,1
+2021-05-27,Arthritis,1
+2021-05-27,Asthma,1
+2021-05-27,Migraine,1
+2021-05-28,Gastritis,1
+2021-05-28,Arthritis,1
+2021-05-28,Dermatitis,1
+2021-05-28,Angina,1
+2021-06-01,Vertigo,2
+2021-06-01,Viral Infection,2
+2021-06-01,Sciatica,2
+2021-06-01,Angina,1
+2021-06-01,Bronchitis,1
+2021-06-01,Gastritis,1
+2021-06-02,Asthma,2
+2021-06-02,Gastritis,2
+2021-06-02,Arthritis,2
+2021-06-02,Viral Infection,1
+2021-06-02,Sciatica,1
+2021-06-02,Angina,1
+2021-06-03,Arthritis,3
+2021-06-03,Angina,2
+2021-06-03,Migraine,1
+2021-06-03,Bronchitis,1
+2021-06-03,Gastritis,1
+2021-06-04,Migraine,2
+2021-06-04,Bronchitis,2
+2021-06-04,Asthma,1
+2021-06-04,Vertigo,1
+2021-06-04,Angina,1
+2021-06-04,Arthritis,1
+2021-06-05,Vertigo,2
+2021-06-05,Angina,2
+2021-06-05,Asthma,1
+2021-06-05,Sciatica,1
+2021-06-05,Gastritis,1
+2021-06-05,Migraine,1
+2021-06-06,Angina,2
+2021-06-06,Sciatica,1
+2021-06-06,Bronchitis,1
+2021-06-06,Viral Infection,1
+2021-06-07,Sciatica,3
+2021-06-07,Arthritis,1
+2021-06-07,Bronchitis,1
+2021-06-07,Migraine,1
+2021-06-07,Vertigo,1
+2021-06-08,Angina,3
+2021-06-08,Bronchitis,3
+2021-06-08,Asthma,2
+2021-06-08,Arthritis,1
+2021-06-09,Vertigo,3
+2021-06-09,Asthma,2
+2021-06-09,Dermatitis,2
+2021-06-09,Sciatica,1
+2021-06-09,Bronchitis,1
+2021-06-09,Viral Infection,1
+2021-06-10,Sciatica,2
+2021-06-10,Arthritis,2
+2021-06-10,Dermatitis,2
+2021-06-10,Asthma,1
+2021-06-10,Angina,1
+2021-06-10,Viral Infection,1
+2021-06-10,Migraine,1
+2021-06-11,Dermatitis,3
+2021-06-11,Viral Infection,2
+2021-06-11,Vertigo,2
+2021-06-11,Asthma,1
+2021-06-12,Gastritis,2
+2021-06-12,Migraine,2
+2021-06-12,Angina,2
+2021-06-13,Migraine,2
+2021-06-13,Asthma,1
+2021-06-14,Bronchitis,3
+2021-06-14,Vertigo,2
+2021-06-14,Gastritis,2
+2021-06-14,Viral Infection,1
+2021-06-14,Sciatica,1
+2021-06-14,Angina,1
+2021-06-14,Asthma,1
+2021-06-14,Arthritis,1
+2021-06-15,Arthritis,4
+2021-06-15,Migraine,2
+2021-06-15,Angina,1
+2021-06-15,Vertigo,1
+2021-06-15,Gastritis,1
+2021-06-15,Sciatica,1
+2021-06-15,Dermatitis,1
+2021-06-15,Bronchitis,1
+2021-06-16,Bronchitis,2
+2021-06-16,Angina,1
+2021-06-16,Sciatica,1
+2021-06-16,Arthritis,1
+2021-06-16,Vertigo,1
+2021-06-17,Asthma,3
+2021-06-17,Vertigo,2
+2021-06-17,Angina,1
+2021-06-17,Arthritis,1
+2021-06-17,Sciatica,1
+2021-06-18,Dermatitis,3
+2021-06-18,Sciatica,3
+2021-06-18,Angina,2
+2021-06-18,Arthritis,2
+2021-06-18,Vertigo,2
+2021-06-18,Gastritis,2
+2021-06-18,Viral Infection,1
+2021-06-18,Bronchitis,1
+2021-06-18,Migraine,1
+2021-06-19,Sciatica,3
+2021-06-19,Arthritis,3
+2021-06-19,Migraine,2
+2021-06-19,Viral Infection,1
+2021-06-19,Vertigo,1
+2021-06-19,Asthma,1
+2021-06-20,Viral Infection,2
+2021-06-20,Dermatitis,2
+2021-06-20,Sciatica,1
+2021-06-20,Angina,1
+2021-06-21,Migraine,2
+2021-06-21,Arthritis,2
+2021-06-21,Asthma,2
+2021-06-21,Bronchitis,1
+2021-06-21,Angina,1
+2021-06-22,Dermatitis,3
+2021-06-22,Asthma,3
+2021-06-22,Sciatica,2
+2021-06-22,Arthritis,2
+2021-06-22,Angina,1
+2021-06-22,Bronchitis,1
+2021-06-23,Viral Infection,3
+2021-06-23,Vertigo,1
+2021-06-23,Dermatitis,1
+2021-06-23,Asthma,1
+2021-06-23,Arthritis,1
+2021-06-23,Migraine,1
+2021-06-24,Angina,2
+2021-06-24,Sciatica,1
+2021-06-24,Gastritis,1
+2021-06-24,Viral Infection,1
+2021-06-24,Arthritis,1
+2021-06-24,Dermatitis,1
+2021-06-24,Vertigo,1
+2021-06-25,Sciatica,1
+2021-06-25,Asthma,1
+2021-06-25,Bronchitis,1
+2021-06-25,Viral Infection,1
+2021-06-25,Gastritis,1
+2021-06-25,Migraine,1
+2021-06-25,Dermatitis,1
+2021-06-25,Vertigo,1
+2021-06-26,Viral Infection,3
+2021-06-26,Angina,1
+2021-06-26,Migraine,1
+2021-06-26,Vertigo,1
+2021-06-26,Bronchitis,1
+2021-06-27,Vertigo,2
+2021-06-27,Sciatica,2
+2021-06-27,Dermatitis,1
+2021-06-27,Gastritis,1
+2021-06-27,Arthritis,1
+2021-06-27,Angina,1
+2021-06-28,Vertigo,2
+2021-06-28,Arthritis,2
+2021-06-28,Migraine,1
+2021-07-01,Vertigo,2
+2021-07-01,Arthritis,2
+2021-07-01,Angina,2
+2021-07-01,Asthma,2
+2021-07-01,Dermatitis,1
+2021-07-01,Migraine,1
+2021-07-01,Bronchitis,1
+2021-07-01,Sciatica,1
+2021-07-02,Bronchitis,2
+2021-07-02,Asthma,1
+2021-07-02,Gastritis,1
+2021-07-02,Vertigo,1
+2021-07-02,Migraine,1
+2021-07-02,Arthritis,1
+2021-07-02,Viral Infection,1
+2021-07-02,Sciatica,1
+2021-07-03,Dermatitis,3
+2021-07-03,Angina,2
+2021-07-03,Arthritis,2
+2021-07-03,Migraine,1
+2021-07-03,Gastritis,1
+2021-07-03,Vertigo,1
+2021-07-04,Sciatica,3
+2021-07-04,Asthma,2
+2021-07-04,Angina,1
+2021-07-04,Gastritis,1
+2021-07-04,Migraine,1
+2021-07-05,Gastritis,3
+2021-07-05,Viral Infection,2
+2021-07-05,Sciatica,2
+2021-07-05,Arthritis,1
+2021-07-05,Migraine,1
+2021-07-05,Dermatitis,1
+2021-07-05,Vertigo,1
+2021-07-05,Asthma,1
+2021-07-06,Dermatitis,2
+2021-07-06,Vertigo,2
+2021-07-06,Migraine,1
+2021-07-06,Angina,1
+2021-07-06,Viral Infection,1
+2021-07-06,Gastritis,1
+2021-07-07,Bronchitis,3
+2021-07-07,Gastritis,2
+2021-07-07,Dermatitis,2
+2021-07-07,Viral Infection,1
+2021-07-07,Angina,1
+2021-07-07,Vertigo,1
+2021-07-08,Viral Infection,3
+2021-07-08,Sciatica,3
+2021-07-08,Angina,2
+2021-07-08,Bronchitis,2
+2021-07-08,Arthritis,1
+2021-07-08,Vertigo,1
+2021-07-08,Asthma,1
+2021-07-09,Sciatica,2
+2021-07-09,Arthritis,1
+2021-07-09,Angina,1
+2021-07-09,Gastritis,1
+2021-07-09,Dermatitis,1
+2021-07-10,Arthritis,3
+2021-07-10,Vertigo,2
+2021-07-10,Angina,2
+2021-07-10,Sciatica,1
+2021-07-10,Asthma,1
+2021-07-10,Dermatitis,1
+2021-07-11,Bronchitis,2
+2021-07-11,Vertigo,2
+2021-07-11,Dermatitis,1
+2021-07-11,Arthritis,1
+2021-07-11,Migraine,1
+2021-07-12,Gastritis,4
+2021-07-12,Vertigo,3
+2021-07-12,Arthritis,2
+2021-07-12,Sciatica,1
+2021-07-12,Angina,1
+2021-07-12,Viral Infection,1
+2021-07-13,Viral Infection,3
+2021-07-13,Sciatica,2
+2021-07-13,Angina,2
+2021-07-13,Bronchitis,1
+2021-07-13,Gastritis,1
+2021-07-13,Dermatitis,1
+2021-07-13,Arthritis,1
+2021-07-13,Vertigo,1
+2021-07-14,Bronchitis,2
+2021-07-14,Gastritis,2
+2021-07-14,Arthritis,1
+2021-07-14,Vertigo,1
+2021-07-14,Viral Infection,1
+2021-07-15,Angina,2
+2021-07-15,Migraine,2
+2021-07-15,Bronchitis,2
+2021-07-15,Vertigo,2
+2021-07-15,Arthritis,1
+2021-07-15,Gastritis,1
+2021-07-16,Arthritis,2
+2021-07-16,Bronchitis,2
+2021-07-16,Vertigo,2
+2021-07-16,Gastritis,1
+2021-07-16,Angina,1
+2021-07-17,Angina,3
+2021-07-17,Arthritis,2
+2021-07-17,Sciatica,1
+2021-07-17,Dermatitis,1
+2021-07-17,Vertigo,1
+2021-07-18,Asthma,4
+2021-07-18,Dermatitis,3
+2021-07-18,Viral Infection,1
+2021-07-18,Bronchitis,1
+2021-07-18,Angina,1
+2021-07-18,Migraine,1
+2021-07-18,Vertigo,1
+2021-07-19,Arthritis,2
+2021-07-19,Dermatitis,1
+2021-07-19,Angina,1
+2021-07-19,Migraine,1
+2021-07-20,Arthritis,2
+2021-07-20,Asthma,2
+2021-07-20,Dermatitis,2
+2021-07-20,Migraine,1
+2021-07-20,Viral Infection,1
+2021-07-20,Vertigo,1
+2021-07-21,Viral Infection,4
+2021-07-21,Sciatica,2
+2021-07-21,Gastritis,1
+2021-07-21,Asthma,1
+2021-07-22,Gastritis,2
+2021-07-22,Sciatica,2
+2021-07-22,Dermatitis,1
+2021-07-22,Angina,1
+2021-07-22,Migraine,1
+2021-07-22,Arthritis,1
+2021-07-22,Bronchitis,1
+2021-07-22,Vertigo,1
+2021-07-23,Angina,2
+2021-07-23,Sciatica,2
+2021-07-23,Vertigo,2
+2021-07-23,Gastritis,1
+2021-07-23,Migraine,1
+2021-07-23,Arthritis,1
+2021-07-23,Viral Infection,1
+2021-07-24,Migraine,3
+2021-07-24,Asthma,2
+2021-07-24,Gastritis,1
+2021-07-24,Angina,1
+2021-07-24,Sciatica,1
+2021-07-25,Angina,1
+2021-07-25,Migraine,1
+2021-07-25,Sciatica,1
+2021-07-26,Vertigo,4
+2021-07-26,Gastritis,3
+2021-07-26,Bronchitis,3
+2021-07-26,Migraine,2
+2021-07-26,Dermatitis,1
+2021-07-26,Sciatica,1
+2021-07-26,Arthritis,1
+2021-07-26,Asthma,1
+2021-07-27,Asthma,3
+2021-07-27,Arthritis,2
+2021-07-27,Angina,1
+2021-07-27,Dermatitis,1
+2021-07-27,Bronchitis,1
+2021-07-27,Gastritis,1
+2021-07-27,Sciatica,1
+2021-07-27,Viral Infection,1
+2021-07-28,Viral Infection,3
+2021-07-28,Bronchitis,2
+2021-07-28,Angina,1
+2021-07-28,Vertigo,1
+2021-07-28,Migraine,1
+2021-07-28,Arthritis,1
+2021-07-28,Asthma,1
+2021-08-01,Dermatitis,2
+2021-08-01,Vertigo,2
+2021-08-01,Sciatica,2
+2021-08-01,Bronchitis,1
+2021-08-01,Gastritis,1
+2021-08-01,Migraine,1
+2021-08-01,Asthma,1
+2021-08-01,Arthritis,1
+2021-08-02,Sciatica,2
+2021-08-02,Vertigo,1
+2021-08-02,Asthma,1
+2021-08-02,Viral Infection,1
+2021-08-03,Angina,2
+2021-08-03,Gastritis,1
+2021-08-03,Bronchitis,1
+2021-08-03,Migraine,1
+2021-08-03,Arthritis,1
+2021-08-03,Sciatica,1
+2021-08-04,Viral Infection,3
+2021-08-04,Sciatica,3
+2021-08-04,Migraine,1
+2021-08-04,Asthma,1
+2021-08-04,Gastritis,1
+2021-08-04,Dermatitis,1
+2021-08-05,Gastritis,2
+2021-08-05,Viral Infection,1
+2021-08-05,Asthma,1
+2021-08-05,Vertigo,1
+2021-08-06,Bronchitis,3
+2021-08-06,Migraine,2
+2021-08-06,Arthritis,2
+2021-08-06,Asthma,1
+2021-08-06,Sciatica,1
+2021-08-07,Angina,3
+2021-08-07,Gastritis,3
+2021-08-07,Sciatica,2
+2021-08-07,Arthritis,1
+2021-08-07,Asthma,1
+2021-08-08,Arthritis,2
+2021-08-08,Migraine,2
+2021-08-08,Asthma,2
+2021-08-08,Angina,2
+2021-08-08,Bronchitis,1
+2021-08-08,Gastritis,1
+2021-08-08,Dermatitis,1
+2021-08-09,Migraine,4
+2021-08-09,Asthma,3
+2021-08-09,Sciatica,1
+2021-08-09,Arthritis,1
+2021-08-09,Dermatitis,1
+2021-08-09,Angina,1
+2021-08-10,Asthma,3
+2021-08-10,Sciatica,2
+2021-08-10,Arthritis,2
+2021-08-10,Gastritis,2
+2021-08-10,Bronchitis,1
+2021-08-10,Vertigo,1
+2021-08-11,Viral Infection,3
+2021-08-11,Bronchitis,2
+2021-08-11,Vertigo,1
+2021-08-11,Dermatitis,1
+2021-08-11,Angina,1
+2021-08-12,Bronchitis,3
+2021-08-12,Asthma,3
+2021-08-12,Angina,3
+2021-08-12,Migraine,2
+2021-08-12,Gastritis,2
+2021-08-12,Dermatitis,2
+2021-08-13,Bronchitis,4
+2021-08-13,Vertigo,3
+2021-08-13,Sciatica,2
+2021-08-13,Gastritis,2
+2021-08-13,Migraine,2
+2021-08-13,Viral Infection,1
+2021-08-13,Dermatitis,1
+2021-08-14,Migraine,3
+2021-08-14,Asthma,2
+2021-08-14,Viral Infection,1
+2021-08-14,Arthritis,1
+2021-08-14,Vertigo,1
+2021-08-14,Bronchitis,1
+2021-08-15,Vertigo,2
+2021-08-15,Angina,1
+2021-08-15,Dermatitis,1
+2021-08-15,Asthma,1
+2021-08-15,Gastritis,1
+2021-08-15,Arthritis,1
+2021-08-16,Dermatitis,3
+2021-08-16,Angina,2
+2021-08-16,Migraine,2
+2021-08-16,Viral Infection,1
+2021-08-16,Gastritis,1
+2021-08-16,Bronchitis,1
+2021-08-17,Gastritis,3
+2021-08-17,Vertigo,2
+2021-08-17,Dermatitis,2
+2021-08-17,Bronchitis,2
+2021-08-17,Angina,1
+2021-08-17,Viral Infection,1
+2021-08-17,Sciatica,1
+2021-08-18,Sciatica,3
+2021-08-18,Dermatitis,3
+2021-08-18,Viral Infection,1
+2021-08-18,Asthma,1
+2021-08-18,Bronchitis,1
+2021-08-18,Migraine,1
+2021-08-19,Arthritis,3
+2021-08-19,Dermatitis,2
+2021-08-19,Bronchitis,2
+2021-08-19,Asthma,1
+2021-08-19,Angina,1
+2021-08-19,Viral Infection,1
+2021-08-19,Migraine,1
+2021-08-20,Dermatitis,2
+2021-08-20,Angina,2
+2021-08-20,Bronchitis,1
+2021-08-20,Sciatica,1
+2021-08-20,Viral Infection,1
+2021-08-20,Arthritis,1
+2021-08-21,Bronchitis,2
+2021-08-21,Dermatitis,1
+2021-08-21,Sciatica,1
+2021-08-21,Angina,1
+2021-08-21,Viral Infection,1
+2021-08-22,Sciatica,2
+2021-08-22,Gastritis,1
+2021-08-22,Viral Infection,1
+2021-08-22,Arthritis,1
+2021-08-22,Migraine,1
+2021-08-22,Asthma,1
+2021-08-23,Gastritis,3
+2021-08-23,Angina,3
+2021-08-23,Sciatica,2
+2021-08-23,Dermatitis,1
+2021-08-23,Viral Infection,1
+2021-08-23,Bronchitis,1
+2021-08-23,Arthritis,1
+2021-08-23,Migraine,1
+2021-08-23,Asthma,1
+2021-08-24,Bronchitis,3
+2021-08-24,Gastritis,1
+2021-08-24,Viral Infection,1
+2021-08-24,Migraine,1
+2021-08-25,Sciatica,2
+2021-08-25,Asthma,1
+2021-08-25,Vertigo,1
+2021-08-25,Dermatitis,1
+2021-08-25,Gastritis,1
+2021-08-25,Bronchitis,1
+2021-08-25,Migraine,1
+2021-08-25,Arthritis,1
+2021-08-26,Vertigo,3
+2021-08-26,Migraine,3
+2021-08-26,Viral Infection,2
+2021-08-26,Bronchitis,2
+2021-08-27,Dermatitis,2
+2021-08-27,Sciatica,1
+2021-08-27,Bronchitis,1
+2021-08-27,Arthritis,1
+2021-08-27,Viral Infection,1
+2021-08-28,Angina,3
+2021-08-28,Dermatitis,2
+2021-08-28,Arthritis,2
+2021-08-28,Asthma,1
+2021-08-28,Vertigo,1
+2021-08-28,Gastritis,1
+2021-08-28,Sciatica,1
+2021-08-28,Bronchitis,1
+2021-08-28,Viral Infection,1
+2021-09-01,Bronchitis,4
+2021-09-01,Viral Infection,3
+2021-09-01,Dermatitis,2
+2021-09-01,Sciatica,2
+2021-09-02,Asthma,3
+2021-09-02,Dermatitis,2
+2021-09-02,Migraine,2
+2021-09-02,Vertigo,1
+2021-09-02,Gastritis,1
+2021-09-02,Arthritis,1
+2021-09-02,Viral Infection,1
+2021-09-02,Sciatica,1
+2021-09-03,Asthma,3
+2021-09-03,Arthritis,3
+2021-09-03,Angina,3
+2021-09-03,Viral Infection,2
+2021-09-03,Gastritis,2
+2021-09-03,Bronchitis,1
+2021-09-03,Migraine,1
+2021-09-03,Dermatitis,1
+2021-09-04,Sciatica,3
+2021-09-04,Asthma,2
+2021-09-04,Arthritis,2
+2021-09-04,Vertigo,2
+2021-09-04,Viral Infection,1
+2021-09-04,Migraine,1
+2021-09-04,Angina,1
+2021-09-05,Gastritis,3
+2021-09-05,Migraine,2
+2021-09-05,Vertigo,2
+2021-09-05,Arthritis,1
+2021-09-05,Bronchitis,1
+2021-09-05,Dermatitis,1
+2021-09-05,Sciatica,1
+2021-09-06,Migraine,2
+2021-09-06,Gastritis,2
+2021-09-06,Arthritis,2
+2021-09-06,Sciatica,1
+2021-09-06,Angina,1
+2021-09-06,Vertigo,1
+2021-09-06,Asthma,1
+2021-09-06,Bronchitis,1
+2021-09-07,Dermatitis,4
+2021-09-07,Gastritis,2
+2021-09-07,Viral Infection,2
+2021-09-07,Vertigo,1
+2021-09-07,Migraine,1
+2021-09-08,Vertigo,3
+2021-09-08,Asthma,2
+2021-09-08,Sciatica,2
+2021-09-08,Bronchitis,2
+2021-09-08,Dermatitis,1
+2021-09-08,Arthritis,1
+2021-09-08,Migraine,1
+2021-09-09,Gastritis,2
+2021-09-09,Arthritis,2
+2021-09-09,Angina,1
+2021-09-09,Bronchitis,1
+2021-09-09,Viral Infection,1
+2021-09-09,Sciatica,1
+2021-09-10,Viral Infection,3
+2021-09-10,Asthma,2
+2021-09-10,Migraine,1
+2021-09-10,Angina,1
+2021-09-10,Dermatitis,1
+2021-09-10,Gastritis,1
+2021-09-10,Arthritis,1
+2021-09-10,Bronchitis,1
+2021-09-11,Viral Infection,2
+2021-09-11,Migraine,1
+2021-09-11,Asthma,1
+2021-09-11,Dermatitis,1
+2021-09-11,Angina,1
+2021-09-11,Gastritis,1
+2021-09-11,Bronchitis,1
+2021-09-12,Asthma,3
+2021-09-12,Vertigo,3
+2021-09-12,Dermatitis,2
+2021-09-12,Arthritis,2
+2021-09-12,Bronchitis,1
+2021-09-12,Viral Infection,1
+2021-09-12,Gastritis,1
+2021-09-12,Angina,1
+2021-09-13,Viral Infection,2
+2021-09-13,Gastritis,2
+2021-09-13,Bronchitis,1
+2021-09-13,Vertigo,1
+2021-09-13,Dermatitis,1
+2021-09-13,Angina,1
+2021-09-14,Bronchitis,2
+2021-09-14,Gastritis,2
+2021-09-14,Sciatica,2
+2021-09-14,Arthritis,1
+2021-09-14,Dermatitis,1
+2021-09-14,Viral Infection,1
+2021-09-14,Migraine,1
+2021-09-14,Asthma,1
+2021-09-15,Bronchitis,2
+2021-09-15,Viral Infection,2
+2021-09-15,Angina,2
+2021-09-15,Arthritis,1
+2021-09-15,Asthma,1
+2021-09-15,Dermatitis,1
+2021-09-16,Dermatitis,3
+2021-09-16,Viral Infection,3
+2021-09-16,Gastritis,1
+2021-09-16,Angina,1
+2021-09-16,Sciatica,1
+2021-09-16,Bronchitis,1
+2021-09-17,Migraine,3
+2021-09-17,Vertigo,2
+2021-09-17,Viral Infection,1
+2021-09-17,Angina,1
+2021-09-17,Sciatica,1
+2021-09-18,Viral Infection,2
+2021-09-18,Arthritis,2
+2021-09-18,Bronchitis,2
+2021-09-18,Dermatitis,1
+2021-09-18,Sciatica,1
+2021-09-19,Sciatica,3
+2021-09-19,Dermatitis,3
+2021-09-19,Viral Infection,3
+2021-09-19,Vertigo,2
+2021-09-19,Bronchitis,1
+2021-09-19,Migraine,1
+2021-09-19,Asthma,1
+2021-09-19,Angina,1
+2021-09-20,Asthma,3
+2021-09-20,Dermatitis,1
+2021-09-20,Sciatica,1
+2021-09-21,Vertigo,3
+2021-09-21,Sciatica,1
+2021-09-22,Bronchitis,2
+2021-09-22,Arthritis,2
+2021-09-22,Dermatitis,2
+2021-09-22,Vertigo,2
+2021-09-22,Migraine,1
+2021-09-22,Asthma,1
+2021-09-22,Gastritis,1
+2021-09-22,Angina,1
+2021-09-22,Sciatica,1
+2021-09-22,Viral Infection,1
+2021-09-23,Vertigo,2
+2021-09-23,Angina,2
+2021-09-23,Sciatica,2
+2021-09-23,Viral Infection,1
+2021-09-23,Arthritis,1
+2021-09-23,Migraine,1
+2021-09-24,Viral Infection,3
+2021-09-24,Migraine,3
+2021-09-24,Angina,1
+2021-09-24,Gastritis,1
+2021-09-24,Sciatica,1
+2021-09-24,Vertigo,1
+2021-09-25,Sciatica,3
+2021-09-25,Dermatitis,3
+2021-09-25,Arthritis,3
+2021-09-25,Migraine,2
+2021-09-25,Gastritis,1
+2021-09-25,Vertigo,1
+2021-09-25,Asthma,1
+2021-09-25,Bronchitis,1
+2021-09-26,Bronchitis,2
+2021-09-26,Angina,1
+2021-09-26,Vertigo,1
+2021-09-26,Dermatitis,1
+2021-09-26,Asthma,1
+2021-09-26,Arthritis,1
+2021-09-26,Migraine,1
+2021-09-27,Bronchitis,2
+2021-09-27,Gastritis,1
+2021-09-27,Sciatica,1
+2021-09-27,Vertigo,1
+2021-09-27,Migraine,1
+2021-09-27,Asthma,1
+2021-09-28,Dermatitis,2
+2021-09-28,Viral Infection,2
+2021-09-28,Arthritis,1
+2021-09-28,Migraine,1
+2021-09-28,Sciatica,1
+2021-10-01,Sciatica,3
+2021-10-01,Gastritis,2
+2021-10-01,Angina,1
+2021-10-01,Migraine,1
+2021-10-01,Asthma,1
+2021-10-02,Dermatitis,3
+2021-10-02,Gastritis,2
+2021-10-02,Asthma,2
+2021-10-03,Arthritis,3
+2021-10-03,Dermatitis,1
+2021-10-03,Bronchitis,1
+2021-10-03,Angina,1
+2021-10-03,Migraine,1
+2021-10-03,Gastritis,1
+2021-10-03,Asthma,1
+2021-10-03,Viral Infection,1
+2021-10-03,Sciatica,1
+2021-10-03,Vertigo,1
+2021-10-04,Viral Infection,2
+2021-10-04,Sciatica,2
+2021-10-04,Vertigo,2
+2021-10-04,Gastritis,1
+2021-10-05,Viral Infection,2
+2021-10-05,Migraine,2
+2021-10-05,Gastritis,1
+2021-10-05,Angina,1
+2021-10-05,Bronchitis,1
+2021-10-05,Arthritis,1
+2021-10-05,Sciatica,1
+2021-10-06,Gastritis,3
+2021-10-06,Viral Infection,1
+2021-10-07,Migraine,2
+2021-10-07,Viral Infection,1
+2021-10-07,Angina,1
+2021-10-07,Sciatica,1
+2021-10-08,Asthma,3
+2021-10-08,Vertigo,2
+2021-10-08,Viral Infection,1
+2021-10-08,Gastritis,1
+2021-10-08,Dermatitis,1
+2021-10-08,Arthritis,1
+2021-10-08,Bronchitis,1
+2021-10-08,Migraine,1
+2021-10-09,Bronchitis,2
+2021-10-09,Arthritis,1
+2021-10-10,Dermatitis,2
+2021-10-10,Sciatica,1
+2021-10-10,Vertigo,1
+2021-10-10,Bronchitis,1
+2021-10-10,Migraine,1
+2021-10-10,Angina,1
+2021-10-11,Vertigo,2
+2021-10-11,Asthma,2
+2021-10-11,Migraine,2
+2021-10-11,Dermatitis,2
+2021-10-11,Sciatica,1
+2021-10-12,Viral Infection,2
+2021-10-12,Gastritis,1
+2021-10-12,Sciatica,1
+2021-10-12,Dermatitis,1
+2021-10-12,Vertigo,1
+2021-10-13,Gastritis,4
+2021-10-13,Angina,2
+2021-10-13,Bronchitis,2
+2021-10-13,Asthma,2
+2021-10-13,Arthritis,2
+2021-10-13,Viral Infection,1
+2021-10-13,Vertigo,1
+2021-10-14,Bronchitis,3
+2021-10-14,Vertigo,3
+2021-10-14,Angina,1
+2021-10-14,Gastritis,1
+2021-10-14,Viral Infection,1
+2021-10-14,Dermatitis,1
+2021-10-14,Sciatica,1
+2021-10-15,Bronchitis,1
+2021-10-15,Angina,1
+2021-10-15,Gastritis,1
+2021-10-15,Sciatica,1
+2021-10-15,Dermatitis,1
+2021-10-16,Angina,2
+2021-10-16,Bronchitis,2
+2021-10-16,Sciatica,2
+2021-10-16,Asthma,1
+2021-10-16,Arthritis,1
+2021-10-17,Asthma,2
+2021-10-17,Sciatica,2
+2021-10-17,Migraine,1
+2021-10-17,Angina,1
+2021-10-17,Vertigo,1
+2021-10-17,Gastritis,1
+2021-10-17,Arthritis,1
+2021-10-18,Vertigo,4
+2021-10-18,Bronchitis,3
+2021-10-18,Viral Infection,3
+2021-10-18,Dermatitis,2
+2021-10-18,Gastritis,1
+2021-10-18,Sciatica,1
+2021-10-18,Arthritis,1
+2021-10-19,Migraine,3
+2021-10-19,Vertigo,2
+2021-10-19,Bronchitis,1
+2021-10-19,Gastritis,1
+2021-10-19,Sciatica,1
+2021-10-19,Asthma,1
+2021-10-19,Viral Infection,1
+2021-10-19,Arthritis,1
+2021-10-20,Gastritis,4
+2021-10-20,Bronchitis,2
+2021-10-20,Sciatica,2
+2021-10-20,Asthma,2
+2021-10-20,Arthritis,2
+2021-10-20,Migraine,1
+2021-10-20,Angina,1
+2021-10-20,Viral Infection,1
+2021-10-20,Vertigo,1
+2021-10-21,Sciatica,2
+2021-10-21,Asthma,2
+2021-10-21,Arthritis,1
+2021-10-21,Bronchitis,1
+2021-10-21,Vertigo,1
+2021-10-21,Migraine,1
+2021-10-21,Gastritis,1
+2021-10-21,Dermatitis,1
+2021-10-21,Viral Infection,1
+2021-10-22,Bronchitis,2
+2021-10-22,Migraine,2
+2021-10-22,Sciatica,2
+2021-10-22,Viral Infection,2
+2021-10-22,Vertigo,1
+2021-10-22,Gastritis,1
+2021-10-23,Migraine,2
+2021-10-23,Gastritis,2
+2021-10-23,Dermatitis,1
+2021-10-23,Viral Infection,1
+2021-10-24,Sciatica,2
+2021-10-24,Arthritis,2
+2021-10-24,Gastritis,1
+2021-10-24,Asthma,1
+2021-10-24,Dermatitis,1
+2021-10-24,Migraine,1
+2021-10-24,Bronchitis,1
+2021-10-25,Bronchitis,3
+2021-10-25,Asthma,2
+2021-10-25,Vertigo,2
+2021-10-25,Arthritis,2
+2021-10-25,Dermatitis,1
+2021-10-25,Gastritis,1
+2021-10-25,Angina,1
+2021-10-26,Dermatitis,2
+2021-10-26,Viral Infection,2
+2021-10-26,Gastritis,2
+2021-10-26,Arthritis,2
+2021-10-26,Asthma,1
+2021-10-26,Migraine,1
+2021-10-26,Bronchitis,1
+2021-10-27,Vertigo,1
+2021-10-27,Asthma,1
+2021-10-27,Dermatitis,1
+2021-10-27,Gastritis,1
+2021-10-27,Sciatica,1
+2021-10-27,Viral Infection,1
+2021-10-27,Migraine,1
+2021-10-28,Vertigo,3
+2021-10-28,Viral Infection,1
+2021-10-28,Asthma,1
+2021-10-28,Arthritis,1
+2021-11-01,Asthma,3
+2021-11-01,Viral Infection,1
+2021-11-01,Migraine,1
+2021-11-01,Dermatitis,1
+2021-11-01,Gastritis,1
+2021-11-01,Arthritis,1
+2021-11-01,Angina,1
+2021-11-02,Bronchitis,3
+2021-11-02,Arthritis,3
+2021-11-02,Migraine,2
+2021-11-02,Dermatitis,2
+2021-11-02,Gastritis,2
+2021-11-02,Vertigo,1
+2021-11-02,Angina,1
+2021-11-03,Dermatitis,3
+2021-11-03,Sciatica,2
+2021-11-03,Angina,2
+2021-11-03,Gastritis,1
+2021-11-03,Migraine,1
+2021-11-03,Vertigo,1
+2021-11-03,Arthritis,1
+2021-11-04,Vertigo,3
+2021-11-04,Viral Infection,1
+2021-11-04,Asthma,1
+2021-11-04,Arthritis,1
+2021-11-05,Dermatitis,5
+2021-11-05,Viral Infection,3
+2021-11-05,Bronchitis,2
+2021-11-05,Arthritis,2
+2021-11-05,Angina,1
+2021-11-05,Gastritis,1
+2021-11-05,Asthma,1
+2021-11-05,Sciatica,1
+2021-11-06,Gastritis,3
+2021-11-06,Angina,2
+2021-11-06,Sciatica,2
+2021-11-06,Bronchitis,2
+2021-11-06,Viral Infection,1
+2021-11-07,Asthma,4
+2021-11-07,Bronchitis,2
+2021-11-07,Migraine,1
+2021-11-07,Vertigo,1
+2021-11-07,Dermatitis,1
+2021-11-07,Gastritis,1
+2021-11-08,Arthritis,2
+2021-11-08,Bronchitis,2
+2021-11-08,Angina,1
+2021-11-08,Viral Infection,1
+2021-11-08,Sciatica,1
+2021-11-08,Migraine,1
+2021-11-08,Asthma,1
+2021-11-08,Gastritis,1
+2021-11-09,Asthma,3
+2021-11-09,Angina,2
+2021-11-09,Sciatica,1
+2021-11-09,Viral Infection,1
+2021-11-09,Bronchitis,1
+2021-11-10,Viral Infection,3
+2021-11-10,Migraine,3
+2021-11-10,Vertigo,2
+2021-11-10,Angina,1
+2021-11-10,Dermatitis,1
+2021-11-10,Gastritis,1
+2021-11-11,Sciatica,2
+2021-11-11,Arthritis,2
+2021-11-11,Vertigo,1
+2021-11-11,Gastritis,1
+2021-11-11,Migraine,1
+2021-11-11,Viral Infection,1
+2021-11-12,Dermatitis,3
+2021-11-12,Sciatica,3
+2021-11-12,Gastritis,2
+2021-11-12,Viral Infection,2
+2021-11-12,Asthma,1
+2021-11-13,Vertigo,3
+2021-11-13,Asthma,2
+2021-11-13,Gastritis,1
+2021-11-13,Viral Infection,1
+2021-11-13,Angina,1
+2021-11-13,Sciatica,1
+2021-11-14,Bronchitis,2
+2021-11-14,Asthma,1
+2021-11-14,Migraine,1
+2021-11-14,Viral Infection,1
+2021-11-14,Angina,1
+2021-11-14,Sciatica,1
+2021-11-15,Dermatitis,3
+2021-11-15,Viral Infection,2
+2021-11-15,Angina,2
+2021-11-15,Sciatica,2
+2021-11-15,Arthritis,1
+2021-11-15,Asthma,1
+2021-11-15,Vertigo,1
+2021-11-15,Gastritis,1
+2021-11-16,Gastritis,4
+2021-11-16,Angina,2
+2021-11-16,Sciatica,2
+2021-11-16,Arthritis,1
+2021-11-17,Arthritis,3
+2021-11-17,Sciatica,2
+2021-11-17,Migraine,2
+2021-11-17,Dermatitis,1
+2021-11-17,Asthma,1
+2021-11-17,Viral Infection,1
+2021-11-18,Dermatitis,3
+2021-11-18,Vertigo,2
+2021-11-18,Gastritis,1
+2021-11-18,Sciatica,1
+2021-11-18,Migraine,1
+2021-11-18,Angina,1
+2021-11-18,Bronchitis,1
+2021-11-19,Sciatica,3
+2021-11-19,Arthritis,3
+2021-11-19,Gastritis,2
+2021-11-19,Vertigo,1
+2021-11-19,Asthma,1
+2021-11-19,Migraine,1
+2021-11-19,Bronchitis,1
+2021-11-20,Sciatica,3
+2021-11-20,Asthma,3
+2021-11-20,Gastritis,2
+2021-11-20,Dermatitis,2
+2021-11-20,Vertigo,1
+2021-11-20,Arthritis,1
+2021-11-20,Bronchitis,1
+2021-11-21,Dermatitis,1
+2021-11-21,Migraine,1
+2021-11-21,Viral Infection,1
+2021-11-21,Bronchitis,1
+2021-11-21,Angina,1
+2021-11-21,Arthritis,1
+2021-11-21,Sciatica,1
+2021-11-22,Asthma,3
+2021-11-22,Dermatitis,3
+2021-11-22,Viral Infection,1
+2021-11-22,Arthritis,1
+2021-11-23,Migraine,4
+2021-11-23,Viral Infection,2
+2021-11-23,Gastritis,1
+2021-11-23,Asthma,1
+2021-11-23,Bronchitis,1
+2021-11-23,Dermatitis,1
+2021-11-23,Angina,1
+2021-11-24,Vertigo,2
+2021-11-24,Asthma,1
+2021-11-24,Sciatica,1
+2021-11-25,Bronchitis,2
+2021-11-25,Viral Infection,2
+2021-11-25,Asthma,1
+2021-11-25,Gastritis,1
+2021-11-25,Vertigo,1
+2021-11-25,Sciatica,1
+2021-11-26,Angina,3
+2021-11-26,Migraine,3
+2021-11-26,Gastritis,2
+2021-11-26,Bronchitis,1
+2021-11-26,Asthma,1
+2021-11-26,Viral Infection,1
+2021-11-26,Arthritis,1
+2021-11-27,Dermatitis,2
+2021-11-27,Vertigo,2
+2021-11-27,Sciatica,1
+2021-11-27,Viral Infection,1
+2021-11-28,Sciatica,2
+2021-11-28,Dermatitis,2
+2021-11-28,Asthma,2
+2021-11-28,Bronchitis,2
+2021-11-28,Viral Infection,1
+2021-12-01,Sciatica,2
+2021-12-01,Viral Infection,2
+2021-12-01,Dermatitis,2
+2021-12-01,Gastritis,1
+2021-12-01,Angina,1
+2021-12-01,Arthritis,1
+2021-12-02,Migraine,3
+2021-12-02,Angina,2
+2021-12-02,Vertigo,1
+2021-12-02,Viral Infection,1
+2021-12-02,Dermatitis,1
+2021-12-03,Viral Infection,2
+2021-12-03,Asthma,2
+2021-12-03,Sciatica,1
+2021-12-03,Angina,1
+2021-12-03,Gastritis,1
+2021-12-03,Dermatitis,1
+2021-12-04,Arthritis,2
+2021-12-04,Asthma,2
+2021-12-04,Migraine,1
+2021-12-04,Angina,1
+2021-12-04,Bronchitis,1
+2021-12-05,Gastritis,2
+2021-12-05,Angina,2
+2021-12-05,Vertigo,2
+2021-12-05,Asthma,1
+2021-12-05,Viral Infection,1
+2021-12-05,Arthritis,1
+2021-12-06,Vertigo,3
+2021-12-06,Viral Infection,1
+2021-12-06,Arthritis,1
+2021-12-06,Dermatitis,1
+2021-12-07,Sciatica,3
+2021-12-07,Migraine,2
+2021-12-07,Gastritis,2
+2021-12-07,Viral Infection,2
+2021-12-07,Arthritis,2
+2021-12-07,Vertigo,2
+2021-12-07,Angina,1
+2021-12-07,Bronchitis,1
+2021-12-08,Viral Infection,2
+2021-12-08,Bronchitis,1
+2021-12-08,Gastritis,1
+2021-12-09,Viral Infection,1
+2021-12-09,Arthritis,1
+2021-12-09,Vertigo,1
+2021-12-09,Angina,1
+2021-12-09,Gastritis,1
+2021-12-09,Dermatitis,1
+2021-12-09,Asthma,1
+2021-12-10,Vertigo,3
+2021-12-10,Bronchitis,3
+2021-12-10,Arthritis,2
+2021-12-10,Dermatitis,2
+2021-12-10,Asthma,2
+2021-12-10,Sciatica,1
+2021-12-10,Migraine,1
+2021-12-10,Angina,1
+2021-12-11,Gastritis,3
+2021-12-11,Dermatitis,2
+2021-12-11,Migraine,1
+2021-12-11,Sciatica,1
+2021-12-11,Viral Infection,1
+2021-12-12,Sciatica,4
+2021-12-12,Viral Infection,3
+2021-12-12,Asthma,2
+2021-12-12,Gastritis,1
+2021-12-12,Dermatitis,1
+2021-12-12,Arthritis,1
+2021-12-13,Dermatitis,2
+2021-12-13,Angina,1
+2021-12-13,Migraine,1
+2021-12-13,Bronchitis,1
+2021-12-13,Sciatica,1
+2021-12-14,Dermatitis,2
+2021-12-14,Arthritis,2
+2021-12-14,Sciatica,2
+2021-12-14,Angina,1
+2021-12-14,Bronchitis,1
+2021-12-14,Vertigo,1
+2021-12-14,Viral Infection,1
+2021-12-14,Asthma,1
+2021-12-15,Dermatitis,3
+2021-12-15,Vertigo,2
+2021-12-15,Viral Infection,1
+2021-12-15,Angina,1
+2021-12-16,Gastritis,4
+2021-12-16,Vertigo,2
+2021-12-16,Bronchitis,1
+2021-12-16,Angina,1
+2021-12-17,Bronchitis,2
+2021-12-17,Dermatitis,2
+2021-12-17,Vertigo,1
+2021-12-17,Sciatica,1
+2021-12-17,Migraine,1
+2021-12-17,Angina,1
+2021-12-17,Asthma,1
+2021-12-18,Angina,2
+2021-12-18,Sciatica,1
+2021-12-18,Viral Infection,1
+2021-12-18,Gastritis,1
+2021-12-18,Bronchitis,1
+2021-12-18,Migraine,1
+2021-12-19,Vertigo,2
+2021-12-19,Sciatica,2
+2021-12-19,Viral Infection,2
+2021-12-19,Bronchitis,1
+2021-12-19,Asthma,1
+2021-12-19,Migraine,1
+2021-12-19,Dermatitis,1
+2021-12-19,Arthritis,1
+2021-12-20,Angina,2
+2021-12-20,Migraine,2
+2021-12-20,Viral Infection,2
+2021-12-20,Sciatica,2
+2021-12-20,Asthma,1
+2021-12-20,Dermatitis,1
+2021-12-20,Vertigo,1
+2021-12-21,Dermatitis,2
+2021-12-21,Gastritis,2
+2021-12-21,Sciatica,2
+2021-12-21,Asthma,2
+2021-12-21,Viral Infection,1
+2021-12-21,Vertigo,1
+2021-12-22,Gastritis,2
+2021-12-22,Vertigo,2
+2021-12-22,Viral Infection,1
+2021-12-22,Dermatitis,1
+2021-12-22,Angina,1
+2021-12-22,Bronchitis,1
+2021-12-22,Arthritis,1
+2021-12-23,Viral Infection,2
+2021-12-23,Migraine,2
+2021-12-23,Gastritis,1
+2021-12-23,Sciatica,1
+2021-12-23,Bronchitis,1
+2021-12-24,Bronchitis,2
+2021-12-24,Sciatica,1
+2021-12-24,Angina,1
+2021-12-24,Dermatitis,1
+2021-12-24,Arthritis,1
+2021-12-25,Migraine,2
+2021-12-25,Sciatica,2
+2021-12-25,Vertigo,2
+2021-12-25,Asthma,2
+2021-12-25,Gastritis,1
+2021-12-25,Angina,1
+2021-12-25,Dermatitis,1
+2021-12-25,Arthritis,1
+2021-12-26,Bronchitis,3
+2021-12-26,Gastritis,2
+2021-12-26,Sciatica,2
+2021-12-26,Arthritis,2
+2021-12-26,Migraine,1
+2021-12-26,Angina,1
+2021-12-27,Migraine,1
+2021-12-27,Vertigo,1
+2021-12-27,Arthritis,1
+2021-12-27,Viral Infection,1
+2021-12-27,Bronchitis,1
+2021-12-28,Sciatica,3
+2021-12-28,Asthma,3
+2021-12-28,Viral Infection,1
+2021-12-28,Gastritis,1
+2021-12-28,Angina,1
+2022-01-01,Viral Infection,3
+2022-01-01,Vertigo,2
+2022-01-01,Migraine,1
+2022-01-01,Gastritis,1
+2022-01-01,Bronchitis,1
+2022-01-01,Arthritis,1
+2022-01-01,Dermatitis,1
+2022-01-01,Sciatica,1
+2022-01-02,Dermatitis,2
+2022-01-02,Sciatica,2
+2022-01-02,Viral Infection,2
+2022-01-02,Migraine,1
+2022-01-02,Gastritis,1
+2022-01-02,Vertigo,1
+2022-01-03,Gastritis,3
+2022-01-03,Dermatitis,2
+2022-01-03,Asthma,2
+2022-01-03,Sciatica,2
+2022-01-03,Vertigo,1
+2022-01-03,Arthritis,1
+2022-01-03,Viral Infection,1
+2022-01-03,Bronchitis,1
+2022-01-04,Gastritis,4
+2022-01-04,Angina,2
+2022-01-04,Dermatitis,2
+2022-01-04,Sciatica,1
+2022-01-04,Asthma,1
+2022-01-05,Angina,2
+2022-01-05,Gastritis,2
+2022-01-05,Bronchitis,2
+2022-01-05,Arthritis,1
+2022-01-05,Dermatitis,1
+2022-01-05,Migraine,1
+2022-01-06,Gastritis,3
+2022-01-06,Dermatitis,3
+2022-01-06,Sciatica,2
+2022-01-06,Angina,1
+2022-01-06,Bronchitis,1
+2022-01-07,Angina,2
+2022-01-07,Sciatica,2
+2022-01-07,Vertigo,1
+2022-01-07,Asthma,1
+2022-01-07,Migraine,1
+2022-01-07,Dermatitis,1
+2022-01-08,Sciatica,1
+2022-01-08,Bronchitis,1
+2022-01-08,Dermatitis,1
+2022-01-08,Angina,1
+2022-01-09,Vertigo,2
+2022-01-09,Sciatica,2
+2022-01-09,Angina,2
+2022-01-09,Bronchitis,1
+2022-01-09,Migraine,1
+2022-01-10,Migraine,2
+2022-01-10,Viral Infection,2
+2022-01-10,Dermatitis,1
+2022-01-10,Vertigo,1
+2022-01-11,Gastritis,3
+2022-01-11,Vertigo,2
+2022-01-11,Bronchitis,1
+2022-01-11,Migraine,1
+2022-01-11,Sciatica,1
+2022-01-11,Arthritis,1
+2022-01-11,Dermatitis,1
+2022-01-12,Arthritis,2
+2022-01-12,Bronchitis,2
+2022-01-12,Asthma,1
+2022-01-12,Vertigo,1
+2022-01-12,Sciatica,1
+2022-01-12,Migraine,1
+2022-01-12,Angina,1
+2022-01-12,Gastritis,1
+2022-01-13,Sciatica,1
+2022-01-13,Angina,1
+2022-01-13,Gastritis,1
+2022-01-14,Viral Infection,1
+2022-01-14,Asthma,1
+2022-01-14,Arthritis,1
+2022-01-14,Vertigo,1
+2022-01-14,Migraine,1
+2022-01-14,Angina,1
+2022-01-14,Bronchitis,1
+2022-01-15,Arthritis,1
+2022-01-15,Sciatica,1
+2022-01-15,Migraine,1
+2022-01-16,Sciatica,1
+2022-01-16,Angina,1
+2022-01-16,Gastritis,1
+2022-01-17,Asthma,3
+2022-01-17,Dermatitis,2
+2022-01-17,Angina,1
+2022-01-17,Gastritis,1
+2022-01-17,Bronchitis,1
+2022-01-18,Arthritis,2
+2022-01-18,Bronchitis,2
+2022-01-18,Gastritis,1
+2022-01-18,Asthma,1
+2022-01-18,Sciatica,1
+2022-01-19,Angina,3
+2022-01-19,Gastritis,3
+2022-01-19,Dermatitis,2
+2022-01-19,Arthritis,2
+2022-01-19,Sciatica,2
+2022-01-19,Vertigo,2
+2022-01-19,Migraine,1
+2022-01-20,Bronchitis,3
+2022-01-20,Gastritis,3
+2022-01-20,Sciatica,2
+2022-01-20,Asthma,1
+2022-01-20,Dermatitis,1
+2022-01-20,Angina,1
+2022-01-20,Vertigo,1
+2022-01-20,Viral Infection,1
+2022-01-21,Bronchitis,2
+2022-01-21,Asthma,2
+2022-01-21,Angina,1
+2022-01-21,Vertigo,1
+2022-01-21,Gastritis,1
+2022-01-22,Bronchitis,2
+2022-01-22,Arthritis,1
+2022-01-22,Asthma,1
+2022-01-23,Bronchitis,1
+2022-01-23,Dermatitis,1
+2022-01-23,Sciatica,1
+2022-01-23,Asthma,1
+2022-01-23,Gastritis,1
+2022-01-24,Arthritis,4
+2022-01-24,Migraine,2
+2022-01-24,Dermatitis,2
+2022-01-24,Bronchitis,1
+2022-01-24,Sciatica,1
+2022-01-24,Angina,1
+2022-01-25,Arthritis,2
+2022-01-25,Dermatitis,2
+2022-01-25,Gastritis,2
+2022-01-25,Asthma,1
+2022-01-25,Viral Infection,1
+2022-01-25,Angina,1
+2022-01-25,Bronchitis,1
+2022-01-26,Asthma,2
+2022-01-26,Gastritis,2
+2022-01-26,Viral Infection,1
+2022-01-26,Vertigo,1
+2022-01-26,Sciatica,1
+2022-01-27,Asthma,2
+2022-01-27,Viral Infection,1
+2022-01-27,Angina,1
+2022-01-27,Gastritis,1
+2022-01-27,Bronchitis,1
+2022-01-27,Migraine,1
+2022-01-28,Dermatitis,1
+2022-01-28,Gastritis,1
+2022-01-28,Arthritis,1
+2022-01-28,Viral Infection,1
+2022-01-28,Migraine,1
+2022-01-28,Asthma,1
+2022-01-28,Angina,1
+2022-02-01,Bronchitis,4
+2022-02-01,Gastritis,2
+2022-02-01,Migraine,1
+2022-02-01,Vertigo,1
+2022-02-02,Arthritis,3
+2022-02-02,Dermatitis,1
+2022-02-02,Vertigo,1
+2022-02-02,Gastritis,1
+2022-02-02,Angina,1
+2022-02-03,Asthma,2
+2022-02-03,Migraine,2
+2022-02-03,Angina,2
+2022-02-04,Dermatitis,2
+2022-02-04,Viral Infection,2
+2022-02-04,Asthma,2
+2022-02-04,Bronchitis,1
+2022-02-04,Angina,1
+2022-02-04,Sciatica,1
+2022-02-05,Bronchitis,2
+2022-02-05,Angina,1
+2022-02-05,Asthma,1
+2022-02-05,Vertigo,1
+2022-02-05,Migraine,1
+2022-02-05,Arthritis,1
+2022-02-06,Arthritis,3
+2022-02-06,Viral Infection,2
+2022-02-06,Angina,2
+2022-02-06,Asthma,2
+2022-02-06,Vertigo,1
+2022-02-06,Migraine,1
+2022-02-06,Sciatica,1
+2022-02-07,Arthritis,3
+2022-02-07,Dermatitis,3
+2022-02-07,Bronchitis,2
+2022-02-07,Angina,1
+2022-02-07,Gastritis,1
+2022-02-08,Viral Infection,2
+2022-02-08,Angina,1
+2022-02-08,Arthritis,1
+2022-02-08,Vertigo,1
+2022-02-09,Migraine,3
+2022-02-09,Bronchitis,3
+2022-02-09,Arthritis,2
+2022-02-09,Gastritis,1
+2022-02-09,Angina,1
+2022-02-09,Dermatitis,1
+2022-02-09,Viral Infection,1
+2022-02-10,Sciatica,2
+2022-02-10,Bronchitis,2
+2022-02-10,Migraine,1
+2022-02-10,Gastritis,1
+2022-02-10,Angina,1
+2022-02-11,Angina,3
+2022-02-11,Bronchitis,3
+2022-02-11,Viral Infection,2
+2022-02-11,Sciatica,1
+2022-02-11,Arthritis,1
+2022-02-11,Migraine,1
+2022-02-12,Viral Infection,3
+2022-02-12,Arthritis,2
+2022-02-12,Migraine,1
+2022-02-12,Bronchitis,1
+2022-02-13,Angina,2
+2022-02-13,Vertigo,2
+2022-02-13,Arthritis,1
+2022-02-13,Dermatitis,1
+2022-02-13,Asthma,1
+2022-02-13,Bronchitis,1
+2022-02-14,Viral Infection,2
+2022-02-14,Sciatica,2
+2022-02-14,Vertigo,1
+2022-02-14,Bronchitis,1
+2022-02-14,Angina,1
+2022-02-14,Arthritis,1
+2022-02-14,Dermatitis,1
+2022-02-15,Bronchitis,4
+2022-02-15,Asthma,2
+2022-02-15,Angina,2
+2022-02-15,Migraine,2
+2022-02-15,Vertigo,1
+2022-02-16,Dermatitis,2
+2022-02-16,Gastritis,2
+2022-02-16,Vertigo,1
+2022-02-16,Arthritis,1
+2022-02-16,Viral Infection,1
+2022-02-16,Sciatica,1
+2022-02-17,Arthritis,4
+2022-02-17,Gastritis,2
+2022-02-17,Dermatitis,1
+2022-02-17,Bronchitis,1
+2022-02-17,Sciatica,1
+2022-02-17,Angina,1
+2022-02-18,Gastritis,2
+2022-02-18,Sciatica,2
+2022-02-18,Vertigo,2
+2022-02-18,Bronchitis,1
+2022-02-18,Viral Infection,1
+2022-02-18,Arthritis,1
+2022-02-18,Dermatitis,1
+2022-02-19,Gastritis,1
+2022-02-19,Sciatica,1
+2022-02-19,Angina,1
+2022-02-19,Dermatitis,1
+2022-02-20,Sciatica,2
+2022-02-20,Bronchitis,1
+2022-02-20,Migraine,1
+2022-02-20,Asthma,1
+2022-02-21,Asthma,3
+2022-02-21,Migraine,2
+2022-02-21,Viral Infection,1
+2022-02-21,Sciatica,1
+2022-02-21,Angina,1
+2022-02-22,Migraine,3
+2022-02-22,Arthritis,3
+2022-02-22,Sciatica,2
+2022-02-22,Angina,2
+2022-02-22,Vertigo,2
+2022-02-22,Bronchitis,2
+2022-02-22,Viral Infection,1
+2022-02-22,Gastritis,1
+2022-02-23,Viral Infection,2
+2022-02-23,Arthritis,2
+2022-02-23,Asthma,1
+2022-02-23,Vertigo,1
+2022-02-23,Bronchitis,1
+2022-02-23,Migraine,1
+2022-02-24,Angina,3
+2022-02-24,Migraine,2
+2022-02-24,Dermatitis,1
+2022-02-24,Sciatica,1
+2022-02-24,Bronchitis,1
+2022-02-24,Vertigo,1
+2022-02-25,Migraine,3
+2022-02-25,Bronchitis,2
+2022-02-25,Arthritis,1
+2022-02-25,Sciatica,1
+2022-02-25,Dermatitis,1
+2022-02-25,Vertigo,1
+2022-02-26,Angina,3
+2022-02-26,Arthritis,2
+2022-02-26,Gastritis,2
+2022-02-26,Migraine,2
+2022-02-26,Vertigo,2
+2022-02-26,Asthma,1
+2022-02-26,Bronchitis,1
+2022-02-26,Dermatitis,1
+2022-02-27,Arthritis,3
+2022-02-27,Vertigo,2
+2022-02-27,Angina,1
+2022-02-27,Migraine,1
+2022-02-27,Asthma,1
+2022-02-27,Gastritis,1
+2022-02-28,Viral Infection,2
+2022-02-28,Gastritis,2
+2022-02-28,Sciatica,2
+2022-02-28,Angina,1
+2022-02-28,Dermatitis,1
+2022-03-01,Vertigo,2
+2022-03-01,Migraine,2
+2022-03-01,Gastritis,2
+2022-03-01,Asthma,2
+2022-03-01,Angina,1
+2022-03-01,Arthritis,1
+2022-03-02,Arthritis,3
+2022-03-02,Sciatica,3
+2022-03-02,Migraine,2
+2022-03-02,Vertigo,1
+2022-03-02,Angina,1
+2022-03-03,Viral Infection,4
+2022-03-03,Migraine,4
+2022-03-03,Sciatica,1
+2022-03-03,Vertigo,1
+2022-03-03,Bronchitis,1
+2022-03-04,Sciatica,3
+2022-03-04,Migraine,2
+2022-03-04,Bronchitis,2
+2022-03-04,Angina,2
+2022-03-04,Dermatitis,1
+2022-03-04,Arthritis,1
+2022-03-05,Asthma,5
+2022-03-05,Gastritis,3
+2022-03-05,Vertigo,2
+2022-03-05,Angina,2
+2022-03-05,Migraine,1
+2022-03-05,Viral Infection,1
+2022-03-05,Dermatitis,1
+2022-03-05,Arthritis,1
+2022-03-06,Angina,3
+2022-03-06,Gastritis,2
+2022-03-06,Bronchitis,2
+2022-03-06,Sciatica,1
+2022-03-06,Migraine,1
+2022-03-06,Vertigo,1
+2022-03-06,Dermatitis,1
+2022-03-06,Arthritis,1
+2022-03-07,Viral Infection,2
+2022-03-07,Migraine,1
+2022-03-07,Dermatitis,1
+2022-03-07,Angina,1
+2022-03-07,Arthritis,1
+2022-03-07,Bronchitis,1
+2022-03-07,Sciatica,1
+2022-03-08,Asthma,3
+2022-03-08,Angina,2
+2022-03-08,Vertigo,1
+2022-03-08,Gastritis,1
+2022-03-08,Sciatica,1
+2022-03-08,Migraine,1
+2022-03-09,Gastritis,2
+2022-03-09,Migraine,2
+2022-03-09,Bronchitis,1
+2022-03-09,Viral Infection,1
+2022-03-10,Dermatitis,3
+2022-03-10,Arthritis,1
+2022-03-10,Bronchitis,1
+2022-03-10,Vertigo,1
+2022-03-10,Asthma,1
+2022-03-10,Migraine,1
+2022-03-11,Asthma,1
+2022-03-11,Arthritis,1
+2022-03-11,Bronchitis,1
+2022-03-11,Sciatica,1
+2022-03-12,Angina,3
+2022-03-12,Dermatitis,2
+2022-03-12,Vertigo,1
+2022-03-12,Asthma,1
+2022-03-13,Gastritis,3
+2022-03-13,Angina,2
+2022-03-13,Asthma,2
+2022-03-13,Sciatica,2
+2022-03-13,Viral Infection,1
+2022-03-13,Vertigo,1
+2022-03-14,Migraine,1
+2022-03-14,Sciatica,1
+2022-03-14,Vertigo,1
+2022-03-15,Arthritis,3
+2022-03-15,Angina,2
+2022-03-15,Asthma,2
+2022-03-15,Bronchitis,2
+2022-03-15,Dermatitis,1
+2022-03-15,Sciatica,1
+2022-03-15,Vertigo,1
+2022-03-15,Gastritis,1
+2022-03-16,Migraine,2
+2022-03-16,Asthma,2
+2022-03-16,Angina,1
+2022-03-16,Dermatitis,1
+2022-03-16,Bronchitis,1
+2022-03-16,Gastritis,1
+2022-03-17,Vertigo,2
+2022-03-17,Angina,1
+2022-03-17,Migraine,1
+2022-03-17,Viral Infection,1
+2022-03-17,Dermatitis,1
+2022-03-17,Bronchitis,1
+2022-03-17,Arthritis,1
+2022-03-17,Gastritis,1
+2022-03-18,Angina,1
+2022-03-18,Migraine,1
+2022-03-18,Asthma,1
+2022-03-18,Vertigo,1
+2022-03-18,Arthritis,1
+2022-03-19,Vertigo,1
+2022-03-19,Bronchitis,1
+2022-03-19,Gastritis,1
+2022-03-19,Angina,1
+2022-03-20,Viral Infection,2
+2022-03-20,Asthma,2
+2022-03-20,Dermatitis,1
+2022-03-20,Sciatica,1
+2022-03-20,Gastritis,1
+2022-03-20,Migraine,1
+2022-03-20,Bronchitis,1
+2022-03-21,Viral Infection,1
+2022-03-21,Migraine,1
+2022-03-21,Angina,1
+2022-03-21,Arthritis,1
+2022-03-21,Bronchitis,1
+2022-03-22,Angina,2
+2022-03-22,Dermatitis,1
+2022-03-22,Bronchitis,1
+2022-03-22,Asthma,1
+2022-03-23,Arthritis,2
+2022-03-23,Vertigo,2
+2022-03-23,Bronchitis,2
+2022-03-23,Migraine,1
+2022-03-23,Sciatica,1
+2022-03-23,Angina,1
+2022-03-23,Dermatitis,1
+2022-03-23,Asthma,1
+2022-03-24,Viral Infection,3
+2022-03-24,Sciatica,2
+2022-03-24,Asthma,2
+2022-03-24,Migraine,1
+2022-03-24,Dermatitis,1
+2022-03-24,Angina,1
+2022-03-25,Migraine,4
+2022-03-25,Asthma,1
+2022-03-25,Dermatitis,1
+2022-03-25,Vertigo,1
+2022-03-25,Viral Infection,1
+2022-03-26,Migraine,3
+2022-03-26,Dermatitis,2
+2022-03-26,Asthma,1
+2022-03-26,Sciatica,1
+2022-03-26,Gastritis,1
+2022-03-26,Angina,1
+2022-03-27,Dermatitis,3
+2022-03-27,Sciatica,1
+2022-03-27,Migraine,1
+2022-03-27,Viral Infection,1
+2022-03-27,Gastritis,1
+2022-03-27,Angina,1
+2022-03-28,Viral Infection,2
+2022-03-28,Vertigo,1
+2022-03-28,Arthritis,1
+2022-03-28,Bronchitis,1
+2022-04-01,Dermatitis,3
+2022-04-01,Viral Infection,2
+2022-04-01,Angina,2
+2022-04-01,Asthma,1
+2022-04-01,Sciatica,1
+2022-04-01,Bronchitis,1
+2022-04-02,Migraine,2
+2022-04-02,Angina,2
+2022-04-02,Sciatica,1
+2022-04-02,Gastritis,1
+2022-04-02,Dermatitis,1
+2022-04-02,Vertigo,1
+2022-04-03,Bronchitis,3
+2022-04-03,Dermatitis,2
+2022-04-03,Angina,2
+2022-04-03,Arthritis,1
+2022-04-03,Viral Infection,1
+2022-04-04,Dermatitis,2
+2022-04-04,Asthma,2
+2022-04-04,Arthritis,1
+2022-04-04,Vertigo,1
+2022-04-04,Gastritis,1
+2022-04-05,Sciatica,3
+2022-04-05,Bronchitis,1
+2022-04-05,Migraine,1
+2022-04-05,Viral Infection,1
+2022-04-05,Vertigo,1
+2022-04-06,Dermatitis,2
+2022-04-06,Viral Infection,2
+2022-04-06,Gastritis,1
+2022-04-06,Sciatica,1
+2022-04-06,Bronchitis,1
+2022-04-06,Arthritis,1
+2022-04-06,Angina,1
+2022-04-07,Arthritis,2
+2022-04-07,Dermatitis,2
+2022-04-07,Asthma,2
+2022-04-07,Migraine,1
+2022-04-07,Vertigo,1
+2022-04-07,Viral Infection,1
+2022-04-07,Angina,1
+2022-04-08,Migraine,2
+2022-04-08,Sciatica,2
+2022-04-08,Arthritis,1
+2022-04-08,Gastritis,1
+2022-04-08,Asthma,1
+2022-04-08,Bronchitis,1
+2022-04-09,Viral Infection,3
+2022-04-09,Sciatica,2
+2022-04-09,Angina,1
+2022-04-09,Vertigo,1
+2022-04-09,Dermatitis,1
+2022-04-09,Gastritis,1
+2022-04-09,Bronchitis,1
+2022-04-09,Migraine,1
+2022-04-10,Arthritis,3
+2022-04-10,Vertigo,2
+2022-04-10,Asthma,1
+2022-04-10,Bronchitis,1
+2022-04-10,Gastritis,1
+2022-04-10,Migraine,1
+2022-04-11,Angina,2
+2022-04-11,Asthma,2
+2022-04-11,Vertigo,1
+2022-04-11,Sciatica,1
+2022-04-11,Gastritis,1
+2022-04-12,Viral Infection,2
+2022-04-12,Vertigo,1
+2022-04-12,Dermatitis,1
+2022-04-12,Sciatica,1
+2022-04-12,Gastritis,1
+2022-04-13,Sciatica,2
+2022-04-13,Arthritis,1
+2022-04-13,Bronchitis,1
+2022-04-13,Angina,1
+2022-04-14,Bronchitis,2
+2022-04-14,Sciatica,1
+2022-04-14,Arthritis,1
+2022-04-14,Migraine,1
+2022-04-14,Gastritis,1
+2022-04-14,Angina,1
+2022-04-14,Viral Infection,1
+2022-04-15,Gastritis,3
+2022-04-15,Asthma,2
+2022-04-15,Dermatitis,2
+2022-04-15,Sciatica,2
+2022-04-15,Arthritis,1
+2022-04-16,Viral Infection,2
+2022-04-16,Bronchitis,2
+2022-04-16,Arthritis,2
+2022-04-16,Vertigo,1
+2022-04-16,Asthma,1
+2022-04-17,Viral Infection,1
+2022-04-17,Angina,1
+2022-04-17,Bronchitis,1
+2022-04-17,Asthma,1
+2022-04-17,Gastritis,1
+2022-04-17,Arthritis,1
+2022-04-18,Bronchitis,2
+2022-04-18,Migraine,2
+2022-04-18,Viral Infection,1
+2022-04-18,Angina,1
+2022-04-18,Asthma,1
+2022-04-18,Gastritis,1
+2022-04-18,Sciatica,1
+2022-04-19,Vertigo,2
+2022-04-19,Angina,2
+2022-04-19,Asthma,2
+2022-04-19,Viral Infection,1
+2022-04-19,Bronchitis,1
+2022-04-19,Gastritis,1
+2022-04-19,Sciatica,1
+2022-04-19,Arthritis,1
+2022-04-20,Viral Infection,2
+2022-04-20,Dermatitis,2
+2022-04-20,Arthritis,1
+2022-04-20,Migraine,1
+2022-04-20,Gastritis,1
+2022-04-20,Vertigo,1
+2022-04-20,Sciatica,1
+2022-04-21,Sciatica,2
+2022-04-21,Arthritis,1
+2022-04-21,Dermatitis,1
+2022-04-21,Angina,1
+2022-04-21,Asthma,1
+2022-04-22,Migraine,3
+2022-04-22,Dermatitis,3
+2022-04-22,Arthritis,2
+2022-04-22,Gastritis,2
+2022-04-22,Vertigo,2
+2022-04-22,Bronchitis,2
+2022-04-22,Angina,1
+2022-04-22,Sciatica,1
+2022-04-23,Migraine,2
+2022-04-23,Asthma,2
+2022-04-23,Arthritis,1
+2022-04-23,Angina,1
+2022-04-23,Dermatitis,1
+2022-04-23,Gastritis,1
+2022-04-24,Asthma,2
+2022-04-24,Gastritis,2
+2022-04-24,Angina,1
+2022-04-24,Bronchitis,1
+2022-04-24,Sciatica,1
+2022-04-24,Vertigo,1
+2022-04-24,Viral Infection,1
+2022-04-24,Migraine,1
+2022-04-25,Bronchitis,3
+2022-04-25,Gastritis,2
+2022-04-25,Sciatica,2
+2022-04-25,Vertigo,2
+2022-04-25,Asthma,2
+2022-04-26,Bronchitis,2
+2022-04-26,Angina,2
+2022-04-26,Vertigo,1
+2022-04-26,Asthma,1
+2022-04-26,Arthritis,1
+2022-04-27,Gastritis,1
+2022-04-27,Bronchitis,1
+2022-04-27,Viral Infection,1
+2022-04-27,Migraine,1
+2022-04-27,Arthritis,1
+2022-04-28,Gastritis,3
+2022-04-28,Sciatica,3
+2022-04-28,Migraine,2
+2022-04-28,Dermatitis,2
+2022-04-28,Asthma,1
+2022-04-28,Bronchitis,1
+2022-04-28,Vertigo,1
+2022-04-28,Viral Infection,1
+2022-04-28,Arthritis,1
+2022-05-01,Sciatica,3
+2022-05-01,Gastritis,3
+2022-05-01,Vertigo,2
+2022-05-01,Migraine,2
+2022-05-01,Bronchitis,1
+2022-05-01,Viral Infection,1
+2022-05-02,Asthma,3
+2022-05-02,Sciatica,2
+2022-05-02,Gastritis,1
+2022-05-02,Migraine,1
+2022-05-02,Dermatitis,1
+2022-05-02,Viral Infection,1
+2022-05-03,Migraine,2
+2022-05-03,Arthritis,1
+2022-05-03,Angina,1
+2022-05-04,Vertigo,3
+2022-05-04,Arthritis,2
+2022-05-04,Dermatitis,1
+2022-05-04,Bronchitis,1
+2022-05-04,Angina,1
+2022-05-04,Viral Infection,1
+2022-05-04,Sciatica,1
+2022-05-05,Vertigo,3
+2022-05-05,Arthritis,2
+2022-05-05,Gastritis,2
+2022-05-05,Bronchitis,1
+2022-05-05,Dermatitis,1
+2022-05-05,Asthma,1
+2022-05-05,Migraine,1
+2022-05-06,Viral Infection,3
+2022-05-06,Dermatitis,2
+2022-05-06,Gastritis,2
+2022-05-06,Migraine,1
+2022-05-06,Vertigo,1
+2022-05-07,Arthritis,2
+2022-05-07,Gastritis,2
+2022-05-07,Asthma,1
+2022-05-07,Dermatitis,1
+2022-05-07,Vertigo,1
+2022-05-08,Viral Infection,1
+2022-05-08,Gastritis,1
+2022-05-08,Migraine,1
+2022-05-08,Sciatica,1
+2022-05-08,Dermatitis,1
+2022-05-08,Bronchitis,1
+2022-05-09,Migraine,3
+2022-05-09,Arthritis,2
+2022-05-09,Dermatitis,2
+2022-05-09,Sciatica,1
+2022-05-09,Asthma,1
+2022-05-10,Asthma,3
+2022-05-10,Dermatitis,3
+2022-05-10,Angina,2
+2022-05-11,Viral Infection,1
+2022-05-11,Asthma,1
+2022-05-11,Angina,1
+2022-05-11,Sciatica,1
+2022-05-11,Vertigo,1
+2022-05-11,Arthritis,1
+2022-05-12,Angina,3
+2022-05-12,Sciatica,3
+2022-05-12,Viral Infection,1
+2022-05-12,Bronchitis,1
+2022-05-12,Vertigo,1
+2022-05-12,Arthritis,1
+2022-05-13,Gastritis,5
+2022-05-13,Arthritis,4
+2022-05-13,Angina,2
+2022-05-13,Dermatitis,2
+2022-05-13,Migraine,2
+2022-05-13,Sciatica,1
+2022-05-13,Viral Infection,1
+2022-05-13,Bronchitis,1
+2022-05-14,Bronchitis,3
+2022-05-14,Gastritis,2
+2022-05-14,Viral Infection,2
+2022-05-14,Migraine,1
+2022-05-14,Sciatica,1
+2022-05-14,Angina,1
+2022-05-15,Arthritis,2
+2022-05-15,Viral Infection,2
+2022-05-15,Asthma,2
+2022-05-15,Angina,1
+2022-05-16,Arthritis,2
+2022-05-16,Viral Infection,1
+2022-05-16,Vertigo,1
+2022-05-16,Angina,1
+2022-05-17,Arthritis,3
+2022-05-17,Dermatitis,2
+2022-05-17,Bronchitis,1
+2022-05-17,Migraine,1
+2022-05-18,Arthritis,4
+2022-05-18,Gastritis,2
+2022-05-18,Vertigo,1
+2022-05-18,Bronchitis,1
+2022-05-18,Sciatica,1
+2022-05-18,Angina,1
+2022-05-19,Arthritis,2
+2022-05-19,Dermatitis,2
+2022-05-19,Migraine,2
+2022-05-20,Migraine,3
+2022-05-20,Vertigo,2
+2022-05-20,Asthma,2
+2022-05-20,Angina,1
+2022-05-20,Dermatitis,1
+2022-05-20,Gastritis,1
+2022-05-20,Arthritis,1
+2022-05-21,Angina,2
+2022-05-21,Arthritis,2
+2022-05-21,Dermatitis,1
+2022-05-21,Sciatica,1
+2022-05-21,Vertigo,1
+2022-05-21,Gastritis,1
+2022-05-21,Bronchitis,1
+2022-05-22,Angina,3
+2022-05-22,Dermatitis,1
+2022-05-22,Vertigo,1
+2022-05-22,Arthritis,1
+2022-05-22,Asthma,1
+2022-05-23,Bronchitis,2
+2022-05-23,Asthma,2
+2022-05-23,Arthritis,2
+2022-05-23,Vertigo,1
+2022-05-23,Gastritis,1
+2022-05-24,Arthritis,3
+2022-05-24,Vertigo,2
+2022-05-24,Viral Infection,2
+2022-05-24,Migraine,1
+2022-05-24,Bronchitis,1
+2022-05-25,Bronchitis,2
+2022-05-25,Vertigo,1
+2022-05-25,Dermatitis,1
+2022-05-25,Asthma,1
+2022-05-25,Arthritis,1
+2022-05-26,Sciatica,3
+2022-05-26,Vertigo,1
+2022-05-26,Dermatitis,1
+2022-05-26,Viral Infection,1
+2022-05-26,Gastritis,1
+2022-05-26,Asthma,1
+2022-05-27,Arthritis,4
+2022-05-27,Bronchitis,3
+2022-05-27,Vertigo,2
+2022-05-27,Viral Infection,1
+2022-05-27,Sciatica,1
+2022-05-28,Angina,2
+2022-05-28,Dermatitis,2
+2022-05-28,Migraine,1
+2022-05-28,Bronchitis,1
+2022-05-28,Sciatica,1
+2022-06-01,Sciatica,3
+2022-06-01,Vertigo,2
+2022-06-01,Angina,2
+2022-06-01,Viral Infection,1
+2022-06-01,Asthma,1
+2022-06-02,Sciatica,2
+2022-06-02,Bronchitis,2
+2022-06-02,Arthritis,1
+2022-06-02,Angina,1
+2022-06-02,Dermatitis,1
+2022-06-02,Vertigo,1
+2022-06-02,Migraine,1
+2022-06-02,Viral Infection,1
+2022-06-03,Migraine,2
+2022-06-03,Vertigo,1
+2022-06-03,Asthma,1
+2022-06-04,Dermatitis,3
+2022-06-04,Arthritis,2
+2022-06-04,Angina,2
+2022-06-04,Viral Infection,2
+2022-06-04,Migraine,1
+2022-06-04,Gastritis,1
+2022-06-04,Asthma,1
+2022-06-05,Arthritis,3
+2022-06-05,Vertigo,1
+2022-06-05,Viral Infection,1
+2022-06-05,Bronchitis,1
+2022-06-06,Angina,4
+2022-06-06,Viral Infection,2
+2022-06-06,Arthritis,1
+2022-06-06,Dermatitis,1
+2022-06-07,Bronchitis,5
+2022-06-07,Vertigo,3
+2022-06-07,Dermatitis,2
+2022-06-07,Asthma,1
+2022-06-07,Gastritis,1
+2022-06-08,Viral Infection,2
+2022-06-08,Gastritis,2
+2022-06-08,Sciatica,1
+2022-06-08,Vertigo,1
+2022-06-08,Asthma,1
+2022-06-08,Migraine,1
+2022-06-09,Arthritis,3
+2022-06-09,Angina,3
+2022-06-09,Asthma,2
+2022-06-09,Gastritis,1
+2022-06-09,Bronchitis,1
+2022-06-09,Viral Infection,1
+2022-06-09,Sciatica,1
+2022-06-10,Dermatitis,2
+2022-06-10,Arthritis,2
+2022-06-10,Gastritis,1
+2022-06-10,Vertigo,1
+2022-06-10,Viral Infection,1
+2022-06-10,Angina,1
+2022-06-10,Asthma,1
+2022-06-11,Gastritis,3
+2022-06-11,Dermatitis,2
+2022-06-11,Angina,2
+2022-06-11,Bronchitis,1
+2022-06-11,Sciatica,1
+2022-06-11,Arthritis,1
+2022-06-11,Viral Infection,1
+2022-06-12,Angina,3
+2022-06-12,Viral Infection,3
+2022-06-12,Bronchitis,2
+2022-06-12,Dermatitis,1
+2022-06-12,Migraine,1
+2022-06-12,Sciatica,1
+2022-06-12,Gastritis,1
+2022-06-12,Arthritis,1
+2022-06-13,Sciatica,2
+2022-06-13,Vertigo,2
+2022-06-13,Dermatitis,2
+2022-06-13,Gastritis,2
+2022-06-13,Asthma,1
+2022-06-13,Bronchitis,1
+2022-06-14,Arthritis,4
+2022-06-14,Viral Infection,2
+2022-06-14,Sciatica,2
+2022-06-14,Dermatitis,1
+2022-06-14,Migraine,1
+2022-06-14,Asthma,1
+2022-06-15,Migraine,2
+2022-06-15,Asthma,2
+2022-06-15,Viral Infection,1
+2022-06-15,Vertigo,1
+2022-06-15,Dermatitis,1
+2022-06-15,Sciatica,1
+2022-06-15,Bronchitis,1
+2022-06-16,Vertigo,2
+2022-06-16,Arthritis,2
+2022-06-16,Viral Infection,1
+2022-06-16,Angina,1
+2022-06-16,Sciatica,1
+2022-06-16,Asthma,1
+2022-06-16,Bronchitis,1
+2022-06-16,Gastritis,1
+2022-06-16,Dermatitis,1
+2022-06-17,Sciatica,3
+2022-06-17,Angina,3
+2022-06-17,Vertigo,3
+2022-06-17,Asthma,2
+2022-06-17,Gastritis,2
+2022-06-17,Viral Infection,1
+2022-06-17,Arthritis,1
+2022-06-17,Dermatitis,1
+2022-06-18,Angina,3
+2022-06-18,Migraine,3
+2022-06-18,Gastritis,2
+2022-06-18,Dermatitis,2
+2022-06-18,Sciatica,1
+2022-06-18,Vertigo,1
+2022-06-18,Viral Infection,1
+2022-06-19,Gastritis,3
+2022-06-19,Arthritis,2
+2022-06-19,Bronchitis,1
+2022-06-19,Asthma,1
+2022-06-19,Viral Infection,1
+2022-06-19,Dermatitis,1
+2022-06-20,Angina,5
+2022-06-20,Vertigo,2
+2022-06-20,Dermatitis,2
+2022-06-20,Viral Infection,1
+2022-06-21,Bronchitis,2
+2022-06-21,Gastritis,2
+2022-06-21,Viral Infection,2
+2022-06-21,Dermatitis,1
+2022-06-21,Arthritis,1
+2022-06-22,Angina,3
+2022-06-22,Vertigo,3
+2022-06-22,Migraine,1
+2022-06-22,Dermatitis,1
+2022-06-22,Sciatica,1
+2022-06-22,Asthma,1
+2022-06-23,Bronchitis,2
+2022-06-23,Arthritis,2
+2022-06-23,Vertigo,1
+2022-06-23,Gastritis,1
+2022-06-23,Dermatitis,1
+2022-06-23,Sciatica,1
+2022-06-23,Migraine,1
+2022-06-24,Gastritis,3
+2022-06-24,Vertigo,1
+2022-06-24,Bronchitis,1
+2022-06-24,Angina,1
+2022-06-25,Dermatitis,3
+2022-06-25,Angina,3
+2022-06-25,Gastritis,3
+2022-06-25,Viral Infection,2
+2022-06-25,Vertigo,2
+2022-06-25,Asthma,1
+2022-06-25,Sciatica,1
+2022-06-26,Asthma,2
+2022-06-26,Gastritis,2
+2022-06-26,Bronchitis,1
+2022-06-26,Viral Infection,1
+2022-06-26,Arthritis,1
+2022-06-26,Angina,1
+2022-06-26,Migraine,1
+2022-06-27,Dermatitis,3
+2022-06-27,Migraine,2
+2022-06-27,Arthritis,2
+2022-06-27,Sciatica,1
+2022-06-27,Gastritis,1
+2022-06-27,Vertigo,1
+2022-06-28,Gastritis,3
+2022-06-28,Arthritis,3
+2022-06-28,Dermatitis,2
+2022-06-28,Viral Infection,2
+2022-06-28,Vertigo,1
+2022-06-28,Bronchitis,1
+2022-06-28,Sciatica,1
+2022-07-01,Asthma,3
+2022-07-01,Arthritis,3
+2022-07-01,Vertigo,1
+2022-07-01,Angina,1
+2022-07-01,Sciatica,1
+2022-07-02,Angina,3
+2022-07-02,Vertigo,2
+2022-07-02,Bronchitis,2
+2022-07-02,Gastritis,1
+2022-07-02,Viral Infection,1
+2022-07-02,Asthma,1
+2022-07-02,Sciatica,1
+2022-07-02,Migraine,1
+2022-07-02,Arthritis,1
+2022-07-03,Vertigo,1
+2022-07-03,Bronchitis,1
+2022-07-03,Gastritis,1
+2022-07-03,Angina,1
+2022-07-03,Viral Infection,1
+2022-07-03,Asthma,1
+2022-07-03,Sciatica,1
+2022-07-04,Bronchitis,2
+2022-07-04,Asthma,2
+2022-07-04,Dermatitis,2
+2022-07-04,Sciatica,1
+2022-07-04,Viral Infection,1
+2022-07-04,Migraine,1
+2022-07-04,Arthritis,1
+2022-07-05,Vertigo,3
+2022-07-05,Migraine,3
+2022-07-05,Bronchitis,1
+2022-07-05,Sciatica,1
+2022-07-05,Angina,1
+2022-07-05,Arthritis,1
+2022-07-05,Gastritis,1
+2022-07-05,Dermatitis,1
+2022-07-06,Viral Infection,3
+2022-07-06,Sciatica,2
+2022-07-06,Arthritis,1
+2022-07-06,Angina,1
+2022-07-06,Asthma,1
+2022-07-06,Migraine,1
+2022-07-07,Gastritis,3
+2022-07-07,Dermatitis,1
+2022-07-07,Sciatica,1
+2022-07-07,Asthma,1
+2022-07-07,Migraine,1
+2022-07-08,Sciatica,3
+2022-07-08,Arthritis,2
+2022-07-08,Asthma,2
+2022-07-08,Viral Infection,2
+2022-07-08,Dermatitis,1
+2022-07-08,Bronchitis,1
+2022-07-09,Arthritis,2
+2022-07-09,Dermatitis,2
+2022-07-09,Asthma,2
+2022-07-09,Gastritis,1
+2022-07-09,Angina,1
+2022-07-09,Viral Infection,1
+2022-07-09,Sciatica,1
+2022-07-09,Bronchitis,1
+2022-07-09,Migraine,1
+2022-07-10,Bronchitis,2
+2022-07-10,Arthritis,1
+2022-07-10,Angina,1
+2022-07-10,Viral Infection,1
+2022-07-10,Vertigo,1
+2022-07-10,Asthma,1
+2022-07-10,Dermatitis,1
+2022-07-11,Arthritis,4
+2022-07-11,Dermatitis,3
+2022-07-11,Bronchitis,2
+2022-07-11,Migraine,2
+2022-07-12,Vertigo,2
+2022-07-12,Arthritis,2
+2022-07-12,Bronchitis,2
+2022-07-12,Angina,2
+2022-07-12,Asthma,1
+2022-07-12,Dermatitis,1
+2022-07-12,Gastritis,1
+2022-07-13,Asthma,2
+2022-07-13,Angina,2
+2022-07-13,Arthritis,1
+2022-07-13,Sciatica,1
+2022-07-13,Bronchitis,1
+2022-07-13,Dermatitis,1
+2022-07-13,Viral Infection,1
+2022-07-13,Migraine,1
+2022-07-14,Angina,2
+2022-07-14,Migraine,2
+2022-07-14,Vertigo,1
+2022-07-14,Bronchitis,1
+2022-07-14,Asthma,1
+2022-07-14,Gastritis,1
+2022-07-15,Bronchitis,3
+2022-07-15,Arthritis,2
+2022-07-15,Dermatitis,1
+2022-07-15,Migraine,1
+2022-07-15,Gastritis,1
+2022-07-16,Arthritis,2
+2022-07-16,Asthma,1
+2022-07-16,Angina,1
+2022-07-16,Sciatica,1
+2022-07-16,Vertigo,1
+2022-07-17,Asthma,3
+2022-07-17,Arthritis,2
+2022-07-17,Bronchitis,2
+2022-07-17,Migraine,2
+2022-07-17,Viral Infection,1
+2022-07-18,Bronchitis,3
+2022-07-18,Asthma,2
+2022-07-18,Vertigo,2
+2022-07-18,Angina,1
+2022-07-18,Dermatitis,1
+2022-07-18,Gastritis,1
+2022-07-18,Sciatica,1
+2022-07-18,Arthritis,1
+2022-07-18,Viral Infection,1
+2022-07-19,Sciatica,3
+2022-07-19,Angina,3
+2022-07-19,Asthma,2
+2022-07-19,Vertigo,1
+2022-07-19,Gastritis,1
+2022-07-19,Bronchitis,1
+2022-07-19,Dermatitis,1
+2022-07-19,Arthritis,1
+2022-07-20,Asthma,3
+2022-07-20,Vertigo,2
+2022-07-20,Arthritis,1
+2022-07-20,Gastritis,1
+2022-07-21,Gastritis,3
+2022-07-21,Dermatitis,2
+2022-07-21,Arthritis,2
+2022-07-21,Vertigo,1
+2022-07-21,Migraine,1
+2022-07-21,Angina,1
+2022-07-22,Bronchitis,3
+2022-07-22,Gastritis,3
+2022-07-22,Viral Infection,2
+2022-07-22,Dermatitis,2
+2022-07-22,Sciatica,1
+2022-07-22,Angina,1
+2022-07-22,Arthritis,1
+2022-07-23,Viral Infection,2
+2022-07-23,Bronchitis,2
+2022-07-24,Viral Infection,2
+2022-07-24,Gastritis,2
+2022-07-24,Angina,1
+2022-07-24,Migraine,1
+2022-07-24,Asthma,1
+2022-07-24,Bronchitis,1
+2022-07-24,Arthritis,1
+2022-07-24,Vertigo,1
+2022-07-25,Gastritis,2
+2022-07-25,Sciatica,2
+2022-07-25,Asthma,2
+2022-07-25,Migraine,1
+2022-07-25,Bronchitis,1
+2022-07-25,Viral Infection,1
+2022-07-25,Arthritis,1
+2022-07-26,Migraine,1
+2022-07-26,Dermatitis,1
+2022-07-26,Sciatica,1
+2022-07-26,Angina,1
+2022-07-26,Arthritis,1
+2022-07-26,Asthma,1
+2022-07-27,Dermatitis,3
+2022-07-27,Angina,2
+2022-07-27,Bronchitis,2
+2022-07-27,Gastritis,1
+2022-07-27,Sciatica,1
+2022-07-27,Asthma,1
+2022-07-28,Vertigo,3
+2022-07-28,Angina,1
+2022-07-28,Dermatitis,1
+2022-07-28,Bronchitis,1
+2022-07-28,Viral Infection,1
+2022-08-01,Migraine,2
+2022-08-01,Bronchitis,2
+2022-08-01,Vertigo,1
+2022-08-01,Angina,1
+2022-08-01,Viral Infection,1
+2022-08-01,Arthritis,1
+2022-08-02,Asthma,3
+2022-08-02,Gastritis,2
+2022-08-02,Dermatitis,1
+2022-08-02,Angina,1
+2022-08-02,Vertigo,1
+2022-08-02,Viral Infection,1
+2022-08-03,Migraine,2
+2022-08-03,Gastritis,2
+2022-08-03,Arthritis,2
+2022-08-03,Dermatitis,1
+2022-08-03,Bronchitis,1
+2022-08-03,Sciatica,1
+2022-08-04,Angina,3
+2022-08-04,Vertigo,3
+2022-08-04,Gastritis,2
+2022-08-04,Sciatica,2
+2022-08-04,Asthma,1
+2022-08-04,Migraine,1
+2022-08-04,Bronchitis,1
+2022-08-04,Arthritis,1
+2022-08-05,Migraine,2
+2022-08-05,Viral Infection,2
+2022-08-05,Gastritis,1
+2022-08-05,Dermatitis,1
+2022-08-05,Vertigo,1
+2022-08-05,Arthritis,1
+2022-08-05,Sciatica,1
+2022-08-05,Angina,1
+2022-08-06,Bronchitis,4
+2022-08-06,Viral Infection,1
+2022-08-06,Sciatica,1
+2022-08-06,Dermatitis,1
+2022-08-06,Asthma,1
+2022-08-06,Arthritis,1
+2022-08-07,Sciatica,2
+2022-08-07,Asthma,2
+2022-08-07,Angina,2
+2022-08-07,Migraine,1
+2022-08-07,Viral Infection,1
+2022-08-07,Bronchitis,1
+2022-08-07,Arthritis,1
+2022-08-08,Migraine,4
+2022-08-08,Gastritis,2
+2022-08-08,Vertigo,2
+2022-08-08,Arthritis,2
+2022-08-08,Dermatitis,1
+2022-08-08,Asthma,1
+2022-08-09,Viral Infection,3
+2022-08-09,Arthritis,2
+2022-08-09,Sciatica,1
+2022-08-09,Asthma,1
+2022-08-09,Gastritis,1
+2022-08-09,Dermatitis,1
+2022-08-09,Angina,1
+2022-08-10,Vertigo,2
+2022-08-10,Bronchitis,2
+2022-08-10,Sciatica,1
+2022-08-10,Asthma,1
+2022-08-10,Gastritis,1
+2022-08-10,Viral Infection,1
+2022-08-10,Arthritis,1
+2022-08-10,Dermatitis,1
+2022-08-10,Angina,1
+2022-08-11,Bronchitis,3
+2022-08-11,Angina,2
+2022-08-11,Asthma,2
+2022-08-11,Sciatica,1
+2022-08-11,Gastritis,1
+2022-08-11,Dermatitis,1
+2022-08-11,Arthritis,1
+2022-08-11,Vertigo,1
+2022-08-12,Asthma,1
+2022-08-12,Arthritis,1
+2022-08-13,Viral Infection,4
+2022-08-13,Dermatitis,2
+2022-08-13,Gastritis,2
+2022-08-13,Bronchitis,1
+2022-08-14,Asthma,2
+2022-08-14,Angina,1
+2022-08-14,Gastritis,1
+2022-08-15,Angina,4
+2022-08-15,Migraine,2
+2022-08-15,Dermatitis,2
+2022-08-15,Viral Infection,2
+2022-08-15,Vertigo,2
+2022-08-15,Asthma,1
+2022-08-15,Gastritis,1
+2022-08-15,Arthritis,1
+2022-08-15,Bronchitis,1
+2022-08-16,Migraine,3
+2022-08-16,Sciatica,2
+2022-08-16,Asthma,1
+2022-08-16,Angina,1
+2022-08-16,Arthritis,1
+2022-08-16,Vertigo,1
+2022-08-16,Dermatitis,1
+2022-08-17,Asthma,3
+2022-08-17,Viral Infection,2
+2022-08-17,Angina,1
+2022-08-17,Gastritis,1
+2022-08-17,Arthritis,1
+2022-08-17,Vertigo,1
+2022-08-17,Bronchitis,1
+2022-08-18,Asthma,2
+2022-08-18,Gastritis,2
+2022-08-18,Sciatica,1
+2022-08-18,Migraine,1
+2022-08-18,Vertigo,1
+2022-08-18,Dermatitis,1
+2022-08-19,Sciatica,3
+2022-08-19,Bronchitis,1
+2022-08-19,Vertigo,1
+2022-08-19,Gastritis,1
+2022-08-19,Viral Infection,1
+2022-08-19,Asthma,1
+2022-08-20,Vertigo,3
+2022-08-20,Migraine,1
+2022-08-20,Dermatitis,1
+2022-08-20,Sciatica,1
+2022-08-20,Angina,1
+2022-08-21,Vertigo,2
+2022-08-21,Dermatitis,2
+2022-08-21,Asthma,2
+2022-08-21,Migraine,1
+2022-08-21,Bronchitis,1
+2022-08-21,Sciatica,1
+2022-08-21,Angina,1
+2022-08-21,Gastritis,1
+2022-08-22,Dermatitis,3
+2022-08-22,Bronchitis,2
+2022-08-22,Gastritis,1
+2022-08-22,Arthritis,1
+2022-08-22,Asthma,1
+2022-08-22,Angina,1
+2022-08-22,Sciatica,1
+2022-08-23,Arthritis,2
+2022-08-23,Angina,2
+2022-08-23,Asthma,1
+2022-08-23,Sciatica,1
+2022-08-23,Bronchitis,1
+2022-08-24,Viral Infection,4
+2022-08-24,Migraine,2
+2022-08-24,Bronchitis,2
+2022-08-24,Sciatica,1
+2022-08-24,Dermatitis,1
+2022-08-24,Vertigo,1
+2022-08-25,Sciatica,3
+2022-08-25,Angina,2
+2022-08-25,Viral Infection,1
+2022-08-25,Dermatitis,1
+2022-08-26,Gastritis,2
+2022-08-26,Migraine,2
+2022-08-26,Dermatitis,2
+2022-08-26,Vertigo,2
+2022-08-26,Angina,1
+2022-08-26,Viral Infection,1
+2022-08-26,Asthma,1
+2022-08-26,Sciatica,1
+2022-08-27,Angina,2
+2022-08-27,Vertigo,2
+2022-08-27,Migraine,2
+2022-08-27,Asthma,1
+2022-08-27,Arthritis,1
+2022-08-27,Sciatica,1
+2022-08-28,Angina,3
+2022-08-28,Asthma,2
+2022-08-28,Arthritis,2
+2022-08-28,Gastritis,1
+2022-08-28,Viral Infection,1
+2022-08-28,Bronchitis,1
+2022-09-01,Arthritis,2
+2022-09-01,Sciatica,2
+2022-09-01,Bronchitis,2
+2022-09-01,Viral Infection,1
+2022-09-01,Gastritis,1
+2022-09-01,Asthma,1
+2022-09-01,Vertigo,1
+2022-09-02,Bronchitis,2
+2022-09-02,Dermatitis,1
+2022-09-02,Migraine,1
+2022-09-02,Viral Infection,1
+2022-09-02,Sciatica,1
+2022-09-02,Arthritis,1
+2022-09-02,Vertigo,1
+2022-09-03,Migraine,2
+2022-09-03,Vertigo,2
+2022-09-03,Gastritis,1
+2022-09-03,Bronchitis,1
+2022-09-03,Asthma,1
+2022-09-03,Angina,1
+2022-09-04,Dermatitis,3
+2022-09-04,Angina,2
+2022-09-04,Migraine,1
+2022-09-04,Sciatica,1
+2022-09-04,Gastritis,1
+2022-09-04,Bronchitis,1
+2022-09-04,Asthma,1
+2022-09-04,Arthritis,1
+2022-09-04,Vertigo,1
+2022-09-05,Vertigo,3
+2022-09-05,Gastritis,2
+2022-09-05,Angina,1
+2022-09-06,Angina,1
+2022-09-06,Gastritis,1
+2022-09-06,Viral Infection,1
+2022-09-06,Migraine,1
+2022-09-06,Vertigo,1
+2022-09-07,Viral Infection,2
+2022-09-07,Migraine,2
+2022-09-07,Angina,1
+2022-09-07,Sciatica,1
+2022-09-07,Arthritis,1
+2022-09-07,Dermatitis,1
+2022-09-07,Vertigo,1
+2022-09-07,Bronchitis,1
+2022-09-08,Bronchitis,2
+2022-09-08,Dermatitis,2
+2022-09-08,Vertigo,1
+2022-09-08,Angina,1
+2022-09-08,Sciatica,1
+2022-09-08,Viral Infection,1
+2022-09-08,Arthritis,1
+2022-09-08,Gastritis,1
+2022-09-09,Angina,3
+2022-09-09,Vertigo,1
+2022-09-09,Bronchitis,1
+2022-09-09,Dermatitis,1
+2022-09-09,Viral Infection,1
+2022-09-09,Gastritis,1
+2022-09-09,Migraine,1
+2022-09-10,Migraine,2
+2022-09-10,Asthma,1
+2022-09-10,Vertigo,1
+2022-09-10,Bronchitis,1
+2022-09-10,Angina,1
+2022-09-10,Dermatitis,1
+2022-09-10,Viral Infection,1
+2022-09-11,Vertigo,4
+2022-09-11,Bronchitis,3
+2022-09-11,Dermatitis,3
+2022-09-11,Arthritis,2
+2022-09-11,Asthma,1
+2022-09-11,Angina,1
+2022-09-12,Asthma,1
+2022-09-12,Bronchitis,1
+2022-09-12,Migraine,1
+2022-09-13,Dermatitis,4
+2022-09-13,Vertigo,3
+2022-09-13,Angina,3
+2022-09-13,Asthma,2
+2022-09-13,Arthritis,2
+2022-09-13,Viral Infection,2
+2022-09-13,Bronchitis,1
+2022-09-13,Gastritis,1
+2022-09-14,Vertigo,2
+2022-09-14,Migraine,2
+2022-09-14,Bronchitis,2
+2022-09-14,Angina,1
+2022-09-14,Sciatica,1
+2022-09-14,Gastritis,1
+2022-09-14,Viral Infection,1
+2022-09-14,Dermatitis,1
+2022-09-15,Gastritis,3
+2022-09-15,Angina,2
+2022-09-15,Asthma,2
+2022-09-15,Sciatica,1
+2022-09-15,Viral Infection,1
+2022-09-15,Arthritis,1
+2022-09-15,Vertigo,1
+2022-09-16,Bronchitis,2
+2022-09-16,Sciatica,1
+2022-09-16,Viral Infection,1
+2022-09-16,Dermatitis,1
+2022-09-16,Arthritis,1
+2022-09-16,Migraine,1
+2022-09-16,Vertigo,1
+2022-09-16,Asthma,1
+2022-09-17,Angina,2
+2022-09-17,Sciatica,2
+2022-09-17,Viral Infection,1
+2022-09-17,Migraine,1
+2022-09-17,Vertigo,1
+2022-09-17,Asthma,1
+2022-09-18,Sciatica,4
+2022-09-18,Gastritis,2
+2022-09-18,Viral Infection,1
+2022-09-18,Migraine,1
+2022-09-18,Bronchitis,1
+2022-09-18,Asthma,1
+2022-09-19,Sciatica,3
+2022-09-19,Dermatitis,2
+2022-09-19,Angina,2
+2022-09-19,Gastritis,1
+2022-09-19,Asthma,1
+2022-09-19,Bronchitis,1
+2022-09-20,Dermatitis,2
+2022-09-20,Migraine,2
+2022-09-20,Angina,1
+2022-09-20,Viral Infection,1
+2022-09-20,Gastritis,1
+2022-09-21,Viral Infection,3
+2022-09-21,Arthritis,2
+2022-09-21,Angina,1
+2022-09-21,Asthma,1
+2022-09-21,Bronchitis,1
+2022-09-22,Arthritis,2
+2022-09-22,Viral Infection,1
+2022-09-22,Migraine,1
+2022-09-23,Viral Infection,2
+2022-09-23,Vertigo,2
+2022-09-23,Gastritis,2
+2022-09-23,Dermatitis,1
+2022-09-23,Migraine,1
+2022-09-23,Angina,1
+2022-09-23,Sciatica,1
+2022-09-23,Arthritis,1
+2022-09-23,Asthma,1
+2022-09-24,Angina,2
+2022-09-24,Bronchitis,1
+2022-09-24,Gastritis,1
+2022-09-24,Migraine,1
+2022-09-24,Asthma,1
+2022-09-25,Viral Infection,2
+2022-09-25,Sciatica,2
+2022-09-25,Gastritis,2
+2022-09-25,Arthritis,2
+2022-09-25,Migraine,2
+2022-09-25,Bronchitis,1
+2022-09-25,Dermatitis,1
+2022-09-25,Angina,1
+2022-09-25,Asthma,1
+2022-09-25,Vertigo,1
+2022-09-26,Viral Infection,6
+2022-09-26,Bronchitis,1
+2022-09-26,Dermatitis,1
+2022-09-26,Angina,1
+2022-09-26,Asthma,1
+2022-09-27,Vertigo,2
+2022-09-27,Dermatitis,2
+2022-09-27,Arthritis,2
+2022-09-27,Bronchitis,1
+2022-09-27,Asthma,1
+2022-09-28,Arthritis,2
+2022-09-28,Migraine,2
+2022-09-28,Vertigo,1
+2022-09-28,Bronchitis,1
+2022-10-01,Asthma,2
+2022-10-01,Gastritis,2
+2022-10-01,Bronchitis,2
+2022-10-01,Sciatica,2
+2022-10-01,Migraine,1
+2022-10-01,Dermatitis,1
+2022-10-01,Vertigo,1
+2022-10-01,Viral Infection,1
+2022-10-02,Asthma,5
+2022-10-02,Dermatitis,2
+2022-10-02,Sciatica,2
+2022-10-02,Angina,1
+2022-10-02,Gastritis,1
+2022-10-02,Vertigo,1
+2022-10-03,Gastritis,2
+2022-10-03,Sciatica,1
+2022-10-03,Viral Infection,1
+2022-10-03,Vertigo,1
+2022-10-03,Bronchitis,1
+2022-10-04,Asthma,3
+2022-10-04,Vertigo,1
+2022-10-04,Sciatica,1
+2022-10-04,Gastritis,1
+2022-10-04,Arthritis,1
+2022-10-04,Dermatitis,1
+2022-10-04,Angina,1
+2022-10-05,Asthma,2
+2022-10-05,Arthritis,1
+2022-10-05,Migraine,1
+2022-10-05,Angina,1
+2022-10-06,Dermatitis,4
+2022-10-06,Sciatica,4
+2022-10-06,Asthma,3
+2022-10-06,Migraine,2
+2022-10-06,Vertigo,2
+2022-10-06,Bronchitis,2
+2022-10-06,Angina,1
+2022-10-07,Gastritis,4
+2022-10-07,Sciatica,2
+2022-10-07,Angina,1
+2022-10-07,Vertigo,1
+2022-10-07,Arthritis,1
+2022-10-08,Viral Infection,3
+2022-10-08,Migraine,2
+2022-10-08,Angina,1
+2022-10-08,Sciatica,1
+2022-10-08,Bronchitis,1
+2022-10-08,Arthritis,1
+2022-10-09,Arthritis,2
+2022-10-09,Gastritis,2
+2022-10-09,Angina,1
+2022-10-09,Dermatitis,1
+2022-10-09,Sciatica,1
+2022-10-09,Asthma,1
+2022-10-10,Viral Infection,2
+2022-10-10,Arthritis,2
+2022-10-10,Dermatitis,1
+2022-10-10,Vertigo,1
+2022-10-10,Sciatica,1
+2022-10-10,Asthma,1
+2022-10-11,Sciatica,2
+2022-10-11,Gastritis,2
+2022-10-11,Dermatitis,1
+2022-10-11,Arthritis,1
+2022-10-11,Migraine,1
+2022-10-11,Vertigo,1
+2022-10-12,Angina,3
+2022-10-12,Asthma,2
+2022-10-12,Sciatica,2
+2022-10-12,Arthritis,2
+2022-10-12,Viral Infection,1
+2022-10-12,Dermatitis,1
+2022-10-12,Vertigo,1
+2022-10-12,Bronchitis,1
+2022-10-13,Angina,2
+2022-10-13,Vertigo,2
+2022-10-13,Sciatica,2
+2022-10-13,Viral Infection,1
+2022-10-13,Migraine,1
+2022-10-13,Asthma,1
+2022-10-13,Bronchitis,1
+2022-10-14,Migraine,3
+2022-10-14,Bronchitis,3
+2022-10-14,Viral Infection,1
+2022-10-14,Angina,1
+2022-10-15,Bronchitis,3
+2022-10-15,Asthma,3
+2022-10-15,Viral Infection,2
+2022-10-15,Gastritis,2
+2022-10-15,Migraine,1
+2022-10-15,Dermatitis,1
+2022-10-16,Migraine,2
+2022-10-16,Angina,1
+2022-10-16,Sciatica,1
+2022-10-16,Dermatitis,1
+2022-10-16,Vertigo,1
+2022-10-17,Viral Infection,1
+2022-10-18,Migraine,3
+2022-10-18,Gastritis,3
+2022-10-18,Vertigo,3
+2022-10-18,Bronchitis,3
+2022-10-18,Asthma,2
+2022-10-18,Angina,1
+2022-10-18,Arthritis,1
+2022-10-18,Viral Infection,1
+2022-10-18,Dermatitis,1
+2022-10-19,Angina,2
+2022-10-19,Gastritis,2
+2022-10-19,Dermatitis,2
+2022-10-19,Vertigo,1
+2022-10-19,Viral Infection,1
+2022-10-19,Migraine,1
+2022-10-19,Arthritis,1
+2022-10-19,Sciatica,1
+2022-10-20,Vertigo,3
+2022-10-20,Sciatica,3
+2022-10-20,Gastritis,2
+2022-10-20,Migraine,2
+2022-10-20,Bronchitis,1
+2022-10-20,Dermatitis,1
+2022-10-20,Asthma,1
+2022-10-21,Arthritis,2
+2022-10-21,Dermatitis,1
+2022-10-21,Asthma,1
+2022-10-21,Migraine,1
+2022-10-22,Arthritis,1
+2022-10-22,Dermatitis,1
+2022-10-22,Migraine,1
+2022-10-23,Viral Infection,2
+2022-10-23,Angina,2
+2022-10-23,Bronchitis,1
+2022-10-23,Dermatitis,1
+2022-10-23,Vertigo,1
+2022-10-24,Bronchitis,4
+2022-10-24,Sciatica,4
+2022-10-24,Dermatitis,2
+2022-10-24,Vertigo,2
+2022-10-24,Angina,1
+2022-10-24,Migraine,1
+2022-10-24,Arthritis,1
+2022-10-24,Viral Infection,1
+2022-10-24,Gastritis,1
+2022-10-25,Migraine,2
+2022-10-25,Bronchitis,2
+2022-10-25,Asthma,1
+2022-10-25,Viral Infection,1
+2022-10-26,Migraine,1
+2022-10-26,Bronchitis,1
+2022-10-26,Angina,1
+2022-10-26,Sciatica,1
+2022-10-26,Viral Infection,1
+2022-10-27,Vertigo,2
+2022-10-27,Asthma,2
+2022-10-27,Arthritis,2
+2022-10-27,Bronchitis,2
+2022-10-27,Angina,2
+2022-10-27,Migraine,1
+2022-10-27,Dermatitis,1
+2022-10-28,Sciatica,2
+2022-10-28,Bronchitis,2
+2022-10-28,Vertigo,1
+2022-10-28,Angina,1
+2022-10-28,Gastritis,1
+2022-10-28,Dermatitis,1
+2022-11-01,Angina,3
+2022-11-01,Vertigo,2
+2022-11-01,Migraine,2
+2022-11-01,Bronchitis,2
+2022-11-01,Sciatica,2
+2022-11-01,Viral Infection,1
+2022-11-02,Bronchitis,3
+2022-11-02,Sciatica,2
+2022-11-02,Vertigo,1
+2022-11-02,Dermatitis,1
+2022-11-02,Angina,1
+2022-11-02,Migraine,1
+2022-11-02,Viral Infection,1
+2022-11-03,Viral Infection,4
+2022-11-03,Gastritis,2
+2022-11-03,Sciatica,1
+2022-11-03,Bronchitis,1
+2022-11-04,Arthritis,2
+2022-11-04,Migraine,2
+2022-11-04,Gastritis,1
+2022-11-04,Angina,1
+2022-11-04,Bronchitis,1
+2022-11-05,Migraine,2
+2022-11-05,Angina,1
+2022-11-05,Sciatica,1
+2022-11-05,Asthma,1
+2022-11-05,Viral Infection,1
+2022-11-06,Migraine,2
+2022-11-06,Vertigo,1
+2022-11-06,Dermatitis,1
+2022-11-06,Viral Infection,1
+2022-11-06,Bronchitis,1
+2022-11-06,Gastritis,1
+2022-11-06,Angina,1
+2022-11-06,Asthma,1
+2022-11-07,Arthritis,2
+2022-11-07,Bronchitis,2
+2022-11-07,Dermatitis,2
+2022-11-07,Sciatica,2
+2022-11-07,Migraine,1
+2022-11-07,Viral Infection,1
+2022-11-08,Sciatica,3
+2022-11-08,Arthritis,2
+2022-11-08,Viral Infection,1
+2022-11-08,Bronchitis,1
+2022-11-08,Gastritis,1
+2022-11-08,Vertigo,1
+2022-11-08,Angina,1
+2022-11-09,Viral Infection,3
+2022-11-09,Arthritis,2
+2022-11-09,Angina,2
+2022-11-09,Bronchitis,1
+2022-11-09,Sciatica,1
+2022-11-09,Dermatitis,1
+2022-11-09,Vertigo,1
+2022-11-09,Asthma,1
+2022-11-09,Migraine,1
+2022-11-10,Arthritis,4
+2022-11-10,Asthma,2
+2022-11-10,Gastritis,1
+2022-11-10,Sciatica,1
+2022-11-11,Asthma,2
+2022-11-11,Angina,2
+2022-11-11,Arthritis,2
+2022-11-11,Bronchitis,2
+2022-11-11,Dermatitis,1
+2022-11-11,Vertigo,1
+2022-11-11,Viral Infection,1
+2022-11-11,Sciatica,1
+2022-11-12,Dermatitis,2
+2022-11-12,Angina,2
+2022-11-12,Gastritis,2
+2022-11-12,Arthritis,1
+2022-11-12,Viral Infection,1
+2022-11-12,Bronchitis,1
+2022-11-13,Vertigo,3
+2022-11-13,Dermatitis,2
+2022-11-13,Gastritis,2
+2022-11-13,Migraine,2
+2022-11-13,Asthma,1
+2022-11-13,Angina,1
+2022-11-13,Sciatica,1
+2022-11-13,Bronchitis,1
+2022-11-13,Arthritis,1
+2022-11-14,Bronchitis,3
+2022-11-14,Asthma,3
+2022-11-14,Arthritis,3
+2022-11-14,Angina,1
+2022-11-15,Angina,2
+2022-11-15,Bronchitis,2
+2022-11-15,Viral Infection,2
+2022-11-15,Vertigo,2
+2022-11-15,Sciatica,1
+2022-11-15,Migraine,1
+2022-11-16,Sciatica,1
+2022-11-16,Migraine,1
+2022-11-16,Dermatitis,1
+2022-11-16,Gastritis,1
+2022-11-17,Sciatica,2
+2022-11-17,Asthma,2
+2022-11-17,Viral Infection,1
+2022-11-17,Migraine,1
+2022-11-17,Vertigo,1
+2022-11-17,Gastritis,1
+2022-11-18,Bronchitis,2
+2022-11-18,Angina,1
+2022-11-18,Sciatica,1
+2022-11-18,Vertigo,1
+2022-11-18,Gastritis,1
+2022-11-18,Viral Infection,1
+2022-11-18,Dermatitis,1
+2022-11-19,Viral Infection,2
+2022-11-19,Vertigo,2
+2022-11-19,Sciatica,1
+2022-11-19,Arthritis,1
+2022-11-19,Dermatitis,1
+2022-11-19,Migraine,1
+2022-11-19,Bronchitis,1
+2022-11-20,Dermatitis,1
+2022-11-20,Migraine,1
+2022-11-20,Asthma,1
+2022-11-20,Bronchitis,1
+2022-11-20,Sciatica,1
+2022-11-21,Vertigo,2
+2022-11-21,Sciatica,1
+2022-11-22,Viral Infection,1
+2022-11-22,Angina,1
+2022-11-22,Dermatitis,1
+2022-11-22,Asthma,1
+2022-11-23,Sciatica,5
+2022-11-23,Viral Infection,2
+2022-11-23,Bronchitis,2
+2022-11-23,Asthma,2
+2022-11-23,Angina,1
+2022-11-23,Vertigo,1
+2022-11-23,Gastritis,1
+2022-11-23,Migraine,1
+2022-11-24,Gastritis,3
+2022-11-24,Arthritis,2
+2022-11-24,Vertigo,2
+2022-11-24,Sciatica,1
+2022-11-24,Migraine,1
+2022-11-25,Bronchitis,2
+2022-11-25,Asthma,1
+2022-11-25,Dermatitis,1
+2022-11-25,Gastritis,1
+2022-11-25,Vertigo,1
+2022-11-25,Migraine,1
+2022-11-25,Viral Infection,1
+2022-11-26,Asthma,2
+2022-11-26,Viral Infection,2
+2022-11-26,Sciatica,1
+2022-11-26,Dermatitis,1
+2022-11-26,Bronchitis,1
+2022-11-26,Gastritis,1
+2022-11-26,Migraine,1
+2022-11-27,Vertigo,2
+2022-11-27,Arthritis,1
+2022-11-27,Viral Infection,1
+2022-11-27,Dermatitis,1
+2022-11-27,Sciatica,1
+2022-11-27,Gastritis,1
+2022-11-28,Angina,2
+2022-11-28,Arthritis,2
+2022-11-28,Vertigo,1
+2022-11-28,Asthma,1
+2022-11-28,Bronchitis,1
+2022-11-28,Gastritis,1
+2022-12-01,Dermatitis,2
+2022-12-01,Arthritis,1
+2022-12-02,Sciatica,2
+2022-12-02,Viral Infection,1
+2022-12-02,Angina,1
+2022-12-02,Asthma,1
+2022-12-02,Bronchitis,1
+2022-12-02,Gastritis,1
+2022-12-03,Angina,3
+2022-12-03,Vertigo,1
+2022-12-03,Dermatitis,1
+2022-12-03,Sciatica,1
+2022-12-03,Asthma,1
+2022-12-03,Migraine,1
+2022-12-04,Migraine,2
+2022-12-04,Angina,1
+2022-12-04,Arthritis,1
+2022-12-04,Dermatitis,1
+2022-12-04,Sciatica,1
+2022-12-04,Asthma,1
+2022-12-04,Gastritis,1
+2022-12-05,Angina,1
+2022-12-05,Gastritis,1
+2022-12-05,Asthma,1
+2022-12-05,Sciatica,1
+2022-12-06,Vertigo,3
+2022-12-06,Angina,2
+2022-12-06,Migraine,1
+2022-12-06,Bronchitis,1
+2022-12-07,Asthma,2
+2022-12-07,Angina,2
+2022-12-07,Arthritis,2
+2022-12-07,Viral Infection,2
+2022-12-07,Bronchitis,1
+2022-12-07,Sciatica,1
+2022-12-08,Dermatitis,2
+2022-12-08,Bronchitis,1
+2022-12-08,Arthritis,1
+2022-12-08,Vertigo,1
+2022-12-08,Viral Infection,1
+2022-12-09,Asthma,2
+2022-12-09,Gastritis,1
+2022-12-09,Bronchitis,1
+2022-12-09,Sciatica,1
+2022-12-09,Viral Infection,1
+2022-12-09,Arthritis,1
+2022-12-09,Angina,1
+2022-12-10,Migraine,2
+2022-12-10,Arthritis,1
+2022-12-11,Dermatitis,2
+2022-12-11,Migraine,2
+2022-12-11,Arthritis,1
+2022-12-11,Sciatica,1
+2022-12-11,Angina,1
+2022-12-11,Gastritis,1
+2022-12-12,Asthma,4
+2022-12-12,Dermatitis,1
+2022-12-12,Sciatica,1
+2022-12-12,Angina,1
+2022-12-12,Viral Infection,1
+2022-12-12,Gastritis,1
+2022-12-13,Arthritis,1
+2022-12-13,Sciatica,1
+2022-12-14,Arthritis,3
+2022-12-14,Asthma,3
+2022-12-14,Sciatica,1
+2022-12-14,Dermatitis,1
+2022-12-14,Vertigo,1
+2022-12-14,Bronchitis,1
+2022-12-15,Asthma,3
+2022-12-15,Gastritis,2
+2022-12-15,Dermatitis,1
+2022-12-15,Viral Infection,1
+2022-12-16,Vertigo,3
+2022-12-16,Dermatitis,1
+2022-12-16,Angina,1
+2022-12-16,Gastritis,1
+2022-12-16,Bronchitis,1
+2022-12-16,Asthma,1
+2022-12-16,Migraine,1
+2022-12-16,Arthritis,1
+2022-12-17,Angina,2
+2022-12-17,Dermatitis,1
+2022-12-17,Viral Infection,1
+2022-12-17,Bronchitis,1
+2022-12-17,Asthma,1
+2022-12-17,Vertigo,1
+2022-12-18,Bronchitis,1
+2022-12-18,Angina,1
+2022-12-19,Dermatitis,2
+2022-12-19,Arthritis,2
+2022-12-19,Vertigo,2
+2022-12-19,Viral Infection,1
+2022-12-19,Bronchitis,1
+2022-12-20,Arthritis,5
+2022-12-20,Migraine,2
+2022-12-20,Gastritis,1
+2022-12-20,Viral Infection,1
+2022-12-20,Bronchitis,1
+2022-12-20,Angina,1
+2022-12-20,Vertigo,1
+2022-12-21,Gastritis,2
+2022-12-21,Bronchitis,2
+2022-12-21,Sciatica,2
+2022-12-21,Arthritis,1
+2022-12-21,Vertigo,1
+2022-12-21,Migraine,1
+2022-12-21,Angina,1
+2022-12-21,Asthma,1
+2022-12-21,Viral Infection,1
+2022-12-21,Dermatitis,1
+2022-12-22,Viral Infection,3
+2022-12-22,Bronchitis,2
+2022-12-22,Migraine,1
+2022-12-22,Vertigo,1
+2022-12-22,Sciatica,1
+2022-12-22,Asthma,1
+2022-12-22,Angina,1
+2022-12-22,Gastritis,1
+2022-12-23,Vertigo,2
+2022-12-23,Sciatica,2
+2022-12-23,Angina,2
+2022-12-23,Migraine,1
+2022-12-23,Arthritis,1
+2022-12-23,Asthma,1
+2022-12-23,Viral Infection,1
+2022-12-23,Dermatitis,1
+2022-12-24,Vertigo,3
+2022-12-24,Gastritis,3
+2022-12-24,Migraine,2
+2022-12-24,Sciatica,2
+2022-12-24,Viral Infection,2
+2022-12-24,Angina,1
+2022-12-25,Gastritis,2
+2022-12-25,Vertigo,1
+2022-12-25,Migraine,1
+2022-12-25,Arthritis,1
+2022-12-26,Vertigo,2
+2022-12-26,Arthritis,2
+2022-12-26,Asthma,2
+2022-12-26,Gastritis,2
+2022-12-26,Sciatica,1
+2022-12-26,Viral Infection,1
+2022-12-26,Bronchitis,1
+2022-12-26,Angina,1
+2022-12-27,Migraine,2
+2022-12-27,Asthma,1
+2022-12-27,Viral Infection,1
+2022-12-27,Arthritis,1
+2022-12-28,Viral Infection,2
+2022-12-28,Arthritis,1
+2022-12-28,Migraine,1
+2022-12-28,Vertigo,1
+2022-12-28,Angina,1
+2022-12-28,Dermatitis,1
+2022-12-28,Sciatica,1
+2023-01-01,Arthritis,1
+2023-01-01,Viral Infection,1
+2023-01-01,Vertigo,1
+2023-01-01,Migraine,1
+2023-01-02,Viral Infection,2
+2023-01-02,Asthma,1
+2023-01-02,Arthritis,1
+2023-01-02,Bronchitis,1
+2023-01-02,Vertigo,1
+2023-01-02,Gastritis,1
+2023-01-02,Angina,1
+2023-01-02,Sciatica,1
+2023-01-03,Dermatitis,3
+2023-01-03,Gastritis,2
+2023-01-03,Viral Infection,2
+2023-01-03,Sciatica,1
+2023-01-03,Migraine,1
+2023-01-03,Arthritis,1
+2023-01-04,Gastritis,3
+2023-01-04,Dermatitis,3
+2023-01-04,Viral Infection,2
+2023-01-04,Angina,1
+2023-01-04,Migraine,1
+2023-01-04,Sciatica,1
+2023-01-04,Bronchitis,1
+2023-01-04,Asthma,1
+2023-01-05,Bronchitis,3
+2023-01-05,Viral Infection,2
+2023-01-05,Arthritis,2
+2023-01-05,Asthma,1
+2023-01-05,Migraine,1
+2023-01-05,Dermatitis,1
+2023-01-06,Sciatica,2
+2023-01-06,Asthma,1
+2023-01-06,Arthritis,1
+2023-01-07,Sciatica,2
+2023-01-07,Dermatitis,1
+2023-01-07,Gastritis,1
+2023-01-07,Asthma,1
+2023-01-08,Dermatitis,3
+2023-01-08,Migraine,2
+2023-01-08,Asthma,2
+2023-01-08,Gastritis,1
+2023-01-08,Viral Infection,1
+2023-01-08,Vertigo,1
+2023-01-08,Arthritis,1
+2023-01-08,Bronchitis,1
+2023-01-08,Angina,1
+2023-01-09,Dermatitis,1
+2023-01-09,Gastritis,1
+2023-01-09,Viral Infection,1
+2023-01-09,Arthritis,1
+2023-01-09,Sciatica,1
+2023-01-09,Bronchitis,1
+2023-01-10,Bronchitis,3
+2023-01-10,Migraine,1
+2023-01-10,Gastritis,1
+2023-01-10,Arthritis,1
+2023-01-10,Sciatica,1
+2023-01-10,Angina,1
+2023-01-11,Migraine,1
+2023-01-11,Gastritis,1
+2023-01-11,Arthritis,1
+2023-01-11,Sciatica,1
+2023-01-12,Dermatitis,2
+2023-01-12,Gastritis,2
+2023-01-12,Arthritis,1
+2023-01-12,Vertigo,1
+2023-01-12,Bronchitis,1
+2023-01-12,Migraine,1
+2023-01-12,Viral Infection,1
+2023-01-12,Sciatica,1
+2023-01-13,Vertigo,1
+2023-01-13,Bronchitis,1
+2023-01-13,Migraine,1
+2023-01-13,Viral Infection,1
+2023-01-13,Gastritis,1
+2023-01-13,Sciatica,1
+2023-01-13,Angina,1
+2023-01-14,Gastritis,3
+2023-01-14,Dermatitis,2
+2023-01-14,Migraine,2
+2023-01-14,Arthritis,1
+2023-01-14,Vertigo,1
+2023-01-14,Angina,1
+2023-01-15,Bronchitis,3
+2023-01-15,Sciatica,2
+2023-01-15,Dermatitis,2
+2023-01-15,Vertigo,2
+2023-01-15,Angina,1
+2023-01-15,Gastritis,1
+2023-01-16,Sciatica,5
+2023-01-16,Migraine,3
+2023-01-16,Angina,1
+2023-01-16,Bronchitis,1
+2023-01-16,Vertigo,1
+2023-01-17,Asthma,4
+2023-01-17,Sciatica,2
+2023-01-17,Vertigo,2
+2023-01-17,Angina,1
+2023-01-17,Migraine,1
+2023-01-17,Arthritis,1
+2023-01-18,Gastritis,2
+2023-01-18,Vertigo,2
+2023-01-18,Sciatica,1
+2023-01-18,Dermatitis,1
+2023-01-18,Bronchitis,1
+2023-01-18,Arthritis,1
+2023-01-19,Asthma,3
+2023-01-19,Viral Infection,2
+2023-01-19,Angina,2
+2023-01-19,Dermatitis,2
+2023-01-19,Migraine,2
+2023-01-19,Gastritis,1
+2023-01-19,Bronchitis,1
+2023-01-20,Gastritis,4
+2023-01-20,Arthritis,2
+2023-01-20,Dermatitis,2
+2023-01-20,Viral Infection,1
+2023-01-20,Migraine,1
+2023-01-20,Angina,1
+2023-01-20,Sciatica,1
+2023-01-21,Bronchitis,3
+2023-01-21,Arthritis,2
+2023-01-21,Asthma,2
+2023-01-21,Gastritis,2
+2023-01-21,Vertigo,1
+2023-01-21,Angina,1
+2023-01-22,Vertigo,2
+2023-01-22,Migraine,1
+2023-01-22,Bronchitis,1
+2023-01-22,Gastritis,1
+2023-01-22,Angina,1
+2023-01-23,Arthritis,2
+2023-01-23,Migraine,2
+2023-01-23,Asthma,2
+2023-01-24,Sciatica,4
+2023-01-24,Viral Infection,2
+2023-01-24,Arthritis,2
+2023-01-24,Asthma,2
+2023-01-24,Angina,2
+2023-01-24,Bronchitis,1
+2023-01-24,Dermatitis,1
+2023-01-25,Bronchitis,4
+2023-01-25,Arthritis,2
+2023-01-25,Dermatitis,1
+2023-01-25,Sciatica,1
+2023-01-25,Asthma,1
+2023-01-25,Angina,1
+2023-01-26,Sciatica,2
+2023-01-26,Dermatitis,2
+2023-01-26,Gastritis,2
+2023-01-26,Asthma,1
+2023-01-26,Viral Infection,1
+2023-01-26,Migraine,1
+2023-01-26,Arthritis,1
+2023-01-27,Vertigo,4
+2023-01-27,Migraine,2
+2023-01-27,Sciatica,1
+2023-01-27,Bronchitis,1
+2023-01-27,Arthritis,1
+2023-01-27,Asthma,1
+2023-01-27,Gastritis,1
+2023-01-27,Viral Infection,1
+2023-01-28,Bronchitis,2
+2023-01-28,Arthritis,2
+2023-01-28,Viral Infection,2
+2023-01-28,Sciatica,1
+2023-01-28,Vertigo,1
+2023-01-28,Dermatitis,1
+2023-01-28,Gastritis,1
+2023-01-28,Migraine,1
+2023-02-01,Dermatitis,1
+2023-02-01,Arthritis,1
+2023-02-01,Gastritis,1
+2023-02-01,Asthma,1
+2023-02-02,Sciatica,2
+2023-02-02,Angina,2
+2023-02-02,Arthritis,1
+2023-02-02,Migraine,1
+2023-02-02,Viral Infection,1
+2023-02-02,Bronchitis,1
+2023-02-02,Dermatitis,1
+2023-02-03,Angina,4
+2023-02-03,Arthritis,2
+2023-02-03,Sciatica,2
+2023-02-04,Arthritis,3
+2023-02-04,Bronchitis,3
+2023-02-04,Asthma,2
+2023-02-04,Viral Infection,1
+2023-02-04,Vertigo,1
+2023-02-05,Arthritis,2
+2023-02-05,Viral Infection,2
+2023-02-05,Asthma,2
+2023-02-05,Gastritis,1
+2023-02-05,Bronchitis,1
+2023-02-05,Vertigo,1
+2023-02-06,Sciatica,3
+2023-02-06,Asthma,2
+2023-02-06,Migraine,1
+2023-02-06,Angina,1
+2023-02-06,Bronchitis,1
+2023-02-06,Dermatitis,1
+2023-02-07,Gastritis,3
+2023-02-07,Arthritis,2
+2023-02-07,Asthma,2
+2023-02-07,Angina,2
+2023-02-07,Sciatica,1
+2023-02-07,Bronchitis,1
+2023-02-07,Dermatitis,1
+2023-02-07,Vertigo,1
+2023-02-08,Viral Infection,2
+2023-02-08,Sciatica,1
+2023-02-08,Dermatitis,1
+2023-02-08,Bronchitis,1
+2023-02-08,Gastritis,1
+2023-02-08,Angina,1
+2023-02-08,Arthritis,1
+2023-02-09,Bronchitis,3
+2023-02-09,Angina,2
+2023-02-09,Viral Infection,2
+2023-02-09,Arthritis,2
+2023-02-09,Sciatica,1
+2023-02-09,Dermatitis,1
+2023-02-09,Migraine,1
+2023-02-10,Bronchitis,2
+2023-02-10,Asthma,1
+2023-02-10,Arthritis,1
+2023-02-11,Sciatica,1
+2023-02-11,Angina,1
+2023-02-11,Viral Infection,1
+2023-02-11,Gastritis,1
+2023-02-11,Vertigo,1
+2023-02-11,Migraine,1
+2023-02-11,Bronchitis,1
+2023-02-12,Bronchitis,3
+2023-02-12,Viral Infection,2
+2023-02-12,Asthma,2
+2023-02-12,Sciatica,2
+2023-02-12,Migraine,1
+2023-02-12,Dermatitis,1
+2023-02-12,Gastritis,1
+2023-02-13,Migraine,3
+2023-02-13,Asthma,2
+2023-02-13,Angina,2
+2023-02-13,Bronchitis,1
+2023-02-13,Vertigo,1
+2023-02-13,Viral Infection,1
+2023-02-13,Arthritis,1
+2023-02-14,Angina,2
+2023-02-14,Migraine,2
+2023-02-14,Vertigo,2
+2023-02-14,Dermatitis,2
+2023-02-14,Sciatica,2
+2023-02-14,Arthritis,1
+2023-02-14,Gastritis,1
+2023-02-15,Viral Infection,2
+2023-02-15,Asthma,2
+2023-02-15,Arthritis,2
+2023-02-15,Bronchitis,2
+2023-02-15,Gastritis,1
+2023-02-15,Vertigo,1
+2023-02-15,Dermatitis,1
+2023-02-15,Sciatica,1
+2023-02-15,Angina,1
+2023-02-16,Asthma,2
+2023-02-16,Sciatica,2
+2023-02-16,Vertigo,1
+2023-02-16,Angina,1
+2023-02-17,Bronchitis,3
+2023-02-17,Angina,2
+2023-02-17,Asthma,1
+2023-02-17,Viral Infection,1
+2023-02-17,Arthritis,1
+2023-02-17,Migraine,1
+2023-02-17,Vertigo,1
+2023-02-17,Dermatitis,1
+2023-02-18,Angina,2
+2023-02-18,Asthma,2
+2023-02-18,Sciatica,2
+2023-02-18,Arthritis,1
+2023-02-18,Bronchitis,1
+2023-02-18,Migraine,1
+2023-02-18,Dermatitis,1
+2023-02-19,Bronchitis,3
+2023-02-19,Dermatitis,3
+2023-02-19,Angina,2
+2023-02-19,Migraine,2
+2023-02-19,Asthma,1
+2023-02-19,Viral Infection,1
+2023-02-19,Arthritis,1
+2023-02-19,Gastritis,1
+2023-02-20,Gastritis,2
+2023-02-20,Asthma,1
+2023-02-20,Viral Infection,1
+2023-02-20,Bronchitis,1
+2023-02-20,Angina,1
+2023-02-20,Arthritis,1
+2023-02-20,Sciatica,1
+2023-02-20,Dermatitis,1
+2023-02-21,Sciatica,3
+2023-02-21,Gastritis,2
+2023-02-21,Vertigo,1
+2023-02-21,Migraine,1
+2023-02-21,Asthma,1
+2023-02-21,Viral Infection,1
+2023-02-21,Arthritis,1
+2023-02-22,Angina,3
+2023-02-22,Vertigo,2
+2023-02-22,Migraine,1
+2023-02-22,Dermatitis,1
+2023-02-22,Bronchitis,1
+2023-02-22,Asthma,1
+2023-02-22,Viral Infection,1
+2023-02-22,Arthritis,1
+2023-02-22,Sciatica,1
+2023-02-23,Dermatitis,3
+2023-02-23,Angina,2
+2023-02-23,Arthritis,2
+2023-02-23,Sciatica,2
+2023-02-23,Bronchitis,1
+2023-02-23,Vertigo,1
+2023-02-24,Asthma,3
+2023-02-24,Gastritis,2
+2023-02-24,Vertigo,2
+2023-02-24,Dermatitis,1
+2023-02-24,Viral Infection,1
+2023-02-24,Sciatica,1
+2023-02-25,Gastritis,2
+2023-02-25,Vertigo,2
+2023-02-25,Angina,1
+2023-02-25,Viral Infection,1
+2023-02-25,Arthritis,1
+2023-02-25,Sciatica,1
+2023-02-26,Dermatitis,3
+2023-02-26,Arthritis,2
+2023-02-26,Bronchitis,1
+2023-02-26,Vertigo,1
+2023-02-26,Angina,1
+2023-02-26,Gastritis,1
+2023-02-27,Arthritis,2
+2023-02-27,Asthma,1
+2023-02-27,Gastritis,1
+2023-02-27,Migraine,1
+2023-02-27,Dermatitis,1
+2023-02-27,Angina,1
+2023-02-27,Bronchitis,1
+2023-02-28,Viral Infection,1
+2023-02-28,Angina,1
+2023-02-28,Bronchitis,1
+2023-03-01,Viral Infection,2
+2023-03-01,Vertigo,2
+2023-03-01,Angina,2
+2023-03-01,Sciatica,1
+2023-03-01,Gastritis,1
+2023-03-01,Arthritis,1
+2023-03-02,Migraine,3
+2023-03-02,Gastritis,3
+2023-03-02,Vertigo,1
+2023-03-02,Bronchitis,1
+2023-03-03,Gastritis,3
+2023-03-03,Sciatica,1
+2023-03-03,Asthma,1
+2023-03-03,Vertigo,1
+2023-03-03,Dermatitis,1
+2023-03-03,Angina,1
+2023-03-03,Arthritis,1
+2023-03-04,Migraine,2
+2023-03-04,Vertigo,2
+2023-03-04,Bronchitis,1
+2023-03-05,Viral Infection,3
+2023-03-05,Migraine,3
+2023-03-05,Vertigo,3
+2023-03-05,Arthritis,3
+2023-03-05,Angina,1
+2023-03-05,Gastritis,1
+2023-03-05,Sciatica,1
+2023-03-06,Viral Infection,3
+2023-03-06,Arthritis,2
+2023-03-06,Gastritis,2
+2023-03-06,Vertigo,2
+2023-03-06,Sciatica,2
+2023-03-06,Bronchitis,1
+2023-03-06,Angina,1
+2023-03-06,Asthma,1
+2023-03-07,Viral Infection,5
+2023-03-07,Bronchitis,2
+2023-03-07,Arthritis,1
+2023-03-07,Dermatitis,1
+2023-03-07,Asthma,1
+2023-03-08,Migraine,2
+2023-03-08,Sciatica,2
+2023-03-08,Viral Infection,1
+2023-03-09,Sciatica,3
+2023-03-09,Migraine,2
+2023-03-09,Bronchitis,2
+2023-03-09,Dermatitis,1
+2023-03-09,Vertigo,1
+2023-03-10,Migraine,3
+2023-03-10,Arthritis,3
+2023-03-10,Dermatitis,2
+2023-03-10,Sciatica,1
+2023-03-10,Bronchitis,1
+2023-03-10,Gastritis,1
+2023-03-11,Bronchitis,2
+2023-03-11,Arthritis,2
+2023-03-11,Vertigo,1
+2023-03-11,Angina,1
+2023-03-12,Asthma,1
+2023-03-12,Sciatica,1
+2023-03-12,Vertigo,1
+2023-03-12,Gastritis,1
+2023-03-12,Viral Infection,1
+2023-03-12,Migraine,1
+2023-03-13,Viral Infection,2
+2023-03-13,Vertigo,2
+2023-03-13,Gastritis,1
+2023-03-13,Angina,1
+2023-03-13,Arthritis,1
+2023-03-13,Sciatica,1
+2023-03-13,Migraine,1
+2023-03-13,Asthma,1
+2023-03-14,Angina,3
+2023-03-14,Bronchitis,3
+2023-03-14,Arthritis,2
+2023-03-14,Dermatitis,2
+2023-03-14,Vertigo,2
+2023-03-14,Viral Infection,1
+2023-03-14,Sciatica,1
+2023-03-14,Asthma,1
+2023-03-15,Viral Infection,2
+2023-03-15,Arthritis,1
+2023-03-15,Migraine,1
+2023-03-15,Asthma,1
+2023-03-16,Gastritis,2
+2023-03-16,Arthritis,2
+2023-03-16,Sciatica,2
+2023-03-16,Asthma,2
+2023-03-16,Viral Infection,1
+2023-03-16,Angina,1
+2023-03-16,Vertigo,1
+2023-03-17,Bronchitis,3
+2023-03-17,Viral Infection,2
+2023-03-17,Vertigo,1
+2023-03-17,Migraine,1
+2023-03-17,Angina,1
+2023-03-17,Dermatitis,1
+2023-03-18,Bronchitis,2
+2023-03-18,Asthma,1
+2023-03-18,Vertigo,1
+2023-03-18,Sciatica,1
+2023-03-18,Arthritis,1
+2023-03-18,Angina,1
+2023-03-18,Gastritis,1
+2023-03-18,Dermatitis,1
+2023-03-19,Dermatitis,4
+2023-03-19,Asthma,3
+2023-03-19,Sciatica,2
+2023-03-19,Migraine,2
+2023-03-19,Vertigo,1
+2023-03-19,Arthritis,1
+2023-03-19,Bronchitis,1
+2023-03-20,Sciatica,2
+2023-03-20,Gastritis,2
+2023-03-20,Vertigo,1
+2023-03-20,Angina,1
+2023-03-21,Bronchitis,2
+2023-03-21,Arthritis,2
+2023-03-21,Vertigo,1
+2023-03-21,Dermatitis,1
+2023-03-22,Angina,2
+2023-03-22,Viral Infection,2
+2023-03-22,Gastritis,1
+2023-03-22,Vertigo,1
+2023-03-22,Bronchitis,1
+2023-03-22,Arthritis,1
+2023-03-22,Migraine,1
+2023-03-23,Vertigo,2
+2023-03-23,Dermatitis,1
+2023-03-23,Gastritis,1
+2023-03-23,Asthma,1
+2023-03-23,Bronchitis,1
+2023-03-23,Viral Infection,1
+2023-03-24,Asthma,2
+2023-03-24,Sciatica,2
+2023-03-24,Bronchitis,1
+2023-03-24,Dermatitis,1
+2023-03-24,Viral Infection,1
+2023-03-25,Asthma,3
+2023-03-25,Sciatica,3
+2023-03-25,Arthritis,2
+2023-03-25,Migraine,2
+2023-03-25,Vertigo,1
+2023-03-25,Dermatitis,1
+2023-03-25,Viral Infection,1
+2023-03-25,Angina,1
+2023-03-26,Dermatitis,2
+2023-03-26,Viral Infection,1
+2023-03-26,Vertigo,1
+2023-03-26,Arthritis,1
+2023-03-26,Sciatica,1
+2023-03-27,Arthritis,2
+2023-03-27,Asthma,1
+2023-03-27,Vertigo,1
+2023-03-27,Angina,1
+2023-03-27,Sciatica,1
+2023-03-28,Angina,3
+2023-03-28,Arthritis,3
+2023-03-28,Gastritis,1
+2023-03-28,Dermatitis,1
+2023-03-28,Asthma,1
+2023-04-01,Viral Infection,3
+2023-04-01,Dermatitis,1
+2023-04-01,Gastritis,1
+2023-04-01,Sciatica,1
+2023-04-01,Migraine,1
+2023-04-01,Bronchitis,1
+2023-04-02,Vertigo,2
+2023-04-02,Asthma,2
+2023-04-02,Gastritis,1
+2023-04-02,Bronchitis,1
+2023-04-03,Vertigo,3
+2023-04-03,Arthritis,3
+2023-04-03,Sciatica,1
+2023-04-03,Asthma,1
+2023-04-03,Gastritis,1
+2023-04-04,Angina,3
+2023-04-04,Migraine,2
+2023-04-04,Gastritis,2
+2023-04-04,Arthritis,1
+2023-04-04,Asthma,1
+2023-04-04,Viral Infection,1
+2023-04-04,Dermatitis,1
+2023-04-05,Asthma,3
+2023-04-05,Bronchitis,2
+2023-04-05,Viral Infection,2
+2023-04-05,Vertigo,1
+2023-04-05,Migraine,1
+2023-04-05,Gastritis,1
+2023-04-06,Migraine,2
+2023-04-06,Asthma,1
+2023-04-06,Bronchitis,1
+2023-04-06,Viral Infection,1
+2023-04-06,Angina,1
+2023-04-07,Bronchitis,3
+2023-04-07,Vertigo,2
+2023-04-07,Asthma,2
+2023-04-07,Arthritis,1
+2023-04-07,Gastritis,1
+2023-04-07,Dermatitis,1
+2023-04-07,Sciatica,1
+2023-04-08,Vertigo,2
+2023-04-08,Migraine,1
+2023-04-08,Sciatica,1
+2023-04-08,Asthma,1
+2023-04-08,Angina,1
+2023-04-08,Arthritis,1
+2023-04-08,Bronchitis,1
+2023-04-09,Arthritis,4
+2023-04-09,Migraine,3
+2023-04-09,Asthma,3
+2023-04-09,Gastritis,2
+2023-04-09,Vertigo,2
+2023-04-09,Viral Infection,1
+2023-04-09,Sciatica,1
+2023-04-09,Angina,1
+2023-04-09,Bronchitis,1
+2023-04-10,Sciatica,3
+2023-04-10,Gastritis,2
+2023-04-10,Bronchitis,2
+2023-04-10,Migraine,1
+2023-04-10,Asthma,1
+2023-04-10,Vertigo,1
+2023-04-11,Bronchitis,2
+2023-04-11,Migraine,2
+2023-04-11,Arthritis,1
+2023-04-11,Viral Infection,1
+2023-04-12,Angina,4
+2023-04-12,Arthritis,3
+2023-04-12,Bronchitis,2
+2023-04-12,Vertigo,1
+2023-04-12,Asthma,1
+2023-04-12,Sciatica,1
+2023-04-12,Gastritis,1
+2023-04-12,Viral Infection,1
+2023-04-12,Migraine,1
+2023-04-13,Gastritis,3
+2023-04-13,Sciatica,2
+2023-04-13,Bronchitis,1
+2023-04-13,Angina,1
+2023-04-13,Migraine,1
+2023-04-13,Viral Infection,1
+2023-04-14,Angina,2
+2023-04-14,Asthma,2
+2023-04-14,Viral Infection,2
+2023-04-14,Bronchitis,1
+2023-04-14,Dermatitis,1
+2023-04-14,Gastritis,1
+2023-04-14,Sciatica,1
+2023-04-15,Dermatitis,2
+2023-04-15,Gastritis,2
+2023-04-15,Asthma,2
+2023-04-15,Angina,1
+2023-04-16,Vertigo,2
+2023-04-16,Migraine,2
+2023-04-16,Sciatica,1
+2023-04-16,Angina,1
+2023-04-16,Dermatitis,1
+2023-04-16,Bronchitis,1
+2023-04-17,Asthma,5
+2023-04-17,Sciatica,3
+2023-04-17,Migraine,2
+2023-04-17,Arthritis,1
+2023-04-17,Vertigo,1
+2023-04-17,Bronchitis,1
+2023-04-18,Arthritis,2
+2023-04-18,Angina,1
+2023-04-18,Migraine,1
+2023-04-18,Asthma,1
+2023-04-18,Gastritis,1
+2023-04-18,Dermatitis,1
+2023-04-18,Bronchitis,1
+2023-04-19,Viral Infection,3
+2023-04-19,Sciatica,2
+2023-04-19,Arthritis,1
+2023-04-19,Dermatitis,1
+2023-04-19,Gastritis,1
+2023-04-19,Vertigo,1
+2023-04-19,Bronchitis,1
+2023-04-20,Gastritis,2
+2023-04-20,Vertigo,1
+2023-04-21,Asthma,2
+2023-04-21,Bronchitis,2
+2023-04-21,Viral Infection,2
+2023-04-21,Dermatitis,1
+2023-04-21,Migraine,1
+2023-04-21,Angina,1
+2023-04-22,Dermatitis,3
+2023-04-22,Migraine,1
+2023-04-22,Arthritis,1
+2023-04-22,Sciatica,1
+2023-04-23,Gastritis,4
+2023-04-23,Bronchitis,2
+2023-04-23,Viral Infection,2
+2023-04-23,Migraine,1
+2023-04-23,Asthma,1
+2023-04-24,Vertigo,2
+2023-04-24,Viral Infection,1
+2023-04-24,Asthma,1
+2023-04-24,Sciatica,1
+2023-04-25,Asthma,2
+2023-04-25,Viral Infection,1
+2023-04-25,Vertigo,1
+2023-04-25,Dermatitis,1
+2023-04-26,Migraine,3
+2023-04-26,Bronchitis,2
+2023-04-26,Vertigo,2
+2023-04-26,Dermatitis,2
+2023-04-26,Arthritis,1
+2023-04-26,Sciatica,1
+2023-04-27,Bronchitis,6
+2023-04-27,Gastritis,2
+2023-04-27,Angina,2
+2023-04-27,Viral Infection,1
+2023-04-27,Arthritis,1
+2023-04-27,Dermatitis,1
+2023-04-28,Arthritis,3
+2023-04-28,Angina,3
+2023-04-28,Migraine,1
+2023-04-28,Vertigo,1
+2023-04-28,Asthma,1
+2023-04-28,Sciatica,1
+2023-05-01,Gastritis,2
+2023-05-01,Bronchitis,2
+2023-05-01,Migraine,1
+2023-05-01,Asthma,1
+2023-05-01,Sciatica,1
+2023-05-01,Arthritis,1
+2023-05-01,Dermatitis,1
+2023-05-01,Angina,1
+2023-05-02,Bronchitis,3
+2023-05-02,Gastritis,2
+2023-05-02,Migraine,2
+2023-05-02,Asthma,1
+2023-05-02,Sciatica,1
+2023-05-02,Angina,1
+2023-05-03,Migraine,2
+2023-05-03,Gastritis,1
+2023-05-03,Asthma,1
+2023-05-03,Sciatica,1
+2023-05-03,Vertigo,1
+2023-05-04,Bronchitis,3
+2023-05-04,Gastritis,2
+2023-05-04,Arthritis,1
+2023-05-04,Vertigo,1
+2023-05-04,Migraine,1
+2023-05-04,Angina,1
+2023-05-04,Viral Infection,1
+2023-05-05,Dermatitis,3
+2023-05-05,Asthma,2
+2023-05-05,Migraine,1
+2023-05-05,Angina,1
+2023-05-05,Arthritis,1
+2023-05-05,Gastritis,1
+2023-05-06,Arthritis,4
+2023-05-06,Vertigo,2
+2023-05-06,Angina,1
+2023-05-06,Dermatitis,1
+2023-05-06,Gastritis,1
+2023-05-07,Bronchitis,1
+2023-05-07,Asthma,1
+2023-05-07,Migraine,1
+2023-05-08,Sciatica,3
+2023-05-08,Arthritis,1
+2023-05-08,Angina,1
+2023-05-08,Dermatitis,1
+2023-05-08,Gastritis,1
+2023-05-09,Sciatica,3
+2023-05-09,Asthma,2
+2023-05-09,Gastritis,2
+2023-05-09,Arthritis,1
+2023-05-09,Vertigo,1
+2023-05-09,Dermatitis,1
+2023-05-10,Arthritis,3
+2023-05-10,Viral Infection,3
+2023-05-10,Dermatitis,2
+2023-05-10,Sciatica,2
+2023-05-10,Gastritis,1
+2023-05-10,Migraine,1
+2023-05-11,Arthritis,1
+2023-05-11,Viral Infection,1
+2023-05-11,Dermatitis,1
+2023-05-12,Angina,2
+2023-05-12,Bronchitis,2
+2023-05-12,Arthritis,1
+2023-05-12,Migraine,1
+2023-05-12,Vertigo,1
+2023-05-12,Viral Infection,1
+2023-05-12,Asthma,1
+2023-05-12,Sciatica,1
+2023-05-12,Gastritis,1
+2023-05-13,Dermatitis,2
+2023-05-13,Asthma,2
+2023-05-13,Gastritis,2
+2023-05-13,Viral Infection,1
+2023-05-13,Bronchitis,1
+2023-05-13,Angina,1
+2023-05-14,Sciatica,4
+2023-05-14,Bronchitis,3
+2023-05-14,Gastritis,2
+2023-05-14,Viral Infection,2
+2023-05-14,Dermatitis,1
+2023-05-14,Vertigo,1
+2023-05-14,Angina,1
+2023-05-15,Migraine,2
+2023-05-15,Dermatitis,1
+2023-05-15,Asthma,1
+2023-05-15,Gastritis,1
+2023-05-15,Viral Infection,1
+2023-05-15,Sciatica,1
+2023-05-15,Bronchitis,1
+2023-05-15,Arthritis,1
+2023-05-16,Bronchitis,3
+2023-05-16,Asthma,2
+2023-05-16,Dermatitis,1
+2023-05-16,Gastritis,1
+2023-05-16,Vertigo,1
+2023-05-17,Viral Infection,4
+2023-05-17,Vertigo,3
+2023-05-17,Sciatica,2
+2023-05-17,Asthma,1
+2023-05-17,Dermatitis,1
+2023-05-17,Gastritis,1
+2023-05-18,Gastritis,3
+2023-05-18,Arthritis,2
+2023-05-18,Viral Infection,1
+2023-05-18,Asthma,1
+2023-05-19,Dermatitis,3
+2023-05-19,Arthritis,2
+2023-05-19,Migraine,2
+2023-05-19,Asthma,2
+2023-05-19,Bronchitis,2
+2023-05-19,Vertigo,1
+2023-05-19,Gastritis,1
+2023-05-19,Viral Infection,1
+2023-05-20,Migraine,2
+2023-05-20,Gastritis,2
+2023-05-20,Arthritis,1
+2023-05-20,Bronchitis,1
+2023-05-20,Sciatica,1
+2023-05-21,Vertigo,2
+2023-05-21,Bronchitis,2
+2023-05-22,Sciatica,2
+2023-05-22,Asthma,2
+2023-05-22,Arthritis,1
+2023-05-22,Vertigo,1
+2023-05-22,Gastritis,1
+2023-05-23,Bronchitis,3
+2023-05-23,Viral Infection,2
+2023-05-23,Migraine,1
+2023-05-23,Arthritis,1
+2023-05-23,Vertigo,1
+2023-05-23,Sciatica,1
+2023-05-24,Arthritis,2
+2023-05-24,Migraine,2
+2023-05-24,Sciatica,2
+2023-05-24,Viral Infection,2
+2023-05-24,Angina,1
+2023-05-24,Gastritis,1
+2023-05-25,Gastritis,2
+2023-05-25,Migraine,1
+2023-05-25,Asthma,1
+2023-05-25,Sciatica,1
+2023-05-25,Dermatitis,1
+2023-05-26,Angina,2
+2023-05-26,Dermatitis,2
+2023-05-26,Migraine,2
+2023-05-26,Sciatica,1
+2023-05-26,Bronchitis,1
+2023-05-26,Asthma,1
+2023-05-26,Viral Infection,1
+2023-05-27,Arthritis,3
+2023-05-27,Bronchitis,3
+2023-05-27,Sciatica,1
+2023-05-27,Asthma,1
+2023-05-27,Migraine,1
+2023-05-27,Viral Infection,1
+2023-05-28,Angina,3
+2023-05-28,Sciatica,2
+2023-05-28,Gastritis,1
+2023-06-01,Bronchitis,3
+2023-06-01,Arthritis,2
+2023-06-01,Angina,1
+2023-06-01,Gastritis,1
+2023-06-02,Asthma,4
+2023-06-02,Vertigo,2
+2023-06-02,Viral Infection,1
+2023-06-02,Migraine,1
+2023-06-02,Gastritis,1
+2023-06-02,Bronchitis,1
+2023-06-02,Angina,1
+2023-06-02,Sciatica,1
+2023-06-03,Angina,3
+2023-06-03,Vertigo,2
+2023-06-03,Sciatica,2
+2023-06-03,Gastritis,1
+2023-06-03,Arthritis,1
+2023-06-03,Bronchitis,1
+2023-06-04,Vertigo,2
+2023-06-04,Arthritis,2
+2023-06-04,Angina,2
+2023-06-04,Gastritis,2
+2023-06-04,Sciatica,1
+2023-06-04,Asthma,1
+2023-06-04,Viral Infection,1
+2023-06-04,Migraine,1
+2023-06-05,Sciatica,2
+2023-06-05,Vertigo,2
+2023-06-05,Asthma,2
+2023-06-05,Viral Infection,1
+2023-06-05,Arthritis,1
+2023-06-05,Gastritis,1
+2023-06-05,Bronchitis,1
+2023-06-06,Vertigo,2
+2023-06-06,Asthma,2
+2023-06-06,Sciatica,1
+2023-06-06,Migraine,1
+2023-06-06,Arthritis,1
+2023-06-06,Viral Infection,1
+2023-06-06,Gastritis,1
+2023-06-07,Gastritis,3
+2023-06-07,Bronchitis,1
+2023-06-07,Viral Infection,1
+2023-06-07,Asthma,1
+2023-06-07,Migraine,1
+2023-06-07,Sciatica,1
+2023-06-07,Vertigo,1
+2023-06-08,Dermatitis,2
+2023-06-08,Asthma,2
+2023-06-08,Viral Infection,1
+2023-06-08,Gastritis,1
+2023-06-08,Migraine,1
+2023-06-08,Arthritis,1
+2023-06-08,Sciatica,1
+2023-06-09,Dermatitis,3
+2023-06-09,Gastritis,2
+2023-06-09,Viral Infection,1
+2023-06-09,Asthma,1
+2023-06-09,Migraine,1
+2023-06-09,Arthritis,1
+2023-06-10,Angina,2
+2023-06-10,Sciatica,2
+2023-06-10,Bronchitis,1
+2023-06-10,Migraine,1
+2023-06-10,Vertigo,1
+2023-06-11,Angina,2
+2023-06-11,Dermatitis,1
+2023-06-11,Migraine,1
+2023-06-12,Arthritis,2
+2023-06-12,Bronchitis,1
+2023-06-12,Vertigo,1
+2023-06-12,Viral Infection,1
+2023-06-12,Sciatica,1
+2023-06-12,Migraine,1
+2023-06-13,Viral Infection,1
+2023-06-13,Sciatica,1
+2023-06-13,Migraine,1
+2023-06-14,Asthma,2
+2023-06-14,Arthritis,2
+2023-06-14,Gastritis,2
+2023-06-14,Bronchitis,1
+2023-06-14,Sciatica,1
+2023-06-15,Viral Infection,2
+2023-06-15,Gastritis,2
+2023-06-15,Angina,1
+2023-06-15,Asthma,1
+2023-06-15,Vertigo,1
+2023-06-15,Arthritis,1
+2023-06-15,Bronchitis,1
+2023-06-15,Dermatitis,1
+2023-06-16,Asthma,2
+2023-06-16,Dermatitis,2
+2023-06-16,Vertigo,1
+2023-06-16,Arthritis,1
+2023-06-16,Gastritis,1
+2023-06-16,Sciatica,1
+2023-06-17,Angina,2
+2023-06-17,Asthma,2
+2023-06-17,Bronchitis,1
+2023-06-17,Sciatica,1
+2023-06-17,Gastritis,1
+2023-06-17,Vertigo,1
+2023-06-18,Arthritis,2
+2023-06-18,Dermatitis,1
+2023-06-18,Sciatica,1
+2023-06-18,Viral Infection,1
+2023-06-18,Bronchitis,1
+2023-06-18,Angina,1
+2023-06-19,Asthma,2
+2023-06-19,Arthritis,2
+2023-06-19,Dermatitis,1
+2023-06-19,Bronchitis,1
+2023-06-19,Sciatica,1
+2023-06-19,Viral Infection,1
+2023-06-19,Vertigo,1
+2023-06-20,Gastritis,3
+2023-06-20,Bronchitis,2
+2023-06-20,Viral Infection,2
+2023-06-20,Sciatica,1
+2023-06-20,Migraine,1
+2023-06-20,Dermatitis,1
+2023-06-20,Vertigo,1
+2023-06-21,Gastritis,3
+2023-06-21,Arthritis,3
+2023-06-21,Dermatitis,1
+2023-06-21,Viral Infection,1
+2023-06-21,Asthma,1
+2023-06-22,Dermatitis,1
+2023-06-22,Asthma,1
+2023-06-22,Sciatica,1
+2023-06-23,Dermatitis,2
+2023-06-23,Sciatica,2
+2023-06-23,Arthritis,2
+2023-06-23,Viral Infection,1
+2023-06-23,Asthma,1
+2023-06-23,Vertigo,1
+2023-06-23,Gastritis,1
+2023-06-24,Bronchitis,2
+2023-06-24,Arthritis,2
+2023-06-24,Angina,2
+2023-06-24,Dermatitis,1
+2023-06-24,Vertigo,1
+2023-06-24,Sciatica,1
+2023-06-24,Migraine,1
+2023-06-25,Gastritis,2
+2023-06-25,Sciatica,2
+2023-06-25,Viral Infection,1
+2023-06-25,Migraine,1
+2023-06-25,Asthma,1
+2023-06-25,Arthritis,1
+2023-06-25,Dermatitis,1
+2023-06-25,Angina,1
+2023-06-26,Asthma,2
+2023-06-26,Angina,2
+2023-06-26,Bronchitis,1
+2023-06-26,Sciatica,1
+2023-06-26,Viral Infection,1
+2023-06-26,Arthritis,1
+2023-06-27,Angina,3
+2023-06-27,Bronchitis,2
+2023-06-27,Viral Infection,2
+2023-06-27,Migraine,1
+2023-06-27,Asthma,1
+2023-06-27,Arthritis,1
+2023-06-27,Vertigo,1
+2023-06-27,Gastritis,1
+2023-06-28,Gastritis,4
+2023-06-28,Angina,3
+2023-06-28,Dermatitis,2
+2023-06-28,Sciatica,2
+2023-06-28,Arthritis,1
+2023-06-28,Vertigo,1
+2023-06-28,Migraine,1
+2023-06-28,Bronchitis,1
+2023-07-01,Asthma,2
+2023-07-01,Migraine,2
+2023-07-01,Vertigo,1
+2023-07-01,Bronchitis,1
+2023-07-02,Dermatitis,3
+2023-07-02,Angina,2
+2023-07-02,Viral Infection,2
+2023-07-02,Arthritis,1
+2023-07-02,Gastritis,1
+2023-07-02,Bronchitis,1
+2023-07-02,Migraine,1
+2023-07-03,Arthritis,1
+2023-07-03,Vertigo,1
+2023-07-03,Migraine,1
+2023-07-04,Migraine,3
+2023-07-04,Sciatica,2
+2023-07-04,Asthma,2
+2023-07-04,Arthritis,2
+2023-07-04,Viral Infection,2
+2023-07-04,Angina,1
+2023-07-04,Dermatitis,1
+2023-07-04,Gastritis,1
+2023-07-05,Arthritis,2
+2023-07-05,Dermatitis,2
+2023-07-05,Viral Infection,1
+2023-07-05,Gastritis,1
+2023-07-05,Angina,1
+2023-07-05,Vertigo,1
+2023-07-05,Bronchitis,1
+2023-07-06,Dermatitis,3
+2023-07-06,Gastritis,2
+2023-07-06,Bronchitis,1
+2023-07-06,Viral Infection,1
+2023-07-06,Sciatica,1
+2023-07-06,Angina,1
+2023-07-07,Gastritis,4
+2023-07-07,Vertigo,2
+2023-07-07,Arthritis,2
+2023-07-07,Bronchitis,1
+2023-07-07,Viral Infection,1
+2023-07-07,Angina,1
+2023-07-07,Sciatica,1
+2023-07-08,Vertigo,3
+2023-07-08,Migraine,3
+2023-07-08,Viral Infection,2
+2023-07-08,Dermatitis,2
+2023-07-08,Sciatica,2
+2023-07-08,Asthma,2
+2023-07-09,Sciatica,4
+2023-07-09,Migraine,2
+2023-07-09,Viral Infection,1
+2023-07-09,Vertigo,1
+2023-07-09,Dermatitis,1
+2023-07-09,Angina,1
+2023-07-09,Asthma,1
+2023-07-09,Arthritis,1
+2023-07-10,Sciatica,3
+2023-07-10,Dermatitis,2
+2023-07-10,Arthritis,1
+2023-07-10,Angina,1
+2023-07-10,Vertigo,1
+2023-07-10,Viral Infection,1
+2023-07-10,Gastritis,1
+2023-07-11,Sciatica,3
+2023-07-11,Migraine,2
+2023-07-11,Vertigo,2
+2023-07-11,Asthma,1
+2023-07-11,Arthritis,1
+2023-07-11,Gastritis,1
+2023-07-12,Viral Infection,3
+2023-07-12,Dermatitis,2
+2023-07-12,Vertigo,2
+2023-07-12,Gastritis,2
+2023-07-12,Asthma,1
+2023-07-12,Angina,1
+2023-07-13,Viral Infection,2
+2023-07-13,Arthritis,1
+2023-07-14,Sciatica,3
+2023-07-14,Angina,3
+2023-07-14,Vertigo,3
+2023-07-14,Dermatitis,2
+2023-07-14,Viral Infection,2
+2023-07-15,Viral Infection,2
+2023-07-15,Sciatica,1
+2023-07-15,Dermatitis,1
+2023-07-15,Gastritis,1
+2023-07-15,Migraine,1
+2023-07-15,Arthritis,1
+2023-07-16,Bronchitis,2
+2023-07-16,Gastritis,1
+2023-07-16,Arthritis,1
+2023-07-17,Sciatica,2
+2023-07-17,Asthma,2
+2023-07-17,Viral Infection,2
+2023-07-17,Gastritis,1
+2023-07-18,Dermatitis,3
+2023-07-18,Sciatica,2
+2023-07-18,Angina,2
+2023-07-18,Migraine,1
+2023-07-18,Arthritis,1
+2023-07-19,Viral Infection,4
+2023-07-19,Bronchitis,2
+2023-07-19,Migraine,2
+2023-07-19,Vertigo,1
+2023-07-19,Angina,1
+2023-07-20,Gastritis,4
+2023-07-20,Bronchitis,2
+2023-07-20,Migraine,2
+2023-07-20,Viral Infection,2
+2023-07-20,Arthritis,1
+2023-07-20,Asthma,1
+2023-07-20,Sciatica,1
+2023-07-20,Dermatitis,1
+2023-07-20,Angina,1
+2023-07-21,Arthritis,2
+2023-07-21,Migraine,2
+2023-07-21,Viral Infection,2
+2023-07-21,Gastritis,2
+2023-07-21,Asthma,1
+2023-07-21,Sciatica,1
+2023-07-21,Angina,1
+2023-07-22,Migraine,2
+2023-07-22,Angina,2
+2023-07-22,Dermatitis,2
+2023-07-22,Vertigo,1
+2023-07-22,Asthma,1
+2023-07-22,Viral Infection,1
+2023-07-23,Viral Infection,1
+2023-07-23,Gastritis,1
+2023-07-23,Angina,1
+2023-07-23,Bronchitis,1
+2023-07-24,Gastritis,2
+2023-07-24,Sciatica,1
+2023-07-24,Arthritis,1
+2023-07-24,Vertigo,1
+2023-07-25,Vertigo,3
+2023-07-25,Arthritis,2
+2023-07-25,Dermatitis,1
+2023-07-25,Angina,1
+2023-07-25,Asthma,1
+2023-07-26,Dermatitis,3
+2023-07-26,Vertigo,2
+2023-07-26,Sciatica,2
+2023-07-26,Asthma,1
+2023-07-26,Viral Infection,1
+2023-07-26,Migraine,1
+2023-07-26,Arthritis,1
+2023-07-26,Gastritis,1
+2023-07-27,Gastritis,3
+2023-07-27,Angina,2
+2023-07-27,Asthma,2
+2023-07-27,Arthritis,1
+2023-07-28,Arthritis,2
+2023-07-28,Gastritis,2
+2023-07-28,Vertigo,2
+2023-07-28,Sciatica,2
+2023-07-28,Viral Infection,1
+2023-07-28,Dermatitis,1
+2023-08-01,Arthritis,2
+2023-08-01,Viral Infection,1
+2023-08-01,Dermatitis,1
+2023-08-01,Migraine,1
+2023-08-01,Angina,1
+2023-08-02,Sciatica,2
+2023-08-02,Vertigo,2
+2023-08-02,Asthma,1
+2023-08-02,Angina,1
+2023-08-02,Migraine,1
+2023-08-02,Viral Infection,1
+2023-08-03,Angina,2
+2023-08-03,Vertigo,1
+2023-08-03,Arthritis,1
+2023-08-03,Sciatica,1
+2023-08-03,Bronchitis,1
+2023-08-03,Dermatitis,1
+2023-08-04,Bronchitis,4
+2023-08-04,Dermatitis,2
+2023-08-04,Asthma,1
+2023-08-04,Angina,1
+2023-08-04,Arthritis,1
+2023-08-04,Migraine,1
+2023-08-04,Sciatica,1
+2023-08-04,Gastritis,1
+2023-08-04,Viral Infection,1
+2023-08-05,Arthritis,3
+2023-08-05,Migraine,2
+2023-08-05,Viral Infection,2
+2023-08-05,Angina,1
+2023-08-05,Dermatitis,1
+2023-08-06,Gastritis,3
+2023-08-06,Viral Infection,2
+2023-08-06,Bronchitis,2
+2023-08-06,Migraine,2
+2023-08-06,Vertigo,1
+2023-08-06,Dermatitis,1
+2023-08-07,Viral Infection,2
+2023-08-07,Migraine,2
+2023-08-07,Dermatitis,1
+2023-08-07,Bronchitis,1
+2023-08-08,Arthritis,2
+2023-08-08,Dermatitis,1
+2023-08-08,Migraine,1
+2023-08-08,Bronchitis,1
+2023-08-08,Gastritis,1
+2023-08-08,Angina,1
+2023-08-08,Asthma,1
+2023-08-08,Vertigo,1
+2023-08-09,Dermatitis,1
+2023-08-09,Migraine,1
+2023-08-09,Sciatica,1
+2023-08-09,Viral Infection,1
+2023-08-09,Angina,1
+2023-08-09,Asthma,1
+2023-08-10,Viral Infection,3
+2023-08-10,Migraine,2
+2023-08-10,Bronchitis,2
+2023-08-10,Gastritis,2
+2023-08-10,Sciatica,2
+2023-08-10,Vertigo,1
+2023-08-10,Arthritis,1
+2023-08-11,Gastritis,2
+2023-08-11,Angina,2
+2023-08-11,Dermatitis,2
+2023-08-11,Vertigo,1
+2023-08-11,Bronchitis,1
+2023-08-11,Arthritis,1
+2023-08-12,Asthma,3
+2023-08-12,Sciatica,3
+2023-08-12,Angina,1
+2023-08-12,Dermatitis,1
+2023-08-13,Vertigo,2
+2023-08-13,Arthritis,2
+2023-08-13,Bronchitis,1
+2023-08-13,Gastritis,1
+2023-08-13,Angina,1
+2023-08-13,Viral Infection,1
+2023-08-14,Gastritis,3
+2023-08-14,Bronchitis,2
+2023-08-14,Arthritis,1
+2023-08-14,Viral Infection,1
+2023-08-15,Dermatitis,2
+2023-08-15,Vertigo,1
+2023-08-15,Arthritis,1
+2023-08-15,Angina,1
+2023-08-15,Viral Infection,1
+2023-08-15,Sciatica,1
+2023-08-16,Asthma,3
+2023-08-16,Dermatitis,3
+2023-08-16,Viral Infection,1
+2023-08-16,Migraine,1
+2023-08-16,Angina,1
+2023-08-16,Arthritis,1
+2023-08-16,Vertigo,1
+2023-08-17,Migraine,2
+2023-08-17,Arthritis,2
+2023-08-17,Viral Infection,1
+2023-08-17,Vertigo,1
+2023-08-17,Sciatica,1
+2023-08-18,Angina,2
+2023-08-18,Gastritis,2
+2023-08-18,Dermatitis,1
+2023-08-18,Vertigo,1
+2023-08-18,Sciatica,1
+2023-08-19,Asthma,3
+2023-08-19,Arthritis,2
+2023-08-19,Bronchitis,2
+2023-08-19,Gastritis,1
+2023-08-19,Dermatitis,1
+2023-08-19,Angina,1
+2023-08-19,Vertigo,1
+2023-08-20,Asthma,3
+2023-08-20,Dermatitis,2
+2023-08-20,Viral Infection,1
+2023-08-20,Vertigo,1
+2023-08-20,Arthritis,1
+2023-08-20,Bronchitis,1
+2023-08-20,Sciatica,1
+2023-08-21,Angina,3
+2023-08-21,Arthritis,2
+2023-08-21,Vertigo,2
+2023-08-21,Asthma,1
+2023-08-21,Migraine,1
+2023-08-21,Sciatica,1
+2023-08-22,Migraine,3
+2023-08-22,Gastritis,1
+2023-08-22,Angina,1
+2023-08-22,Vertigo,1
+2023-08-23,Sciatica,3
+2023-08-23,Asthma,1
+2023-08-23,Gastritis,1
+2023-08-23,Arthritis,1
+2023-08-24,Dermatitis,3
+2023-08-24,Arthritis,2
+2023-08-24,Asthma,1
+2023-08-24,Viral Infection,1
+2023-08-24,Migraine,1
+2023-08-24,Vertigo,1
+2023-08-24,Sciatica,1
+2023-08-25,Asthma,2
+2023-08-25,Gastritis,2
+2023-08-25,Bronchitis,2
+2023-08-25,Dermatitis,2
+2023-08-25,Arthritis,2
+2023-08-25,Angina,1
+2023-08-26,Gastritis,1
+2023-08-26,Bronchitis,1
+2023-08-26,Viral Infection,1
+2023-08-26,Dermatitis,1
+2023-08-26,Migraine,1
+2023-08-26,Arthritis,1
+2023-08-27,Arthritis,3
+2023-08-27,Gastritis,2
+2023-08-27,Viral Infection,2
+2023-08-27,Dermatitis,1
+2023-08-27,Vertigo,1
+2023-08-27,Angina,1
+2023-08-28,Gastritis,1
+2023-08-28,Viral Infection,1
+2023-08-28,Vertigo,1
+2023-08-28,Bronchitis,1
+2023-09-01,Gastritis,3
+2023-09-01,Vertigo,3
+2023-09-01,Sciatica,2
+2023-09-01,Angina,2
+2023-09-01,Asthma,1
+2023-09-01,Bronchitis,1
+2023-09-01,Arthritis,1
+2023-09-02,Sciatica,3
+2023-09-02,Vertigo,3
+2023-09-02,Viral Infection,1
+2023-09-02,Asthma,1
+2023-09-02,Dermatitis,1
+2023-09-03,Sciatica,2
+2023-09-03,Dermatitis,2
+2023-09-03,Bronchitis,2
+2023-09-03,Migraine,2
+2023-09-03,Asthma,1
+2023-09-03,Arthritis,1
+2023-09-03,Vertigo,1
+2023-09-03,Angina,1
+2023-09-04,Viral Infection,2
+2023-09-04,Angina,2
+2023-09-04,Gastritis,1
+2023-09-04,Bronchitis,1
+2023-09-05,Migraine,1
+2023-09-05,Bronchitis,1
+2023-09-05,Vertigo,1
+2023-09-05,Arthritis,1
+2023-09-06,Migraine,2
+2023-09-06,Vertigo,2
+2023-09-06,Angina,2
+2023-09-06,Dermatitis,1
+2023-09-06,Bronchitis,1
+2023-09-06,Asthma,1
+2023-09-06,Sciatica,1
+2023-09-06,Gastritis,1
+2023-09-07,Vertigo,3
+2023-09-07,Gastritis,2
+2023-09-07,Angina,2
+2023-09-07,Arthritis,2
+2023-09-07,Dermatitis,1
+2023-09-07,Asthma,1
+2023-09-07,Sciatica,1
+2023-09-07,Viral Infection,1
+2023-09-08,Bronchitis,1
+2023-09-08,Vertigo,1
+2023-09-08,Migraine,1
+2023-09-08,Dermatitis,1
+2023-09-08,Asthma,1
+2023-09-08,Sciatica,1
+2023-09-09,Gastritis,2
+2023-09-09,Asthma,2
+2023-09-09,Viral Infection,2
+2023-09-09,Migraine,2
+2023-09-09,Vertigo,2
+2023-09-09,Sciatica,1
+2023-09-10,Vertigo,3
+2023-09-10,Migraine,2
+2023-09-10,Angina,2
+2023-09-10,Viral Infection,1
+2023-09-10,Asthma,1
+2023-09-10,Bronchitis,1
+2023-09-10,Gastritis,1
+2023-09-11,Migraine,4
+2023-09-11,Dermatitis,3
+2023-09-11,Angina,2
+2023-09-11,Sciatica,1
+2023-09-11,Arthritis,1
+2023-09-11,Vertigo,1
+2023-09-11,Gastritis,1
+2023-09-11,Viral Infection,1
+2023-09-12,Migraine,4
+2023-09-12,Bronchitis,3
+2023-09-12,Dermatitis,2
+2023-09-12,Viral Infection,1
+2023-09-12,Gastritis,1
+2023-09-12,Vertigo,1
+2023-09-13,Angina,3
+2023-09-13,Dermatitis,2
+2023-09-13,Viral Infection,2
+2023-09-13,Bronchitis,2
+2023-09-13,Sciatica,1
+2023-09-14,Angina,4
+2023-09-14,Vertigo,2
+2023-09-14,Migraine,2
+2023-09-14,Gastritis,1
+2023-09-15,Arthritis,1
+2023-09-15,Sciatica,1
+2023-09-15,Angina,1
+2023-09-15,Gastritis,1
+2023-09-15,Viral Infection,1
+2023-09-16,Arthritis,4
+2023-09-16,Angina,4
+2023-09-16,Asthma,3
+2023-09-16,Dermatitis,1
+2023-09-16,Gastritis,1
+2023-09-17,Migraine,3
+2023-09-17,Bronchitis,3
+2023-09-17,Sciatica,2
+2023-09-17,Dermatitis,1
+2023-09-17,Vertigo,1
+2023-09-17,Gastritis,1
+2023-09-17,Asthma,1
+2023-09-18,Vertigo,1
+2023-09-18,Migraine,1
+2023-09-18,Asthma,1
+2023-09-19,Gastritis,2
+2023-09-19,Sciatica,1
+2023-09-19,Viral Infection,1
+2023-09-19,Asthma,1
+2023-09-19,Vertigo,1
+2023-09-19,Dermatitis,1
+2023-09-20,Sciatica,3
+2023-09-20,Dermatitis,2
+2023-09-20,Asthma,1
+2023-09-20,Gastritis,1
+2023-09-21,Bronchitis,2
+2023-09-21,Asthma,2
+2023-09-21,Viral Infection,1
+2023-09-21,Sciatica,1
+2023-09-21,Gastritis,1
+2023-09-21,Vertigo,1
+2023-09-22,Arthritis,2
+2023-09-22,Bronchitis,1
+2023-09-22,Migraine,1
+2023-09-22,Asthma,1
+2023-09-22,Viral Infection,1
+2023-09-23,Bronchitis,2
+2023-09-23,Sciatica,2
+2023-09-23,Viral Infection,2
+2023-09-23,Dermatitis,1
+2023-09-23,Arthritis,1
+2023-09-23,Gastritis,1
+2023-09-23,Asthma,1
+2023-09-24,Bronchitis,2
+2023-09-24,Migraine,2
+2023-09-24,Angina,2
+2023-09-24,Arthritis,2
+2023-09-24,Sciatica,1
+2023-09-24,Gastritis,1
+2023-09-24,Asthma,1
+2023-09-25,Bronchitis,1
+2023-09-25,Dermatitis,1
+2023-09-25,Migraine,1
+2023-09-25,Viral Infection,1
+2023-09-26,Asthma,2
+2023-09-26,Sciatica,2
+2023-09-26,Dermatitis,1
+2023-09-26,Vertigo,1
+2023-09-26,Angina,1
+2023-09-27,Bronchitis,3
+2023-09-27,Migraine,2
+2023-09-27,Viral Infection,2
+2023-09-27,Dermatitis,1
+2023-09-27,Sciatica,1
+2023-09-27,Arthritis,1
+2023-09-27,Gastritis,1
+2023-09-27,Angina,1
+2023-09-28,Arthritis,3
+2023-09-28,Viral Infection,2
+2023-09-28,Asthma,2
+2023-09-28,Sciatica,1
+2023-09-28,Angina,1
+2023-09-28,Dermatitis,1
+2023-10-01,Vertigo,3
+2023-10-01,Bronchitis,3
+2023-10-01,Gastritis,2
+2023-10-01,Sciatica,1
+2023-10-01,Asthma,1
+2023-10-01,Dermatitis,1
+2023-10-02,Sciatica,1
+2023-10-02,Arthritis,1
+2023-10-02,Gastritis,1
+2023-10-02,Vertigo,1
+2023-10-02,Bronchitis,1
+2023-10-02,Asthma,1
+2023-10-03,Migraine,3
+2023-10-03,Asthma,3
+2023-10-03,Sciatica,2
+2023-10-03,Vertigo,1
+2023-10-03,Dermatitis,1
+2023-10-04,Sciatica,5
+2023-10-04,Dermatitis,2
+2023-10-04,Asthma,1
+2023-10-04,Angina,1
+2023-10-04,Viral Infection,1
+2023-10-05,Gastritis,3
+2023-10-05,Bronchitis,2
+2023-10-05,Vertigo,2
+2023-10-05,Sciatica,1
+2023-10-05,Dermatitis,1
+2023-10-05,Angina,1
+2023-10-05,Viral Infection,1
+2023-10-06,Vertigo,2
+2023-10-06,Bronchitis,2
+2023-10-06,Angina,1
+2023-10-06,Migraine,1
+2023-10-06,Asthma,1
+2023-10-06,Arthritis,1
+2023-10-06,Gastritis,1
+2023-10-07,Angina,2
+2023-10-07,Gastritis,2
+2023-10-07,Sciatica,2
+2023-10-07,Asthma,1
+2023-10-07,Migraine,1
+2023-10-07,Dermatitis,1
+2023-10-08,Viral Infection,2
+2023-10-08,Migraine,2
+2023-10-08,Angina,2
+2023-10-08,Asthma,1
+2023-10-08,Arthritis,1
+2023-10-08,Vertigo,1
+2023-10-09,Vertigo,2
+2023-10-09,Viral Infection,2
+2023-10-09,Dermatitis,1
+2023-10-09,Angina,1
+2023-10-10,Vertigo,3
+2023-10-10,Dermatitis,3
+2023-10-10,Bronchitis,2
+2023-10-10,Gastritis,1
+2023-10-10,Migraine,1
+2023-10-10,Angina,1
+2023-10-11,Vertigo,2
+2023-10-11,Viral Infection,2
+2023-10-11,Bronchitis,1
+2023-10-11,Sciatica,1
+2023-10-11,Asthma,1
+2023-10-11,Angina,1
+2023-10-12,Gastritis,2
+2023-10-12,Bronchitis,1
+2023-10-12,Sciatica,1
+2023-10-12,Arthritis,1
+2023-10-12,Asthma,1
+2023-10-12,Angina,1
+2023-10-12,Vertigo,1
+2023-10-13,Bronchitis,2
+2023-10-13,Migraine,1
+2023-10-13,Asthma,1
+2023-10-13,Gastritis,1
+2023-10-13,Dermatitis,1
+2023-10-14,Viral Infection,3
+2023-10-14,Arthritis,3
+2023-10-14,Bronchitis,2
+2023-10-14,Angina,2
+2023-10-14,Migraine,2
+2023-10-14,Vertigo,1
+2023-10-15,Migraine,3
+2023-10-15,Vertigo,2
+2023-10-15,Dermatitis,2
+2023-10-15,Gastritis,1
+2023-10-15,Bronchitis,1
+2023-10-15,Sciatica,1
+2023-10-15,Asthma,1
+2023-10-15,Arthritis,1
+2023-10-16,Gastritis,1
+2023-10-16,Angina,1
+2023-10-16,Migraine,1
+2023-10-16,Vertigo,1
+2023-10-16,Sciatica,1
+2023-10-17,Bronchitis,3
+2023-10-17,Viral Infection,2
+2023-10-17,Migraine,1
+2023-10-18,Sciatica,3
+2023-10-18,Migraine,1
+2023-10-18,Arthritis,1
+2023-10-18,Dermatitis,1
+2023-10-18,Bronchitis,1
+2023-10-18,Gastritis,1
+2023-10-19,Vertigo,3
+2023-10-19,Viral Infection,3
+2023-10-19,Angina,2
+2023-10-19,Asthma,2
+2023-10-19,Dermatitis,1
+2023-10-19,Gastritis,1
+2023-10-20,Arthritis,4
+2023-10-20,Migraine,2
+2023-10-20,Bronchitis,2
+2023-10-20,Viral Infection,2
+2023-10-20,Sciatica,1
+2023-10-20,Asthma,1
+2023-10-20,Dermatitis,1
+2023-10-20,Gastritis,1
+2023-10-21,Gastritis,3
+2023-10-21,Arthritis,2
+2023-10-21,Vertigo,1
+2023-10-21,Bronchitis,1
+2023-10-22,Migraine,2
+2023-10-22,Bronchitis,2
+2023-10-22,Viral Infection,1
+2023-10-22,Arthritis,1
+2023-10-23,Viral Infection,1
+2023-10-23,Sciatica,1
+2023-10-23,Vertigo,1
+2023-10-23,Bronchitis,1
+2023-10-24,Angina,2
+2023-10-24,Asthma,1
+2023-10-24,Viral Infection,1
+2023-10-25,Asthma,2
+2023-10-25,Sciatica,2
+2023-10-25,Migraine,1
+2023-10-25,Vertigo,1
+2023-10-25,Arthritis,1
+2023-10-25,Dermatitis,1
+2023-10-26,Sciatica,1
+2023-10-26,Angina,1
+2023-10-27,Angina,2
+2023-10-27,Viral Infection,1
+2023-10-27,Sciatica,1
+2023-10-27,Vertigo,1
+2023-10-27,Gastritis,1
+2023-10-28,Asthma,2
+2023-10-28,Gastritis,2
+2023-10-28,Bronchitis,1
+2023-10-28,Dermatitis,1
+2023-10-28,Vertigo,1
+2023-11-01,Asthma,2
+2023-11-01,Bronchitis,1
+2023-11-01,Viral Infection,1
+2023-11-01,Gastritis,1
+2023-11-01,Migraine,1
+2023-11-02,Viral Infection,2
+2023-11-02,Asthma,2
+2023-11-02,Bronchitis,1
+2023-11-02,Dermatitis,1
+2023-11-02,Gastritis,1
+2023-11-02,Vertigo,1
+2023-11-02,Arthritis,1
+2023-11-02,Sciatica,1
+2023-11-03,Vertigo,3
+2023-11-03,Angina,2
+2023-11-03,Asthma,2
+2023-11-03,Dermatitis,1
+2023-11-03,Sciatica,1
+2023-11-03,Arthritis,1
+2023-11-03,Migraine,1
+2023-11-04,Angina,2
+2023-11-04,Vertigo,2
+2023-11-04,Gastritis,2
+2023-11-04,Sciatica,1
+2023-11-04,Asthma,1
+2023-11-04,Bronchitis,1
+2023-11-04,Migraine,1
+2023-11-04,Arthritis,1
+2023-11-05,Sciatica,1
+2023-11-05,Angina,1
+2023-11-05,Migraine,1
+2023-11-05,Arthritis,1
+2023-11-06,Sciatica,2
+2023-11-06,Gastritis,2
+2023-11-06,Bronchitis,2
+2023-11-06,Arthritis,1
+2023-11-06,Vertigo,1
+2023-11-07,Dermatitis,4
+2023-11-07,Viral Infection,3
+2023-11-07,Arthritis,2
+2023-11-07,Migraine,2
+2023-11-07,Angina,1
+2023-11-07,Vertigo,1
+2023-11-08,Arthritis,2
+2023-11-08,Vertigo,1
+2023-11-08,Asthma,1
+2023-11-08,Gastritis,1
+2023-11-08,Sciatica,1
+2023-11-09,Viral Infection,2
+2023-11-09,Gastritis,2
+2023-11-09,Asthma,2
+2023-11-09,Sciatica,2
+2023-11-09,Dermatitis,1
+2023-11-09,Angina,1
+2023-11-10,Vertigo,2
+2023-11-10,Arthritis,2
+2023-11-10,Migraine,2
+2023-11-10,Asthma,2
+2023-11-10,Bronchitis,2
+2023-11-10,Angina,1
+2023-11-10,Sciatica,1
+2023-11-11,Arthritis,3
+2023-11-11,Gastritis,3
+2023-11-11,Dermatitis,2
+2023-11-11,Asthma,2
+2023-11-11,Vertigo,2
+2023-11-11,Viral Infection,2
+2023-11-12,Vertigo,3
+2023-11-12,Sciatica,2
+2023-11-12,Bronchitis,1
+2023-11-12,Angina,1
+2023-11-12,Gastritis,1
+2023-11-12,Migraine,1
+2023-11-12,Asthma,1
+2023-11-12,Arthritis,1
+2023-11-12,Viral Infection,1
+2023-11-13,Sciatica,2
+2023-11-13,Viral Infection,2
+2023-11-13,Arthritis,2
+2023-11-13,Migraine,1
+2023-11-13,Asthma,1
+2023-11-14,Dermatitis,2
+2023-11-14,Asthma,2
+2023-11-14,Vertigo,2
+2023-11-14,Viral Infection,1
+2023-11-14,Arthritis,1
+2023-11-15,Dermatitis,2
+2023-11-15,Bronchitis,2
+2023-11-15,Migraine,2
+2023-11-15,Angina,2
+2023-11-15,Vertigo,1
+2023-11-16,Arthritis,3
+2023-11-16,Viral Infection,2
+2023-11-16,Bronchitis,1
+2023-11-16,Gastritis,1
+2023-11-16,Angina,1
+2023-11-17,Sciatica,2
+2023-11-17,Vertigo,1
+2023-11-17,Dermatitis,1
+2023-11-17,Asthma,1
+2023-11-17,Angina,1
+2023-11-18,Migraine,2
+2023-11-18,Arthritis,1
+2023-11-18,Vertigo,1
+2023-11-18,Dermatitis,1
+2023-11-18,Asthma,1
+2023-11-18,Viral Infection,1
+2023-11-18,Bronchitis,1
+2023-11-19,Dermatitis,3
+2023-11-19,Sciatica,2
+2023-11-19,Migraine,2
+2023-11-19,Angina,2
+2023-11-19,Gastritis,2
+2023-11-19,Asthma,1
+2023-11-19,Viral Infection,1
+2023-11-20,Sciatica,2
+2023-11-20,Arthritis,1
+2023-11-20,Vertigo,1
+2023-11-20,Dermatitis,1
+2023-11-21,Angina,3
+2023-11-21,Migraine,3
+2023-11-21,Viral Infection,1
+2023-11-21,Gastritis,1
+2023-11-21,Dermatitis,1
+2023-11-21,Vertigo,1
+2023-11-22,Arthritis,4
+2023-11-22,Sciatica,2
+2023-11-22,Migraine,1
+2023-11-22,Bronchitis,1
+2023-11-22,Angina,1
+2023-11-22,Asthma,1
+2023-11-23,Asthma,4
+2023-11-23,Dermatitis,3
+2023-11-23,Arthritis,2
+2023-11-23,Sciatica,1
+2023-11-24,Bronchitis,3
+2023-11-24,Dermatitis,2
+2023-11-24,Viral Infection,2
+2023-11-24,Vertigo,1
+2023-11-24,Gastritis,1
+2023-11-24,Angina,1
+2023-11-24,Migraine,1
+2023-11-25,Angina,2
+2023-11-25,Migraine,2
+2023-11-25,Vertigo,1
+2023-11-25,Viral Infection,1
+2023-11-25,Asthma,1
+2023-11-25,Sciatica,1
+2023-11-26,Arthritis,2
+2023-11-26,Migraine,2
+2023-11-26,Vertigo,1
+2023-11-26,Viral Infection,1
+2023-11-26,Angina,1
+2023-11-26,Bronchitis,1
+2023-11-26,Dermatitis,1
+2023-11-27,Vertigo,1
+2023-11-27,Bronchitis,1
+2023-11-27,Asthma,1
+2023-11-27,Angina,1
+2023-11-27,Dermatitis,1
+2023-11-28,Angina,2
+2023-11-28,Gastritis,1
+2023-11-28,Viral Infection,1
+2023-11-28,Vertigo,1
+2023-11-28,Bronchitis,1
+2023-11-28,Asthma,1
+2023-11-28,Sciatica,1
+2023-12-01,Gastritis,3
+2023-12-01,Asthma,2
+2023-12-01,Dermatitis,2
+2023-12-01,Bronchitis,1
+2023-12-01,Arthritis,1
+2023-12-01,Migraine,1
+2023-12-02,Sciatica,3
+2023-12-02,Arthritis,3
+2023-12-02,Migraine,1
+2023-12-02,Dermatitis,1
+2023-12-02,Asthma,1
+2023-12-02,Gastritis,1
+2023-12-03,Asthma,4
+2023-12-03,Vertigo,2
+2023-12-03,Gastritis,2
+2023-12-03,Viral Infection,1
+2023-12-03,Bronchitis,1
+2023-12-04,Dermatitis,1
+2023-12-04,Asthma,1
+2023-12-04,Bronchitis,1
+2023-12-04,Viral Infection,1
+2023-12-04,Arthritis,1
+2023-12-05,Vertigo,4
+2023-12-05,Angina,2
+2023-12-05,Migraine,1
+2023-12-05,Asthma,1
+2023-12-05,Bronchitis,1
+2023-12-06,Migraine,4
+2023-12-06,Gastritis,2
+2023-12-06,Viral Infection,2
+2023-12-06,Dermatitis,2
+2023-12-06,Arthritis,2
+2023-12-06,Asthma,1
+2023-12-06,Sciatica,1
+2023-12-07,Vertigo,2
+2023-12-07,Arthritis,2
+2023-12-07,Gastritis,1
+2023-12-07,Sciatica,1
+2023-12-08,Dermatitis,2
+2023-12-08,Sciatica,1
+2023-12-08,Vertigo,1
+2023-12-08,Bronchitis,1
+2023-12-08,Viral Infection,1
+2023-12-08,Arthritis,1
+2023-12-09,Viral Infection,3
+2023-12-09,Gastritis,2
+2023-12-09,Sciatica,2
+2023-12-09,Vertigo,2
+2023-12-09,Bronchitis,2
+2023-12-09,Arthritis,2
+2023-12-09,Migraine,1
+2023-12-09,Dermatitis,1
+2023-12-10,Bronchitis,2
+2023-12-10,Migraine,1
+2023-12-10,Arthritis,1
+2023-12-10,Dermatitis,1
+2023-12-11,Dermatitis,3
+2023-12-11,Gastritis,3
+2023-12-11,Arthritis,1
+2023-12-11,Viral Infection,1
+2023-12-11,Vertigo,1
+2023-12-11,Migraine,1
+2023-12-11,Sciatica,1
+2023-12-12,Asthma,3
+2023-12-12,Migraine,2
+2023-12-12,Arthritis,1
+2023-12-12,Viral Infection,1
+2023-12-12,Bronchitis,1
+2023-12-12,Sciatica,1
+2023-12-13,Angina,4
+2023-12-13,Viral Infection,3
+2023-12-13,Dermatitis,1
+2023-12-13,Migraine,1
+2023-12-13,Bronchitis,1
+2023-12-13,Sciatica,1
+2023-12-13,Asthma,1
+2023-12-14,Bronchitis,4
+2023-12-14,Sciatica,3
+2023-12-14,Viral Infection,2
+2023-12-14,Vertigo,1
+2023-12-14,Gastritis,1
+2023-12-15,Bronchitis,4
+2023-12-15,Vertigo,2
+2023-12-15,Asthma,2
+2023-12-15,Migraine,1
+2023-12-15,Angina,1
+2023-12-15,Sciatica,1
+2023-12-16,Sciatica,3
+2023-12-16,Viral Infection,1
+2023-12-16,Migraine,1
+2023-12-16,Angina,1
+2023-12-16,Dermatitis,1
+2023-12-16,Arthritis,1
+2023-12-16,Asthma,1
+2023-12-17,Viral Infection,3
+2023-12-17,Vertigo,2
+2023-12-17,Asthma,1
+2023-12-17,Sciatica,1
+2023-12-18,Gastritis,3
+2023-12-18,Vertigo,2
+2023-12-18,Migraine,2
+2023-12-18,Dermatitis,1
+2023-12-18,Arthritis,1
+2023-12-18,Asthma,1
+2023-12-18,Sciatica,1
+2023-12-19,Arthritis,2
+2023-12-19,Dermatitis,2
+2023-12-19,Migraine,1
+2023-12-19,Bronchitis,1
+2023-12-19,Viral Infection,1
+2023-12-19,Vertigo,1
+2023-12-19,Gastritis,1
+2023-12-20,Arthritis,3
+2023-12-20,Gastritis,3
+2023-12-20,Migraine,2
+2023-12-20,Asthma,2
+2023-12-20,Angina,2
+2023-12-20,Sciatica,1
+2023-12-20,Bronchitis,1
+2023-12-20,Dermatitis,1
+2023-12-21,Arthritis,3
+2023-12-21,Asthma,2
+2023-12-21,Sciatica,1
+2023-12-21,Vertigo,1
+2023-12-21,Angina,1
+2023-12-22,Migraine,2
+2023-12-22,Vertigo,2
+2023-12-22,Sciatica,2
+2023-12-22,Dermatitis,1
+2023-12-22,Angina,1
+2023-12-22,Bronchitis,1
+2023-12-22,Asthma,1
+2023-12-23,Gastritis,4
+2023-12-23,Bronchitis,3
+2023-12-23,Angina,2
+2023-12-23,Vertigo,2
+2023-12-23,Arthritis,1
+2023-12-23,Viral Infection,1
+2023-12-23,Dermatitis,1
+2023-12-23,Migraine,1
+2023-12-24,Asthma,3
+2023-12-24,Arthritis,2
+2023-12-24,Sciatica,1
+2023-12-24,Bronchitis,1
+2023-12-24,Angina,1
+2023-12-24,Dermatitis,1
+2023-12-24,Vertigo,1
+2023-12-24,Migraine,1
+2023-12-25,Sciatica,2
+2023-12-25,Arthritis,2
+2023-12-25,Asthma,2
+2023-12-25,Dermatitis,1
+2023-12-25,Viral Infection,1
+2023-12-25,Migraine,1
+2023-12-25,Vertigo,1
+2023-12-25,Bronchitis,1
+2023-12-26,Migraine,1
+2023-12-26,Vertigo,1
+2023-12-26,Angina,1
+2023-12-26,Bronchitis,1
+2023-12-26,Viral Infection,1
+2023-12-27,Dermatitis,2
+2023-12-27,Viral Infection,2
+2023-12-27,Migraine,1
+2023-12-27,Angina,1
+2023-12-27,Bronchitis,1
+2023-12-27,Gastritis,1
+2023-12-28,Migraine,3
+2023-12-28,Viral Infection,3
+2023-12-28,Arthritis,2
+2023-12-28,Angina,1
